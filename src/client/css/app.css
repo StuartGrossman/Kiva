@@ -1,0 +1,22 @@
+h1 {
+  color: black;
+}
+.compressedLineHeight {
+  line-height: 1.5;
+  text-align: justify;
+  margin-top: 20px;
+}
+body {
+  text-align: center;
+  margin: auto;
+}
+.grayScale {
+  background-color: #e9e9e9;
+}
+.imageBlockProportions {
+  height: 100%;
+  width: 100%;
+}
+.jobPostingMargin {
+  margin-bottom: 30px;
+}

@@ -1,23 +1,36 @@
 import React, { Component } from 'react';
-import './app.css';
-import ReactImage from './react.png';
-
-export default class App extends Component {
-  state = { username: null };
+import './css/app.css';
+import './css/bootstrap.css';
+import Slider from './components/Slider';
+import NavBar from './components/NavBar';
+import WhatIsKiva from './components/WhatIsKiva';
+import Video from './components/Video';
+import JobPostings from './components/JobPostings';
+import KivaAffects from './components/KivaAffects';
+class App extends Component {
+  state = {  };
 
   componentDidMount() {
-    fetch('/api/getUsername')
-      .then(res => res.json())
-      .then(user => this.setState({ username: user.username }));
+
   }
 
   render() {
-    const { username } = this.state;
     return (
-      <div>
-        {username ? <h1>{`Hello ${username}`}</h1> : <h1>Loading.. please wait!</h1>}
-        <img src={ReactImage} alt="react" />
-      </div>
+      <React.Fragment>
+        <NavBar />
+        <Slider />
+        <br />
+
+        <WhatIsKiva />
+        <br />
+        <Video />
+        <br />
+        <br />
+        <KivaAffects />
+        <br />
+        <JobPostings />
+      </React.Fragment>
     );
   }
 }
+export default App;
