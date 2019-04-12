@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
+import SliderImage from '../images/image1.svg';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class KivaAffects extends Component {
   render() {
     return (
-      <div className="row">
-        <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 " />
-        <div className="col-lg-9 col-md-9 col-sm-9 col-xs-9 ">
+      <div className="row container-fluid">
+        <div className="col-lg-2 col-md-2 col-sm-1 col-xs-1" />
+        <div className="col-lg-9 col-md-9 col-sm-10 col-xs-10 ">
           <h1>COOL THINGS & HOW WER'RE AFFECTING</h1>
           <br />
 
           <div margin-top="15px;">
             <div className="row">
               <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                <img alt="placeHolderImage" className="imageBlockProportions" src="../src/client/images/image1.svg" />
+                <img alt="placeHolderImage" className="imageBlockProportions" src={SliderImage} />
               </div>
-              <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 " />
-              <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5 ">
+              <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1" />
+              <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                 <p className="block-text compressedLineHeight">
                   block of text...block of text...block of text...block of
                   text...block of text...block of text...block of text...block
@@ -41,12 +42,12 @@ class KivaAffects extends Component {
               </div>
               <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1" />
               <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                <img alt="placeHolderImage" className="imageBlockProportions" src="../src/client/images/image1.svg" />
+                <img alt="placeHolderImage" className="imageBlockProportions" src={SliderImage} />
               </div>
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2" />
+        <div className="col-lg-2 col-md-2 col-sm-1 col-xs-1" />
       </div>
     );
   }
