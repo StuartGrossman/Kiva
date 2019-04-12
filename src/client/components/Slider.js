@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SliderImage from '../images/image1.svg';
 
 class Slider extends Component {
   state = {};
@@ -13,13 +14,13 @@ class Slider extends Component {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-100" src="../src/client/images/image1.svg" alt="First slide" />
+            <img className="d-block w-100" src={SliderImage} alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src="../src/client/images/image1.svg" alt="Second slide" />
+            <img className="d-block w-100" src={SliderImage} alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src="../src/client/images/image1.svg" alt="Third slide" />
+            <img className="d-block w-100" src={SliderImage} alt="Third slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
