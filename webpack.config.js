@@ -30,7 +30,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx']
+    extensions: ['*', '.js', '.jsx', 'mp4', 'svg']
   },
   devServer: {
     port: 3000,
