@@ -9,7 +9,7 @@ import JobPostings from './components/JobPostings';
 import KivaAffects from './components/KivaAffects';
 import FieldImmersion from './components/FieldImmersion';
 import Location from './components/Location';
-import Abroad from './components/Abroad';
+import Benefits from './components/Benefits';
 
 
 class App extends Component {
@@ -20,6 +20,7 @@ class App extends Component {
       <React.Fragment>
         <NavBar />
         <Slider />
+        <br />
         <br />
 
         <WhatIsKiva />
@@ -33,7 +34,7 @@ class App extends Component {
         <br />
         <FieldImmersion />
         <br />
-        <Abroad />
+        <Benefits />
         <br />
         <Location />
       </React.Fragment>

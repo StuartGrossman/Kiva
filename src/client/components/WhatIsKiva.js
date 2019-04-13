@@ -17,19 +17,30 @@ class WhatIsKiva extends Component {
   render() {
     return (
       <div className="row container-fluid">
-        <div className="col-lg-2 col-md-2 col-sm-1 col-xs-1" />
-        <div className="col-lg-8 col-md-8 col-sm-10 col-xs-10 ">
+        <div className="col-lg-2 col-md-1 col-sm-1 col-xs-1" />
+        <div className="col-lg-8 col-md-10 col-sm-10 col-xs-10 ">
           <h1>WHAT IS KIVA?</h1>
-          <br />
           <React.Fragment>
+            <br />
+
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <HeaderText title={this.titleThree} desc={this.descThree} />
+
+              </div>
+              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <HeaderText title={this.titleTwo} desc={this.descTwo} />
+
+              </div>
+
+            </div>
+            <br />
+
             <HeaderText title={this.titleOne} desc={this.descOne} />
-            <br />
-            <HeaderText title={this.titleTwo} desc={this.descTwo} />
-            <br />
-            <HeaderText title={this.titleThree} desc={this.descThree} />
+
           </React.Fragment>
         </div>
-        <div className="col-lg-2 col-md-2 col-sm-1 col-xs-1" />
+        <div className="col-lg-2 col-md-1 col-sm-1 col-xs-1" />
       </div>
     );
   }

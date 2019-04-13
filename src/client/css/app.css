@@ -1,15 +1,19 @@
 h1 {
   color: black;
+  font-family: Arial;
 }
 .compressedLineHeight {
-  line-height: 1.5;
+  line-height: 1.2;
   text-align: justify;
-  margin-top: 20px;
+  font-size: 1.5vw;
+
+  /* margin-top: 20px; */
 }
 .openLineHeight {
   line-height: 1.5;
   text-align: justify;
   margin-top: 36px;
+  font-size: 15vh;
 }
 body {
   text-align: center;
@@ -46,4 +50,14 @@ body {
 }
 .lineHeight {
   line-height: 1.5;
+}
+.smallMarginBottom {
+  margin-bottom: 20px;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif
+}
+p {
+  font-family: Arial, Helvetica, sans-serif
 }

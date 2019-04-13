@@ -26,10 +26,10 @@ class NavBar extends Component {
           <div>
             <ul className="nav navbar-nav navbar-right">
               <li className="nav-item active">
-                <a className="nav-link" href="/">Careers</a>
+                <a className="nav-link" style={{'fontSize': '20px'}} href="/">Careers</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">Fellowship</a>
+                <a className="nav-link" style={{'fontSize': '20px'}} href="/">Fellowship</a>
               </li>
             </ul>
           </div>
