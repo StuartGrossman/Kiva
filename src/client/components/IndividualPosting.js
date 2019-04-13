@@ -5,11 +5,11 @@ class IndividualPosting extends Component {
   // eslint-disable-next-line consistent-return
   render() {
     return (
-      <div className="jobPostingMargin">
+      <div className="jobPostingMargin container-fluid">
         <div>
           <h2>Job Section</h2>
           <div className="row grayScale">
-            <div className="col-lg-8 col-md-8 col-sm-8 col-xs-8 ">
+            <div className="col-lg-8 col-md-8 col-sm-5 col-xs-5 ">
               <span>Title</span>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 ">

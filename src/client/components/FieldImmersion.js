@@ -7,12 +7,11 @@ import SliderImage from '../images/image1.svg';
 class FieldImmersion extends Component {
   render() {
     return (
-      <div className="row">
+      <div className="row container-fluid">
         <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 " />
         <div className="col-lg-8 col-md-8 col-sm-8 col-xs-8 ">
           <h1>FIELD IMMERSION TRIP</h1>
-          <br />
-          <p>
+          <p className="compressedLineHeight">
             block of text...block of text...block of text...block of
             text...block of text...block of text...block of text...block of
             text...block of text...block of text...block of text...block of
@@ -21,7 +20,6 @@ class FieldImmersion extends Component {
             text...block of text...
           </p>
 
-          <br />
           <br />
 
           <div className="row">
@@ -38,7 +36,6 @@ class FieldImmersion extends Component {
 
           <br />
 
-          <br />
 
           <div className="row">
             <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1" />

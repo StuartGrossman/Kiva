@@ -23,8 +23,6 @@ class KivaAffects extends Component {
                   text...block of text...block of text...block of text...block
                   of text...block of text...block of text...block of
                   text...block of text...block of text...block of text...block
-                  of text...block of text...block of text...block of
-                  text...block of text...block of text...block of text...
                 </p>
               </div>
             </div>
@@ -36,8 +34,6 @@ class KivaAffects extends Component {
                   text...block of text...block of text...block of text...block
                   of text...block of text...block of text...block of
                   text...block of text...block of text...block of text...block
-                  of text...block of text...block of text...block of
-                  text...block of text...block of text...block of text...
                 </p>
               </div>
               <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1" />

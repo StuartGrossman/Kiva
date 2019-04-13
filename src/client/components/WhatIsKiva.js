@@ -22,7 +22,6 @@ class WhatIsKiva extends Component {
           <h1>WHAT IS KIVA?</h1>
           <br />
           <React.Fragment>
-           
             <HeaderText title={this.titleOne} desc={this.descOne} />
             <br />
             <HeaderText title={this.titleTwo} desc={this.descTwo} />
