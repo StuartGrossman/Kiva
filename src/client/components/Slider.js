@@ -32,6 +32,7 @@ class Slider extends Component {
           <span className="sr-only">Next</span>
         </a>
       </div>
+
     );
   }
 }

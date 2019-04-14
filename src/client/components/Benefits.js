@@ -12,7 +12,7 @@ class Benefits extends Component {
     this.detailTwo = 'Life happens. So do vacations. Take time off for both. All salaried employees get unlimited PTO. Full-time, hourly employees also enjoy generous time off';
     this.benefitThree = 'Commute & Save';
     this.detailThree = 'We love working together so much, we’re listing it as a benefit. Because it is. There’s always time to connect with coworkers. Whether it’s an All Hands meetings, a Brown Bag session, or our Lunch Club, we’re always building a more diverse and inclusive community';
-    this.benefitFour = 'Build Community'
+    this.benefitFour = 'Build Community';
     this.detailFour = 'We love working together so much, we’re listing it as a benefit. Because it is. There’s always time to connect with coworkers. Whether it’s an All Hands meetings, a Brown Bag session, or our Lunch Club, we’re always building a more diverse and inclusive community.';
     this.benefitFive = 'Grow Your Career, Grow Your Mind';
     this.detailFive = 'Boredom isn’t an option. All full-time employees get a $750 stipend for continuing education, conferences, and classes.';
@@ -23,22 +23,50 @@ class Benefits extends Component {
   }
   render() {
     return (
-      <div className="row container-fluid">
-        <div className="col-lg-2 col-md-1 col-sm-1 col-xs-2" />
-        <div className="col-lg-8 col-md-10 col-sm-10 col-xs-10">
-          <h3>BENEFITS</h3>
-          <br />
-          <IndividualBenefit color="#e9e9e9" benefit={this.benefitOne} detail={this.detailOne} />
-          <IndividualBenefit color="white" benefit={this.benefitTwo} detail={this.detailTwo} />
-          <IndividualBenefit color="#e9e9e9" benefit={this.benefitThree} detail={this.detailThree} />
-          <IndividualBenefit color="white" benefit={this.benefitFour} detail={this.detailFour} />
-          <IndividualBenefit color="#e9e9e9" benefit={this.benefitFive} detail={this.detailFive} />
-          <IndividualBenefit color="#white" benefit={this.benefitSix} detail={this.detailSix} />
-          <IndividualBenefit color="#e9e9e9" benefit={this.benefitSeven} detail={this.detailSeven} />
-
-
+      <div className="container-fluid">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h3>BENEFITS</h3>
+              <br />
+              <IndividualBenefit
+                color="#e9e9e9"
+                benefit={this.benefitOne}
+                detail={this.detailOne}
+              />
+              <IndividualBenefit
+                color="white"
+                benefit={this.benefitTwo}
+                detail={this.detailTwo}
+              />
+              <IndividualBenefit
+                color="#e9e9e9"
+                benefit={this.benefitThree}
+                detail={this.detailThree}
+              />
+              <IndividualBenefit
+                color="white"
+                benefit={this.benefitFour}
+                detail={this.detailFour}
+              />
+              <IndividualBenefit
+                color="#e9e9e9"
+                benefit={this.benefitFive}
+                detail={this.detailFive}
+              />
+              <IndividualBenefit
+                color="#white"
+                benefit={this.benefitSix}
+                detail={this.detailSix}
+              />
+              <IndividualBenefit
+                color="#e9e9e9"
+                benefit={this.benefitSeven}
+                detail={this.detailSeven}
+              />
+            </div>
+          </div>
         </div>
-        <div className="col-lg-2 col-md-1 col-sm-1 col-xs-2" />
       </div>
     );
   }

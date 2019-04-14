@@ -5,45 +5,55 @@ import SliderImage from '../images/image1.svg';
 class KivaAffects extends Component {
   render() {
     return (
-      <div className="row container-fluid">
-        <div className="col-lg-2 col-md-1 col-sm-1 col-xs-1" />
-        <div className="col-lg-9 col-md-10 col-sm-10 col-xs-10 ">
-          <h3>COOL THINGS & HOW WER'RE AFFECTING</h3>
-          <br />
+      <div className="container-fluid">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+              <h3>COOL THINGS & HOW WER'RE AFFECTING</h3>
+              <br />
 
-          <div margin-top="15px;">
-            <div className="row">
-              <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                <img alt="placeHolderImage" className="imageBlockProportions" src={SliderImage} />
-              </div>
-              <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1" />
-              <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                <p className="block-text compressedLineHeight smallMarginTop">
-                  block of text...block of text...block of text...block of
-                  text...block of text...block of text...block of text...block
-                  of text...block of text...block of text...block of
-                  text...block of text...block of text...block of text...block
-                </p>
-              </div>
-            </div>
+              <div margin-top="15px;">
+                <div className="row">
+                  <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                    <img
+                      alt="placeHolderImage"
+                      className="imageBlockProportions"
+                      src={SliderImage}
+                    />
+                  </div>
+                  <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2" />
+                  <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                    <p className="block-text smallMarginTop">
+                      block of text...block of text...block of text...block of
+                      text...block of text...block of text...block of
+                      text...block of text...block of text...block of
+                     
+                    </p>
+                  </div>
+                </div>
 
-            <div className="row">
-              <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                <p className="block-text compressedLineHeight smallMarginTop">
-                  block of text...block of text...block of text...block of
-                  text...block of text...block of text...block of text...block
-                  of text...block of text...block of text...block of
-                  text...block of text...block of text...block of text...block
-                </p>
-              </div>
-              <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1" />
-              <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                <img alt="placeHolderImage" className="imageBlockProportions" src={SliderImage} />
+                <div className="row">
+                  <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                    <p className="block-text smallMarginTop">
+                      block of text...block of text...block of text...block of
+                      text...block of text...block of text...block of
+                      text...block of text...block of text...block of
+                
+                    </p>
+                  </div>
+                  <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2" />
+                  <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                    <img
+                      alt="placeHolderImage"
+                      className="imageBlockProportions"
+                      src={SliderImage}
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-1 col-sm-1 col-xs-1" />
       </div>
     );
   }

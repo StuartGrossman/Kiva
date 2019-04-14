@@ -12,21 +12,23 @@ import '../css/video.css';
 class Video extends Component {
   render() {
     return (
-      <div>
-        <div className="row">
-          <div className="col-lg-2 col-md-1 col-sm-1 col-xs-1 " />
-          <div className="col-lg-8 col-md-10 col-sm-10 col-xs-10">
-            {/* <video width="100%" height="100%" controls>
+      <div className="container-fluid">
+        <div className="container">
+          <div>
+            <div className="row">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                {/* <video width="100%" height="100%" controls>
               <source src="./src/client/videos/temp_movie.mp4" type="video/mp4" />
               <source src="movie.ogg" type="video/ogg" />
             </video> */}
-            <Player
-              playsInline
-              poster={SliderImage}
-              src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-            />
+                <Player
+                  playsInline
+                  poster={SliderImage}
+                  src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                />
+              </div>
+            </div>
           </div>
-          <div className="col-lg-2 col-md-1 col-sm-1 col-xs-1 " />
         </div>
       </div>
     );
