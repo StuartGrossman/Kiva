@@ -3,16 +3,21 @@ import React, { Component } from 'react';
 import GoogleMaps from './GoogleMaps';
 
 class Location extends Component {
-
   render() {
     return (
-      <div className="row ">
-        {/* <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2" /> */}
-        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-          <br />
-          <GoogleMaps />
+      <div className="container-fluid">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+              <br />
+              <GoogleMaps />
+              <br />
+              <p className="textAlignWebCenter">
+                block of text...block of text...block of text...block of text...block of text...block of text...block of text...block of text...block of text...block of text...block of text...block of
+              </p>
+            </div>
+          </div>
         </div>
-        {/* <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2" /> */}
       </div>
     );
   }

@@ -63,3 +63,10 @@ p {
 .hidden { 
   display:none; 
 }
+a,
+a label {
+    cursor: pointer;
+}
+.textAlignWebCenter {
+  text-align: -webkit-center;
+}

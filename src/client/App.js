@@ -1,7 +1,9 @@
+/* eslint-disable max-len */
 /* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
 import './css/app.css';
 import './css/bootstrap.css';
+import './css/animated.css';
 import Slider from './components/Slider';
 import NavBar from './components/NavBar';
 import CareersPage from './components/CareersPage';
@@ -15,12 +17,12 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavBar showCareersPage={this.state.showCareersPage} showFellowshipPage={this.state.showFellowshipPage} />
+        <NavBar changeToCareersPage={() => this.setState({ showCareersPage: false, showFellowshipPage: true })} changeToFellowshipPage={() => this.setState({ showCareersPage: true, showFellowshipPage: false })} />
         <Slider />
         <br />
         <br />
         <FellowshipPage showPage={this.state.showFellowshipPage} />
-        <CareersPage showPage={this.state.showCareersPage} />
+        <CareersPage className="animated fadeIn" showPage={this.state.showCareersPage} />
 
         <Footer />
       </React.Fragment>

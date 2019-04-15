@@ -8,7 +8,7 @@ class HeaderText extends Component {
     return (
       <div>
         <h3>{this.props.title}</h3>
-        <p className="compressedLineHeight">{this.props.desc}</p>
+        <p className="">{this.props.desc}</p>
       </div>
     );
   }
