@@ -1,3 +1,5 @@
+/* eslint-disable arrow-body-style */
+/* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable no-undef */
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -21,7 +23,7 @@ class IndividualPosting extends Component {
             <div className="row mediumFont">
               <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 " />
               <div className="col-lg-10 col-md-10 col-sm-10 col-xs-10 ">
-                <span className="smallMarginRight">{item.title},</span>
+                <span className="smallMarginRight">{item.title}, </span>
                 <span>{item.location.name}</span>
               </div>
               <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
@@ -47,7 +49,7 @@ class IndividualPosting extends Component {
     return (
       <div className="jobPostingMargin container-fluid">
         <div className="container">
-        <h3>Job Boards</h3>
+          <h3>Job Boards</h3>
 
           {this.renderIndividualJob(this.props.data)}
         </div>

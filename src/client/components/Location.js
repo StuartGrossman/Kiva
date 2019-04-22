@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import GoogleMaps from './GoogleMaps';
@@ -13,7 +14,7 @@ class Location extends Component {
               <GoogleMaps />
               <br />
               <p className="textAlignWebCenter">
-              We hire the best people we can find, wherever they happen to be. That means some of our employees work remotely from home, and others work in our offices around the world.
+                We hire the best people we can find, wherever they happen to be. That means some of our employees work remotely from home, and others work in our offices around the world.
               </p>
             </div>
           </div>

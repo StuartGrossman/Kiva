@@ -1,11 +1,10 @@
+/* eslint-disable arrow-body-style */
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable react/jsx-indent */
 /* eslint-disable consistent-return */
 import React, * as react from 'react';
 // import JobPoster from './JobPoster';
 import IndividualPosting from './IndividualPosting';
-// import { unstable_createResouce } from 'react-cache';
-
 // eslint-disable-next-line react/style-prop-object
 class JobPostings extends react.Component {
   constructor(props) {
@@ -24,7 +23,6 @@ class JobPostings extends react.Component {
     console.log(data);
     return (
       data.map((item, index) => {
-        // console.log(item)
         return <IndividualPosting data={item} key={index} />;
       })
     );

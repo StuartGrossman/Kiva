@@ -23,7 +23,6 @@ class App extends Component {
         <br />
         <FellowshipPage showPage={this.state.showFellowshipPage} />
         <CareersPage className="animated fadeIn" showPage={this.state.showCareersPage} />
-
         <Footer />
       </React.Fragment>
     );

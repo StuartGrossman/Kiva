@@ -3,6 +3,7 @@
 import React, { Component } from 'react';
 import CircleImage from '../images/circle.svg';
 import FellowShipProgram from './FellowShipProgram';
+
 class DomesticInternational extends Component {
   render() {
     return (
