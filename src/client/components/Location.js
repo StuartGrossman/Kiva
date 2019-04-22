@@ -13,7 +13,7 @@ class Location extends Component {
               <GoogleMaps />
               <br />
               <p className="textAlignWebCenter">
-                block of text...block of text...block of text...block of text...block of text...block of text...block of text...block of text...block of text...block of text...block of text...block of
+              We hire the best people we can find, wherever they happen to be. That means some of our employees work remotely from home, and others work in our offices around the world.
               </p>
             </div>
           </div>

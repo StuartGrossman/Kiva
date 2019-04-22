@@ -9,21 +9,22 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // eslint-disable-next-line react/prefer-stateless-function
 class IndividualPosting extends Component {
-  // eslint-disable-next-line consistent-return
   renderIndividualJob = (data) => {
     console.log(data);
     return (
       data.map((item, index) => {
-        console.log(item);
         return (
           <div
-            className={index % 2 === 0 ? "grayScale" : "whiteScale"}
+            className={index % 2 === 0 ? 'grayScale' : 'whiteScale'}
             key={index}
           >
             <div className="row mediumFont">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                <span className="smallMarginRight">{item.title}, </span>
+              <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 " />
+              <div className="col-lg-10 col-md-10 col-sm-10 col-xs-10 ">
+                <span className="smallMarginRight">{item.title},</span>
                 <span>{item.location.name}</span>
+              </div>
+              <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
                 <span>
                   <a
                     href={item.absolute_url}
@@ -35,11 +36,6 @@ class IndividualPosting extends Component {
                   </a>
                 </span>
               </div>
-              {/* <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 ">
-              </div>
-              <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
-             
-              </div> */}
             </div>
           </div>
         );
@@ -50,8 +46,9 @@ class IndividualPosting extends Component {
   render() {
     return (
       <div className="jobPostingMargin container-fluid">
+        <div className="container">
         <h3>Job Boards</h3>
-        <div>
+
           {this.renderIndividualJob(this.props.data)}
         </div>
       </div>

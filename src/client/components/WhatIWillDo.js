@@ -8,7 +8,7 @@ class WhatWillIDo extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-              <h1>WHAT WILL I DO</h1>
+              <h2>WHAT WILL I DO</h2>
               <br />
               <p>
                 block of text...block of text...block of text...block of
