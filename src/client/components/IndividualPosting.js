@@ -49,7 +49,7 @@ class IndividualPosting extends Component {
     return (
       <div className="jobPostingMargin container-fluid">
         <div className="container">
-          <h3>Job Boards</h3>
+          <h3>Job Section</h3>
 
           {this.renderIndividualJob(this.props.data)}
         </div>

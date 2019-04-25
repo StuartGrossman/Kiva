@@ -70,3 +70,16 @@ a label {
 .textAlignWebCenter {
   text-align: -webkit-center;
 }
+
+.kivaColor {
+  background-color: #4faf4e;
+}
+.hrefLinkColor {
+  color: #247037;
+} 
+a:hover 
+{
+  color: #247037; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
