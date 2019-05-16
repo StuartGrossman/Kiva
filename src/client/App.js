@@ -4,14 +4,15 @@ import React, { Component } from 'react';
 import './css/app.css';
 import './css/bootstrap.css';
 import './css/animated.css';
+import './css/custom.css';
 import Slider from './components/Slider';
 import NavBar from './components/NavBar';
 import CareersPage from './components/CareersPage';
 import Footer from './components/Footer';
 import FellowshipPage from './components/FellowshipPage';
+// import sliderImage1 from './images/Carousel1.jpg';
 
 class App extends Component {
-  // eslint-disable-next-line react/no-unused-state
   state = { showCareersPage: false, showFellowshipPage: true };
 
   render() {

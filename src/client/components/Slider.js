@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SliderImage from '../images/image1.svg';
+import Carousel1 from '../images/Carousel1.jpg';
 
 class Slider extends Component {
   state = {};
@@ -14,7 +15,7 @@ class Slider extends Component {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-100" src={SliderImage} alt="First slide" />
+            <img className="d-block w-100" src={Carousel1} alt="First slide" />
           </div>
           <div className="carousel-item">
             <img className="d-block w-100" src={SliderImage} alt="Second slide" />

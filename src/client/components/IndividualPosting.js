@@ -7,26 +7,20 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unused-state */
 import React, { Component } from 'react';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // eslint-disable-next-line react/prefer-stateless-function
 class IndividualPosting extends Component {
   renderIndividualJob = (data) => {
-    console.log(data);
+    // console.log(data);
     return (
       data.map((item, index) => {
         return (
           <div
-            className={index % 2 === 0 ? 'grayScale' : 'whiteScale'}
             key={index}
           >
-            <div className="row mediumFont">
-              <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 " />
-              <div className="col-lg-10 col-md-10 col-sm-10 col-xs-10 ">
-                <span className="smallMarginRight">{item.title}, </span>
-                <span>{item.location.name}</span>
-              </div>
-              <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
                 <span>
                   <a
                     href={item.absolute_url}
@@ -34,11 +28,16 @@ class IndividualPosting extends Component {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <FontAwesomeIcon icon={faAngleRight} />
+                    {item.title}
                   </a>
                 </span>
               </div>
+              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+                <span>{item.location.name}</span>
+              </div>
             </div>
+            <hr />
+
           </div>
         );
       })
@@ -47,12 +46,8 @@ class IndividualPosting extends Component {
 
   render() {
     return (
-      <div className="jobPostingMargin container-fluid">
-        <div className="container">
-          <h3>Job Section</h3>
-
-          {this.renderIndividualJob(this.props.data)}
-        </div>
+      <div>
+        {this.renderIndividualJob(this.props.data)}
       </div>
     );
   }

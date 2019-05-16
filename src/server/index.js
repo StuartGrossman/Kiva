@@ -40,9 +40,12 @@ function reformatData(data) {
 }
 
 app.get('/api/getAllJobPostings', (req, res) => {
-  request.get('https://boards-api.greenhouse.io/v1/boards/kivaorg/jobs',
+  const departmentIDs = ['55058', '9253', '24218', '9256', '21654'];
+  request.get('https://boards-api.greenhouse.io/v1/boards/kivaorg/departments',
     (error, response, body) => {
       if (!error && response.statusCode === 200) {
+        console.log(body)
+
         const data = reformatData(body);
         res.send(data);
       } else {
