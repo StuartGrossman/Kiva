@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import SliderImage from '../images/image1.svg';
-import Carousel1 from '../images/Carousel1.jpg';
+
 
 class Slider extends Component {
+  constructor() {
+    super();
+  }
+
   state = {};
 
   render() {
@@ -15,13 +18,13 @@ class Slider extends Component {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-100" src={Carousel1} alt="First slide" />
+            <img className="d-block w-100" src={this.props.img1} alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src={SliderImage} alt="Second slide" />
+            <img className="d-block w-100" src={this.props.img2} alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src={SliderImage} alt="Third slide" />
+            <img className="d-block w-100" src={this.props.img3} alt="Third slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

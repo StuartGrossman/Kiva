@@ -36,7 +36,7 @@ class IndividualPosting extends Component {
                 <span>{item.location.name}</span>
               </div>
             </div>
-            <hr />
+            <hr className="jobLine" />
 
           </div>
         );

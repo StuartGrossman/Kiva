@@ -1,6 +1,13 @@
 /* eslint-disable lines-between-class-members */
 import React, { Component } from 'react';
 import IndividualBenefit from './IndividualBenefit';
+import icon1 from '../images/icons/icon1.svg';
+import icon2 from '../images/icons/icon2.svg';
+import icon3 from '../images/icons/icon3.svg';
+import icon4 from '../images/icons/icon4.svg';
+import icon5 from '../images/icons/icon5.svg';
+import icon6 from '../images/icons/icon6.svg';
+import icon7 from '../images/icons/icon7.svg';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Benefits extends Component {
@@ -33,36 +40,49 @@ class Benefits extends Component {
                 color="#e9e9e9"
                 benefit={this.benefitOne}
                 detail={this.detailOne}
+                icon={icon1}
               />
               <IndividualBenefit
                 color="white"
                 benefit={this.benefitTwo}
                 detail={this.detailTwo}
+                icon={icon2}
+
               />
               <IndividualBenefit
                 color="#e9e9e9"
                 benefit={this.benefitThree}
                 detail={this.detailThree}
+                icon={icon3}
+
               />
               <IndividualBenefit
                 color="white"
                 benefit={this.benefitFour}
                 detail={this.detailFour}
+                icon={icon4}
+
               />
               <IndividualBenefit
                 color="#e9e9e9"
                 benefit={this.benefitFive}
                 detail={this.detailFive}
+                icon={icon5}
+
               />
               <IndividualBenefit
                 color="#white"
                 benefit={this.benefitSix}
                 detail={this.detailSix}
+                icon={icon6}
+
               />
               <IndividualBenefit
                 color="#e9e9e9"
                 benefit={this.benefitSeven}
                 detail={this.detailSeven}
+                icon={icon7}
+
               />
             </div>
           </div>

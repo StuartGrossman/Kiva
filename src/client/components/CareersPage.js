@@ -5,10 +5,10 @@ import React, { Component } from 'react';
 import WhatIsKiva from './WhatIsKiva';
 import Video from './Video';
 import JobPostings from './JobPostings';
-import KivaAffects from './KivaAffects';
-import FieldImmersion from './FieldImmersion';
+import KivaAffects from './Impacts';
 import Location from './Location';
 import Benefits from './Benefits';
+import OurMission from './OurMission';
 
 class CareersPage extends Component {
   render() {
@@ -24,7 +24,7 @@ class CareersPage extends Component {
           <br />
           <JobPostings />
           <br />
-          <FieldImmersion />
+          <OurMission />
           <br />
           <Benefits />
           <br />

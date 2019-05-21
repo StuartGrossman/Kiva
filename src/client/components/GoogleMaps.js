@@ -18,17 +18,13 @@ class GoogleMaps extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '500px', width: '100%' }}>
+      <div style={{ height: '608px', width: '100%' }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyAkLcK1SfE1LKnS4Q3SvASYhtV67Avlp7M' }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
-          <AnyReactComponent
-            lat={59.955413}
-            lng={30.337844}
-            text="My Marker"
-          />
+          <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
         </GoogleMapReact>
       </div>
     );

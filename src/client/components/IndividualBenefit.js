@@ -5,17 +5,16 @@ import React, { Component } from 'react';
 import CircleImage from '../images/circle.svg';
 
 class IndividualBenefits extends Component {
-
   render() {
     return (
-      <div className="row" style={{ backgroundColor: this.props.color, paddingTop: '5px', paddingBottom: '5px' }}>
-        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-          <img className="rounded-circle img-fluid mx-auto" alt="circleImage" src={CircleImage} />
+      <div className="row" style={{ backgroundColor: this.props.color, paddingTop: '5px', paddingBottom: '5px'}}>
+        <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"  style={{ height: '50%' }} >
+          <img className="mx-auto d-block img-fluid" alt="circleImage" src={this.props.icon} />
         </div>
         <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-          <p style={{ lineHeight: '1.5' }}>{this.props.benefit}</p>
+          <p style={{ lineHeight: '1.5' }} className="text-center">{this.props.benefit}</p>
         </div>
-        <div className="col-lg-9 col-md-9 col-sm-7 col-xs-7">
+        <div className="col-lg-8 col-md-8 col-sm-7 col-xs-7">
           <p style={{ lineHeight: '1.5' }}>
             {this.props.detail}
           </p>

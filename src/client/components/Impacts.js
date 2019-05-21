@@ -19,7 +19,7 @@ class KivaAffects extends Component {
                   <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                     <img
                       alt="placeHolderImage"
-                      className="image001"
+                      className="Impact-Images"
                       src={image1}
                     />
                   </div>
@@ -27,7 +27,7 @@ class KivaAffects extends Component {
                   <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                     <h3 className="Big-Ideas-Small-Title-Text">Building Bright Futures</h3>
 
-                    <p className="block-text smallMarginTop">
+                    <p className="Impact-Small-Text">
                       $25 can go a long way. From
                       farmers to students to women-owned businesses, we
                       crowdfund millions of dollars in loans each week to help
@@ -40,7 +40,7 @@ class KivaAffects extends Component {
                   <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                     <h3 className="Big-Ideas-Small-Title-Text">Building Financial Infrastructure</h3>
 
-                    <p className="block-text smallMarginTop">
+                    <p className="Impact-Small-Text">
                       Blockchain isn’t just
                       for cryptocurrency. We’re using it in Sierra Leone to help
                       unbanked people get access to financial services. Our work
@@ -51,7 +51,7 @@ class KivaAffects extends Component {
                   <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                     <img
                       alt="placeHolderImage"
-                      className="image002"
+                      className="Impact-Images"
                       src={image2}
                     />
                   </div>
