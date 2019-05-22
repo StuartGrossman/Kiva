@@ -1,8 +1,9 @@
 /* eslint-disable max-len */
 /* eslint-disable react/prefer-stateless-function */
-import React, { Component } from "react";
-import GoogleMaps from "./GoogleMaps";
+import React, { Component } from 'react';
+import GoogleMaps from './GoogleMaps';
 
+// eslint-disable-next-line no-unused-vars
 function createMapOptions(maps) {
   return {
     panControl: false,
@@ -12,26 +13,26 @@ function createMapOptions(maps) {
       {
         stylers: [
           {
-            featureType: "administrative",
-            elementType: "all",
+            featureType: 'administrative',
+            elementType: 'all',
             stylers: [
               {
-                saturation: "-100"
+                saturation: '-100'
               }
             ]
           },
           {
-            featureType: "administrative.province",
-            elementType: "all",
+            featureType: 'administrative.province',
+            elementType: 'all',
             stylers: [
               {
-                visibility: "off"
+                visibility: 'off'
               }
             ]
           },
           {
-            featureType: "landscape",
-            elementType: "all",
+            featureType: 'landscape',
+            elementType: 'all',
             stylers: [
               {
                 saturation: -100
@@ -40,79 +41,79 @@ function createMapOptions(maps) {
                 lightness: 65
               },
               {
-                visibility: "on"
+                visibility: 'on'
               }
             ]
           },
           {
-            featureType: "poi",
-            elementType: "all",
+            featureType: 'poi',
+            elementType: 'all',
             stylers: [
               {
                 saturation: -100
               },
               {
-                lightness: "50"
+                lightness: '50'
               },
               {
-                visibility: "simplified"
+                visibility: 'simplified'
               }
             ]
           },
           {
-            featureType: "road",
-            elementType: "all",
+            featureType: 'road',
+            elementType: 'all',
             stylers: [
               {
-                saturation: "-100"
+                saturation: '-100'
               }
             ]
           },
           {
-            featureType: "road.highway",
-            elementType: "all",
+            featureType: 'road.highway',
+            elementType: 'all',
             stylers: [
               {
-                visibility: "simplified"
+                visibility: 'simplified'
               }
             ]
           },
           {
-            featureType: "road.arterial",
-            elementType: "all",
+            featureType: 'road.arterial',
+            elementType: 'all',
             stylers: [
               {
-                lightness: "30"
+                lightness: '30'
               }
             ]
           },
           {
-            featureType: "road.local",
-            elementType: "all",
+            featureType: 'road.local',
+            elementType: 'all',
             stylers: [
               {
-                lightness: "40"
+                lightness: '40'
               }
             ]
           },
           {
-            featureType: "transit",
-            elementType: "all",
+            featureType: 'transit',
+            elementType: 'all',
             stylers: [
               {
                 saturation: -100
               },
               {
-                visibility: "simplified"
+                visibility: 'simplified'
               }
             ]
           },
           {
-            featureType: "water",
-            elementType: "geometry",
+            featureType: 'water',
+            elementType: 'geometry',
             stylers: [
               {
-                hue: "#ffff00"
+                hue: '#ffff00'
               },
               {
                 lightness: -25
@@ -123,8 +124,8 @@ function createMapOptions(maps) {
             ]
           },
           {
-            featureType: "water",
-            elementType: "labels",
+            featureType: 'water',
+            elementType: 'labels',
             stylers: [
               {
                 lightness: -25

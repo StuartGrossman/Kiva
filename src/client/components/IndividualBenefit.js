@@ -2,13 +2,13 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import CircleImage from '../images/circle.svg';
+// import CircleImage from '../images/circle.svg';
 
 class IndividualBenefits extends Component {
   render() {
     return (
-      <div className="row" style={{ backgroundColor: this.props.color, paddingTop: '5px', paddingBottom: '5px'}}>
-        <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2"  style={{ height: '50%' }} >
+      <div className="row" style={{ backgroundColor: this.props.color, paddingTop: '5px', paddingBottom: '5px' }}>
+        <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2" style={{ height: '50%' }}>
           <img className="mx-auto d-block img-fluid" alt="circleImage" src={this.props.icon} />
         </div>
         <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3">

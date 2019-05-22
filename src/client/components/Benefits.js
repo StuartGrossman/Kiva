@@ -1,13 +1,13 @@
 /* eslint-disable lines-between-class-members */
 import React, { Component } from 'react';
 import IndividualBenefit from './IndividualBenefit';
-import icon1 from '../images/icons/icon1.svg';
-import icon2 from '../images/icons/icon2.svg';
-import icon3 from '../images/icons/icon3.svg';
-import icon4 from '../images/icons/icon4.svg';
-import icon5 from '../images/icons/icon5.svg';
-import icon6 from '../images/icons/icon6.svg';
-import icon7 from '../images/icons/icon7.svg';
+import icon1 from '../images/icon1.svg';
+import icon2 from '../images/icon2.svg';
+import icon3 from '../images/icon3.svg';
+import icon4 from '../images/icon4.svg';
+import icon5 from '../images/icon5.svg';
+import icon6 from '../images/icon6.svg';
+import icon7 from '../images/icon7.svg';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Benefits extends Component {
