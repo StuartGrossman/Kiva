@@ -24,7 +24,7 @@ class KivaAffects extends Component {
                     />
                   </div>
                   <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2" />
-                  <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                  <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5 Margin-Auto">
                     <h3 className="Big-Ideas-Small-Title-Text">Building Bright Futures</h3>
 
                     <p className="Impact-Small-Text">
@@ -37,7 +37,7 @@ class KivaAffects extends Component {
                 </div>
 
                 <div className="row" style={{ marginBottom: '100px' }}>
-                  <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                  <div className="col-lg-5 col-md-5 col-sm-5 col-xs-5 Margin-Auto">
                     <h3 className="Big-Ideas-Small-Title-Text">Building Financial Infrastructure</h3>
 
                     <p className="Impact-Small-Text">

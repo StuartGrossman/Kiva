@@ -2853,11 +2853,11 @@ button,
 }
 
 button:hover,
-button:focus,
+/* button:focus,
 .button:hover,
 .button:focus {
     background-color: #006ed3
-}
+} */
 
 button:hover,
 button:focus,
@@ -3025,14 +3025,14 @@ button.round,
 button.disabled,
 button[disabled],
 .button.disabled,
-.button[disabled] {
+/* .button[disabled] {
     background-color: #118aec;
     border-color: #006ed3;
     color: #fff;
     box-shadow: none;
     cursor: default;
     opacity: .7
-}
+} */
 
 button.disabled:hover,
 button.disabled:focus,
@@ -3041,9 +3041,9 @@ button[disabled]:focus,
 .button.disabled:hover,
 .button.disabled:focus,
 .button[disabled]:hover,
-.button[disabled]:focus {
+/* .button[disabled]:focus {
     background-color: #006ed3
-}
+} */
 
 button.disabled:hover,
 button.disabled:focus,
@@ -3063,9 +3063,9 @@ button[disabled]:focus,
 .button.disabled:hover,
 .button.disabled:focus,
 .button[disabled]:hover,
-.button[disabled]:focus {
+/* .button[disabled]:focus {
     background-color: #118aec
-}
+} */
 
 button.disabled.secondary,
 button[disabled].secondary,
@@ -9777,12 +9777,12 @@ button:hover,
 button:active,
 a.button:hover,
 a.button:active,
-.button:hover,
+/* .button:hover,
 .button:active {
     text-decoration: none;
     background-color: #006ed3;
     border-color: #006ed3
-}
+} */
 
 @media only screen and (min-width: 481px) {
     button,

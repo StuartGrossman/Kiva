@@ -8,6 +8,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { Component } from 'react';
+import logo from '../images/kiva_logo_green.png';
 
 class NavBar extends Component {
   // eslint-disable-next-line no-useless-constructor
@@ -18,11 +19,9 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <h2>
-          Kiva
-        </h2>
+        <img src={logo} alt="logo" className="logo" />
         <button
-          className="navbar-toggler"
+          className="navbar-toggler nav-bar-button"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -34,10 +33,10 @@ class NavBar extends Component {
 
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse nav-height" id="navbarSupportedContent">
           <div>
             <ul className="nav navbar-nav navbar-right">
-              <li className="nav-item active">
+              <li className="nav-item">
                 <a className="nav-link aTagHighlight" style={{ fontSize: '20px' }} onClick={this.props.changeToCareersPage}>Careers </a>
               </li>
               <li className="nav-item">
