@@ -27,10 +27,10 @@ class JobList extends Component {
       return (
         <div>
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+            <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
               <span>Check back soon</span>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 " />
+            <div className="col-lg-6 col-md-6 col-sm-6 col-6 " />
           </div>
           <hr className="jobLine" />
         </div>
@@ -47,20 +47,20 @@ class JobList extends Component {
         <div className="">
           <div className="">
             <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <h2 className="JobCatTitle">{this.props.title}</h2>
                 <h3 className="JobCatDes">{this.props.desc}</h3>
               </div>
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="" style={{marginTop: '20px'}}>
           <div className="">
             <div className="row">
-              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                 <h3 className="Role">Role</h3>
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                 <h3 className="Location">Location</h3>
               </div>
             </div>

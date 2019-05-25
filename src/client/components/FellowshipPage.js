@@ -15,7 +15,7 @@ class FellowshipPage extends Component {
           <div className="container-fluid">
             <div className="container">
               <div className="row">
-                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                <div className="col-lg-12 col-md-12 col-sm-12 col-12 ">
                   <h2>FELLOWSHIP PROGRAM</h2>
                 </div>
               </div>

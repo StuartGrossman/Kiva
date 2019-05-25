@@ -36,12 +36,15 @@ class NavBar extends Component {
         <div className="collapse navbar-collapse nav-height" id="navbarSupportedContent">
           <div>
             <ul className="nav navbar-nav navbar-right">
-              <li className="nav-item">
-                <a className="nav-link aTagHighlight" style={{ fontSize: '20px' }} onClick={this.props.changeToCareersPage}>Careers </a>
-              </li>
-              <li className="nav-item">
+              <span className="nav-item">
+                <a className="nav-link aTagHighlight" style={{ fontSize: '20px', marginRight: '150px' }} onClick={this.props.changeToCareersPage}>Careers </a>
+
+              </span>
+              <span className="nav-item">
                 <a className="nav-link aTagHighlight" style={{ fontSize: '20px' }} onClick={this.props.changeToFellowshipPage}>Fellowship</a>
-              </li>
+
+              </span>
+           
             </ul>
           </div>
         </div>

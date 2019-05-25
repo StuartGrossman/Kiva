@@ -10,7 +10,7 @@ class OurMission extends Component {
         <div className="container-fluid grayBackground">
           <div className="container">
             <div className="row">
-              <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+              <div className="col-md-12 col-lg-12 col-sm-12 col-12">
                 <h1 style={{marginTop: '60px'}} className="missionTitle">See our mission in action.</h1>
                 <p className="Mission-Statement" style={{marginBottom: '60px'}} >
                   Everyone at Kiva gets to travel to one of the countries we
@@ -81,7 +81,7 @@ class OurMission extends Component {
         <div className="container-fluid grayBackground">
           <div className="container">
             <div className="row" >
-              <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12" style={{ marginTop: '60px', marginBottom: '60px'}}>
+              <div className="col-md-12 col-lg-12 col-sm-12 col-12" style={{ marginTop: '60px', marginBottom: '60px'}}>
                 <p className="kivaImpacts">
                   “ Kiva’s impact and meeting the people who make it happen
                   helped me connect my own contributions at Kiva to the

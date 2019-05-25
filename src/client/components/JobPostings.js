@@ -35,7 +35,7 @@ class JobPostings extends react.Component {
         <div className="container-fluid" id="JobSection">
           <div className="container">
             <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <h2 className="Open-Positions" style={{ marginTop: '90px' }}>OPEN POSITIONS</h2>
                 <br />
                 <React.Fragment>
@@ -58,6 +58,10 @@ class JobPostings extends react.Component {
                   <JobList id={this.FellowshipsId} title="Fellowships" desc={this.FellowshipsDesc} />
                   <br />
                 </React.Fragment>
+                  <div style={{ marginBottom: '100px'}}>
+                    <h1 className="Volunteer-Op">Volunteer Opportunities</h1>
+                    <span className="Volunteer-Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                  </div>
               </div>
             </div>
           </div>

@@ -148,7 +148,7 @@ class Location extends Component {
         <div className="container-fluid grayBackground">
           <div className="container">
             <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style={{marginTop: '60px', marginBottom: '60px'}}>
+              <div className="col-lg-12 col-md-12 col-sm-12 col-12 " style={{marginTop: '60px', marginBottom: '60px'}}>
                 <h1 className="mapTitle">Global work. Global offices.</h1>
                 <div>
                   <p className="We-hire">
@@ -173,9 +173,9 @@ class Location extends Component {
         <div className="container-fluid">
           <div className="container">
             <div className="row">
-              <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 " />
+              <div className="col-lg-1 col-md-1 col-sm-1 col-1 " />
 
-              <div className="col-lg-10 col-md-10 col-sm-10 col-xs-10 ">
+              <div className="col-lg-10 col-md-10 col-sm-10 col-10 ">
                 <div>
                   <p className="Footer-Text">
                     Kiva is deeply committed to diversity, equity and inclusion
@@ -186,7 +186,7 @@ class Location extends Component {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1 " />
+              <div className="col-lg-1 col-md-1 col-sm-1 col-1 " />
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ class Video extends Component {
         <div className="container">
           <div>
             <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                 <h1 className="VideoTitle">Video Headline FPO</h1>
                 {/* <video width="100%" height="100%" controls>
               <source src="./src/client/videos/temp_movie.mp4" type="video/mp4" />

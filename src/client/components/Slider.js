@@ -16,7 +16,7 @@ class Slider extends Component {
           <li data-target="#carouselExampleIndicators" data-slide-to="1" />
           <li data-target="#carouselExampleIndicators" data-slide-to="2" />
         </ol>
-        <div className="carousel-inner">
+        <div className="carousel-inner Carousel-Hight">
           <div className="carousel-item active">
             <img className="d-block w-100" src={this.props.img1} alt="First slide" />
           </div>

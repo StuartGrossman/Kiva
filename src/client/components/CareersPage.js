@@ -20,8 +20,9 @@ class CareersPage extends Component {
           <Video />
           <br />
           <br />
-          <KivaAffects />
           <br />
+          <br />
+          <KivaAffects />
           <JobPostings />
           <br />
           <OurMission />

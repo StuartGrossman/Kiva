@@ -19,7 +19,7 @@ class WhatIsKiva extends Component {
       <div className="container-fluid">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
               <h1 className="Change-the-world-Do">
                 Change the world. Do it with amazing people.
               </h1>
@@ -36,10 +36,10 @@ class WhatIsKiva extends Component {
                 <br />
 
                 <div className="row">
-                  <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                     <HeaderText title={this.titleThree} desc={this.descThree} />
                   </div>
-                  <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                     <HeaderText title={this.titleTwo} desc={this.descTwo} />
                   </div>
                 </div>

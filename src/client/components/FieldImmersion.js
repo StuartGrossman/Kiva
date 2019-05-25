@@ -10,7 +10,7 @@ class FieldImmersion extends Component {
       <div className="container-fluid">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-12 ">
               <h3 className="smallMarginBottom">FIELD IMMERSION TRIP</h3>
               <p className="">
                 All new hires get to visit one of the 80+ countries we work in.
@@ -20,20 +20,20 @@ class FieldImmersion extends Component {
               </p>
               <br />
               <div className="row">
-                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 smallMarginBottom">
+                <div className="col-lg-4 col-md-4 col-sm-12 col-12 smallMarginBottom">
                   <img className="img-fluid" src={SliderImage} />
                 </div>
-                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 smallMarginBottom">
+                <div className="col-lg-4 col-md-4 col-sm-12 col-12 smallMarginBottom">
                   <img className="img-fluid" src={SliderImage} />
                 </div>
-                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 smallMarginBottom">
+                <div className="col-lg-4 col-md-4 col-sm-12 col-12 smallMarginBottom">
                   <img className="img-fluid" src={SliderImage} />
                 </div>
               </div>
               <br />
               <div className="row">
-                <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1" />
-                <div className="col-lg-10 col-md-10 col-sm-10 col-xs-12 ">
+                <div className="col-lg-1 col-md-1 col-sm-1 col-1" />
+                <div className="col-lg-10 col-md-10 col-sm-10 col-12 ">
                   <p className="textAlignWebCenter">
                     Everyone at Kiva gets to travel to one of the countries we
                     work in. There, you’ll meet borrowers, tour Microfinance
@@ -41,7 +41,7 @@ class FieldImmersion extends Component {
                     as a jumpstart to your inspiration.
                   </p>
                 </div>
-                <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1" />
+                <div className="col-lg-1 col-md-1 col-sm-1 col-1" />
               </div>
             </div>
           </div>

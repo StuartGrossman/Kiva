@@ -38,70 +38,73 @@ class Benefits extends Component {
     return (
       <div className="container-fluid">
         <div className="container">
-          {/* <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12"> */}
-          <h1 className="Benefits-Header">Let’s talk perks.</h1>
-          <p className="Benefits-Sub-Text">
-            We want our employees to feel good about their careers. We also
-            want them to feel good in general. To help out, we offer great
-            health benefits and tons of perks.
-          </p>
+          <div className="row">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+              <h1 className="Benefits-Header">Let’s talk perks.</h1>
+              <p className="Benefits-Sub-Text">
+                We want our employees to feel good about their careers. We also
+                want them to feel good in general. To help out, we offer great
+                health benefits and tons of perks.
+              </p>
 
-          <br />
-          <IndividualBenefit
-            color="#f6f6f6"
-            benefit={this.benefitOne}
-            detail={this.detailOne}
-            icon={icon1}
-          />
-          <IndividualBenefit
-            color="white"
-            benefit={this.benefitTwo}
-            detail={this.detailTwo}
-            icon={icon2}
-          />
-          <IndividualBenefit
-            color="#f6f6f6"
-            benefit={this.benefitThree}
-            detail={this.detailThree}
-            icon={icon3}
-          />
-          <IndividualBenefit
-            color="white"
-            benefit={this.benefitFour}
-            detail={this.detailFour}
-            icon={icon4}
-          />
-          <IndividualBenefit
-            color="#f6f6f6"
-            benefit={this.benefitFive}
-            detail={this.detailFive}
-            icon={icon5}
-          />
-          <IndividualBenefit
-            color="#white"
-            benefit={this.benefitSix}
-            detail={this.detailSix}
-            icon={icon6}
-          />
-          <IndividualBenefit
-            color="#f6f6f6"
-            benefit={this.benefitSeven}
-            detail={this.detailSeven}
-            icon={icon7}
-          />
-          <div
-            className="row Benefit-Dimensions"
-            style={{ backgroundColor: this.props.color }}
-          >
-            <div className="col-lg-2 col-md-2 col-sm-6 col-xs-6 Margin-Auto" />
-            <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 Margin-Auto" />
-            <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 Margin-Auto">
-              <p className="Benefit-Des">*Benefits listed above may differ for roles based outside the US.</p>
+              <br />
+              <IndividualBenefit
+                color="#f6f6f6"
+                benefit={this.benefitOne}
+                detail={this.detailOne}
+                icon={icon1}
+              />
+              <IndividualBenefit
+                color="white"
+                benefit={this.benefitTwo}
+                detail={this.detailTwo}
+                icon={icon2}
+              />
+              <IndividualBenefit
+                color="#f6f6f6"
+                benefit={this.benefitThree}
+                detail={this.detailThree}
+                icon={icon3}
+              />
+              <IndividualBenefit
+                color="white"
+                benefit={this.benefitFour}
+                detail={this.detailFour}
+                icon={icon4}
+              />
+              <IndividualBenefit
+                color="#f6f6f6"
+                benefit={this.benefitFive}
+                detail={this.detailFive}
+                icon={icon5}
+              />
+              <IndividualBenefit
+                color="#white"
+                benefit={this.benefitSix}
+                detail={this.detailSix}
+                icon={icon6}
+              />
+              <IndividualBenefit
+                color="#f6f6f6"
+                benefit={this.benefitSeven}
+                detail={this.detailSeven}
+                icon={icon7}
+              />
+              <div
+                className="row Benefit-Dimensions"
+                style={{ backgroundColor: this.props.color }}
+              >
+                <div className="col-lg-2 col-md-2 col-sm-6 col-6 Margin-Auto" />
+                <div className="col-lg-2 col-md-2 col-sm-12 col-12 Margin-Auto" />
+                <div className="col-lg-8 col-md-8 col-sm-12 col-12 Margin-Auto">
+                  <p className="Benefit-Des">
+                    *Benefits listed above may differ for roles based outside
+                    the US.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          {/* </div>
-          </div> */}
         </div>
       </div>
     );
