@@ -3,9 +3,8 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import { Player } from 'video-react';
-import SliderImage from '../images/image1.svg';
-
-// import VideoSrc from '../videos/temp_movie.mp4';
+import KivaVideo from '../videos/kiva.mp4';
+import VideoImage from '../videos/videoImage.png';
 import '../css/video.css';
 
 
@@ -17,15 +16,19 @@ class Video extends Component {
           <div>
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                <h1 className="VideoTitle">Video Headline FPO</h1>
+                <h1 className="VideoTitle">
+                  What’s life at Kiva like? This
+                </h1>
                 {/* <video width="100%" height="100%" controls>
-              <source src="./src/client/videos/temp_movie.mp4" type="video/mp4" />
-              <source src="movie.ogg" type="video/ogg" />
-            </video> */}
+                  <source
+                    src={KivaVideo}
+                    type="video/mp4"
+                  />
+                  <source src="movie.ogg" type="video/ogg" />
+                </video> */}
                 <Player
-                  playsInline
-                  poster={SliderImage}
-                  src="https://vimeo.com/user41370063/review/333230823/35cd0f98ab"
+                  poster={VideoImage}
+                  src={KivaVideo}
                 />
               </div>
             </div>

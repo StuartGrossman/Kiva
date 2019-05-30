@@ -82,8 +82,8 @@ class OurMission extends Component {
           <div className="container">
             <div className="row" >
               <div className="col-md-12 col-lg-12 col-sm-12 col-12" style={{ marginTop: '60px', marginBottom: '60px'}}>
-                <p className="kivaImpacts">
-                  “ Kiva’s impact and meeting the people who make it happen
+                <p className="kivaImpacts" style={{ marginBottom: '10px' }}>
+                  “Kiva’s impact and meeting the people who make it happen
                   helped me connect my own contributions at Kiva to the
                   opportunity we create in the world.”
                 </p>

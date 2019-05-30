@@ -27,7 +27,7 @@ class JobPostings extends react.Component {
     this.ImpactInvestmentsId = '9281';
     this.ImpactInvestmentsDesc = 'Are you fond of the phrase impact and risk assessment? Great, because your team is responsible for every loan funded through Kiva. Even better if you aren’t afraid to seek out new opportunities to help us keeping building a more financially inclusive world.';
     this.FellowshipsId = '24218';
-    this.FellowshipsDesc = 'TBA';
+    this.FellowshipsDesc = '';
   }
 
   render() {

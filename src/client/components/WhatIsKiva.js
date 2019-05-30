@@ -21,7 +21,10 @@ class WhatIsKiva extends Component {
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
               <h1 className="Change-the-world-Do">
-                Change the world. Do it with amazing people.
+                Change the world.
+              </h1>
+              <h1 className="Change-the-world-Do">
+                Do it with amazing people.
               </h1>
               <p>
                 Good news: You don’t have to choose between brilliant

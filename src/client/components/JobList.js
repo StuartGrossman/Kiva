@@ -54,7 +54,7 @@ class JobList extends Component {
             </div>
           </div>
         </div>
-        <div className="" style={{marginTop: '20px'}}>
+        <div className="" style={{marginTop: '10px'}}>
           <div className="">
             <div className="row">
               <div className="col-lg-6 col-md-6 col-sm-6 col-6">

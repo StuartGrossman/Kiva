@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import WhatIsKiva from './WhatIsKiva';
 import Video from './Video';
 import JobPostings from './JobPostings';
-import KivaAffects from './Impacts';
+import Impacts from './Impacts';
 import Location from './Location';
 import Benefits from './Benefits';
 import OurMission from './OurMission';
@@ -22,7 +22,7 @@ class CareersPage extends Component {
           <br />
           <br />
           <br />
-          <KivaAffects />
+          <Impacts />
           <JobPostings />
           <br />
           <OurMission />

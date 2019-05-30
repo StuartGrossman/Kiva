@@ -91,11 +91,12 @@
 } 
 
 .logo {
-  width: 126px;
-  height: 54px;
+  width: 91px;
+  height: 39px;
+  margin-left: 78px;
 }
 .nav-height {
-  height: 125px;
+  height: 109px;
 }
 .slider-image-height {
   height: 782px;
@@ -331,12 +332,12 @@
 }
 
 .jobLine {
-  border: solid .5px var(--greyish-brown);
+  /* border: solid .5px var(--greyish-brown); */
 }
 
 .topLineJob {
   margin-top: -10px;
-  border: solid .5px var(--greyish-brown);
+  /* border: solid .5px var(--greyish-brown); */
 }
 .missionTitle {
     font-family: KivaPostGrotBold;
@@ -418,6 +419,28 @@
 .Benefit-Icons {
   height: 60px;
 } 
+
+@media (min-width: 500.98px) {
+  .nav-height {
+    height: 100px;
+    margin-left: 20px;
+  }
+  .logo {
+    width: 91px;
+    height: 39px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 500.98px) {
+  .nav-height {
+    height: 100px;
+  }
+  .logo {
+    width: 91px;
+    height: 39px;
+    margin-left: 20px;
+  }
+}
 @media (min-width: 767.98px) {
   .Benefit-Dimensions {
     height: 168px;
@@ -428,7 +451,21 @@
   .Large-Screen-Icon{
     
   }
+  .nav-height {
+    height: 100px;
+    margin-left: 57px;
+  }
 } 
+@media (min-width: 768px) { 
+  .navBarHeight{
+    height: 109px;
+  }
+  .Large-Screen-Icon{
+    margin-left: 33px;
+    margin-right: 33px;
+
+  }
+}
 /* @media (min-width: 576px) {
   .Benefit-Dimensions {
     height: 400px;
@@ -457,7 +494,9 @@
     margin-left:10%;
     margin-right:10%;
   }
-
+  .nav-height {
+    height: 109px;
+  }
  }
 
  /* @media (min-width: 576px) { 

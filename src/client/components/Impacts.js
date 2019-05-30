@@ -3,14 +3,13 @@ import image1 from "../images/big-ideas-1.jpeg";
 import image2 from "../images/big-ideas-2.jpeg";
 
 // eslint-disable-next-line react/prefer-stateless-function
-class KivaAffects extends Component {
+class Impacts extends Component {
   render() {
     return (
       <div className="grayBackground">
         <br />
         <br />
-
-        <div className="container-fluid ">
+        <div className="container-fluid">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -24,7 +23,7 @@ class KivaAffects extends Component {
             </div>
 
             <div margin-top="15px;">
-              <div className="row" style={{ marginBottom: "100px" }}>
+              <div className="row" style={{ marginBottom: '100px' }}>
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12">
                   <img
                     alt="placeHolderImage"
@@ -77,4 +76,4 @@ class KivaAffects extends Component {
   }
 }
 
-export default KivaAffects;
+export default Impacts;

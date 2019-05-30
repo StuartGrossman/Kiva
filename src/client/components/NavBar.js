@@ -18,7 +18,7 @@ class NavBar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light navBarHeight">
         <img src={logo} alt="logo" className="logo" />
         <button
           className="navbar-toggler nav-bar-button"

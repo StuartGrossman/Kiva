@@ -8,10 +8,10 @@ class IndividualBenefits extends Component {
   render() {
     return (
       <div className="row Benefit-Dimensions" style={{ backgroundColor: this.props.color }}>
-        <div className="col-lg-2 col-md-2 col-sm-6 col-6 Margin-Auto">
+        <div className="col-lg-2 col-md-2 col-sm-6 col-12 Margin-Auto">
           <img className="Benefit-Icons Large-Screen-Icon" alt="circleImage" src={this.props.icon} />
         </div>
-        <div className="col-lg-3 col-md-3 col-sm-12 col-6 Margin-Auto ">
+        <div className="col-lg-3 col-md-3 col-sm-12 col-12 Margin-Auto ">
           <img className="Benefit-Icons Small-Screen-Icon Hide-Icon Small-Screen-Margin" alt="circleImage" src={this.props.icon} />
           <span className="Benefit-Title Small-Screen-Title">{this.props.benefit}</span>
         </div>
