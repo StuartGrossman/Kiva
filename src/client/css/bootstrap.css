@@ -4392,7 +4392,7 @@
       display: flex !important;
       -ms-flex-preferred-size: auto;
       flex-basis: auto;
-      height: 125px;
+      height: 125px; 
       
     }
   }
