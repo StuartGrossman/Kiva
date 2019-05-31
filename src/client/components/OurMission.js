@@ -8,19 +8,21 @@ class OurMission extends Component {
     return (
       <div className="grayBackground">
         <div className="container-fluid grayBackground">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12 col-lg-12 col-sm-12 col-12">
-                <h1 style={{marginTop: '60px'}} className="missionTitle">See our mission in action.</h1>
-                <p className="Mission-Statement" style={{marginBottom: '60px'}} >
-                  Everyone at Kiva gets to travel to one of the countries we
-                  work in. There, you’ll meet borrow-ers, tour our finance
-                  partner operations, and explore the city like a local. Think
-                  of it as a jumpstart to your inspiration.
-                </p>
-              </div>
+          {/* <div className="container"> */}
+          <div className="row">
+            <div className="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+              <h1 style={{ marginTop: "60px" }} className="missionTitle">
+                See our mission in action.
+              </h1>
+              <p className="Mission-Statement" style={{ marginBottom: "60px" }}>
+                Everyone at Kiva gets to travel to one of the countries we work
+                in. There, you’ll meet borrow-ers, tour our finance partner
+                operations, and explore the city like a local. Think of it as a
+                jumpstart to your inspiration.
+              </p>
             </div>
           </div>
+          {/* </div> */}
         </div>
         <div
           id="carouselExampleIndicators2"
@@ -79,20 +81,25 @@ class OurMission extends Component {
           </a>
         </div>
         <div className="container-fluid grayBackground">
-          <div className="container">
-            <div className="row" >
-              <div className="col-md-12 col-lg-12 col-sm-12 col-12" style={{ marginTop: '60px', marginBottom: '60px'}}>
-                <p className="kivaImpacts" style={{ marginBottom: '10px' }}>
-                  “Kiva’s impact and meeting the people who make it happen
-                  helped me connect my own contributions at Kiva to the
-                  opportunity we create in the world.”
-                </p>
-                <p className="kivaImpactsQuote">Philip Minnitte, Senior Manager, People & Culture</p>
-              </div>
+          <div className="row">
+            <div
+              className="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12"
+              style={{ marginTop: "60px", marginBottom: "60px" }}
+            >
+              <p className="kivaImpacts" style={{ marginBottom: "10px" }}>
+                “Kiva’s impact and meeting the people who make it happen helped
+                me connect my own contributions at Kiva to the opportunity we
+                create in the world.”
+              </p>
+              <p className="kivaImpactsQuote">
+                Philip Minnitte, Senior Manager, People & Culture
+              </p>
             </div>
           </div>
         </div>
       </div>
+
+      // </div>
     );
   }
 }

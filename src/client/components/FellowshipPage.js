@@ -13,7 +13,7 @@ class FellowshipPage extends Component {
       <div className={this.props.showPage ? 'hidden' : ''}>
         <React.Fragment>
           <div className="container-fluid">
-            <div className="container">
+            {/* <div className="container"> */}
               <div className="row">
                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                   <br />
@@ -22,7 +22,7 @@ class FellowshipPage extends Component {
                   <br />
                 </div>
               </div>
-            </div>
+            {/* </div> */}
           </div>
 
           {/* <br />

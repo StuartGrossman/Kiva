@@ -5,7 +5,7 @@ class FellowShipProgram extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="container">
+        {/* <div className="container"> */}
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-12 ">
               <p className="">
@@ -18,7 +18,7 @@ class FellowShipProgram extends Component {
               <button className="btn btn-primary btn-lg" type="submit">APPLY NOW</button>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     );
   }

@@ -25,12 +25,12 @@ class JobList extends Component {
   renderJobs = (jobsData) => {
     if (jobsData.length === 0) {
       return (
-        <div>
+        <div className="">
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 ">
               <span>Check back soon</span>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-6 col-6 " />
+            <div className="col-xl-6  col-lg-6 col-md-6 col-sm-6 col-6 " />
           </div>
           <hr className="jobLine" />
         </div>
@@ -54,22 +54,27 @@ class JobList extends Component {
             </div>
           </div>
         </div>
-        <div className="" style={{marginTop: '10px'}}>
+        <div className="" style={{ marginTop: "10px" }}>
           <div className="">
             <div className="row">
-              <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
                 <h3 className="Role">Role</h3>
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
                 <h3 className="Location">Location</h3>
               </div>
             </div>
           </div>
         </div>
-        <hr className="topLineJob jobLine" />
+        <div className="">
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <hr className="topLineJob jobLine" />
+            </div>
+          </div>
+        </div>
 
         {loading ? 'loading Jobs' : this.renderJobs(jobData)}
-
       </div>
     );
   }

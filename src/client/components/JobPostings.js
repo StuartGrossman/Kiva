@@ -33,7 +33,7 @@ class JobPostings extends react.Component {
   render() {
     return (
         <div className="container-fluid" id="JobSection">
-          <div className="container">
+          {/* <div className="container"> */}
             <div className="row">
               <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h2 className="Open-Positions" style={{ marginTop: '90px' }}>OPEN POSITIONS</h2>
@@ -64,7 +64,7 @@ class JobPostings extends react.Component {
                   </div>
               </div>
             </div>
-          </div>
+          {/* </div> */}
         </div>
     );
   }

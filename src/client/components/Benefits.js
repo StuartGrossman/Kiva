@@ -37,7 +37,7 @@ class Benefits extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="container">
+        {/* <div className="container"> */}
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
               <h1 className="Benefits-Header">Let’s talk perks.</h1>
@@ -105,7 +105,7 @@ class Benefits extends Component {
               </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     );
   }

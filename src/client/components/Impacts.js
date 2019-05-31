@@ -10,7 +10,7 @@ class Impacts extends Component {
         <br />
         <br />
         <div className="">
-          <div className="">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h1 className="Big-ideas-big-impac">Big ideas, big impact.</h1>

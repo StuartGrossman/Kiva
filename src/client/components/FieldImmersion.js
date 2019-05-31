@@ -8,7 +8,7 @@ class FieldImmersion extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="container">
+        {/* <div className="container"> */}
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-12 ">
               <h3 className="smallMarginBottom">FIELD IMMERSION TRIP</h3>
@@ -45,7 +45,7 @@ class FieldImmersion extends Component {
               </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     );
   }

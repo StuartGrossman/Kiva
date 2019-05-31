@@ -17,7 +17,7 @@ class WhatIsKiva extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="container">
+        {/* <div className="container"> */}
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
               <h1 className="Change-the-world-Do">
@@ -52,7 +52,7 @@ class WhatIsKiva extends Component {
               </React.Fragment> */}
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     );
   }

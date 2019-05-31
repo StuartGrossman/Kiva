@@ -12,7 +12,7 @@ class Video extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="container">
+        {/* <div className="container"> */}
           <div>
             <div className="row">
               <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -35,7 +35,7 @@ class Video extends Component {
               </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     );
   }

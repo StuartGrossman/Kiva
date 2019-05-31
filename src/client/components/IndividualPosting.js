@@ -17,10 +17,11 @@ class IndividualPosting extends Component {
       data.map((item, index) => {
         return (
           <div
+            className=""
             key={index}
           >
             <div className="row">
-              <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 ">
                 <span>
                   <a
                     href={item.absolute_url}
@@ -32,7 +33,7 @@ class IndividualPosting extends Component {
                   </a>
                 </span>
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 ">
                 <span>{item.location.name}</span>
               </div>
             </div>
