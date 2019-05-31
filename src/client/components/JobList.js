@@ -47,7 +47,7 @@ class JobList extends Component {
         <div className="">
           <div className="">
             <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h2 className="JobCatTitle">{this.props.title}</h2>
                 <h3 className="JobCatDes">{this.props.desc}</h3>
               </div>
@@ -66,7 +66,7 @@ class JobList extends Component {
             </div>
           </div>
         </div>
-        <hr className="topLineJob" />
+        <hr className="topLineJob jobLine" />
 
         {loading ? 'loading Jobs' : this.renderJobs(jobData)}
 

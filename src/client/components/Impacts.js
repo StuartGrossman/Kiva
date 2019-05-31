@@ -9,10 +9,10 @@ class Impacts extends Component {
       <div className="grayBackground">
         <br />
         <br />
-        <div className="container-fluid">
-          <div className="container">
+        <div className="">
+          <div className="">
             <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h1 className="Big-ideas-big-impac">Big ideas, big impact.</h1>
                 <h4 className="We-make-a-difference">
                   We make a difference in real people’s lives. And we do it
@@ -31,13 +31,13 @@ class Impacts extends Component {
                     src={image1}
                   />
                 </div>
-                <div className="col-lg-2 col-md-2" />
+                <div className="col-lg-2 col-md-2 Impacts-Middle-Col" />
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12 Margin-Auto">
                   <h3 className="Big-Ideas-Small-Title-Text">
                     Building Bright Futures
                   </h3>
 
-                  <p className="Impact-Small-Text">
+                  <p className="Impact-Small-Text Impacts-Right-Text-Col">
                     $25 can go a long way. From farmers to students to
                     women-owned businesses, we crowdfund millions of dollars in
                     loans each week to help people change their lives.

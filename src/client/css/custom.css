@@ -332,7 +332,7 @@
 }
 
 .jobLine {
-  /* border: solid .5px var(--greyish-brown); */
+  border: solid .5px var(--greyish-brown);
 }
 
 .topLineJob {
@@ -391,6 +391,13 @@
 /* .image-size @400px {
 
 } */
+.Impacts-Middle-Col {
+  /* flex :0 0 1.666667% */
+}
+.Impacts-Right-Text-Col {
+  /* flex :0 0 44.666667%;
+  max-width: 49.666667%; */
+}
 
 .Margin-Auto {
   margin: auto;
@@ -464,6 +471,9 @@
     margin-left: 33px;
     margin-right: 33px;
 
+  }
+  .Large-Screen-Impact-Images {
+    /* height:  */
   }
 }
 /* @media (min-width: 576px) {

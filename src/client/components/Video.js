@@ -15,7 +15,7 @@ class Video extends Component {
         <div className="container">
           <div>
             <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h1 className="VideoTitle">
                   What’s life at Kiva like? This
                 </h1>
@@ -26,10 +26,12 @@ class Video extends Component {
                   />
                   <source src="movie.ogg" type="video/ogg" />
                 </video> */}
-                <Player
+                <iframe src="https://player.vimeo.com/video/339484799" width="100%" height="560" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+                {/* <Player
                   poster={VideoImage}
-                  src={KivaVideo}
-                />
+                  src="https://vimeo.com/339484799"
+                /> */}
               </div>
             </div>
           </div>
