@@ -14,14 +14,14 @@ class FellowshipPage extends Component {
         <React.Fragment>
           <div className="container-fluid">
             {/* <div className="container"> */}
-              <div className="row">
-                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                  <br />
-                  <h2>Coming Soon!</h2>
-                  <br />
-                  <br />
-                </div>
+            <div className="row">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <br />
+                <h2>Coming Soon!</h2>
+                <br />
+                <br />
               </div>
+            </div>
             {/* </div> */}
           </div>
 

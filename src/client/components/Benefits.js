@@ -95,7 +95,7 @@ class Benefits extends Component {
                 icon={icon7}
               />
               <div
-                className="row Benefit-Dimensions"
+                className="row smallHeightDem"
                 style={{ backgroundColor: this.props.color }}
               >
                 <div className="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6 Margin-Auto" />

@@ -4,6 +4,7 @@
 /* eslint-disable arrow-parens */
 import React, { Component } from 'react';
 import { compose, withProps } from 'recompose';
+// eslint-disable-next-line object-curly-newline
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 
 // eslint-disable-next-line quote-props
@@ -15,6 +16,13 @@ const stylesArr = [
       {
         saturation: '-100'
       }
+    ]
+  },
+  {
+    "featureType": "administrative",
+    "elementType": "geometry",
+    "stylers": [
+      { "visibility": "off" }
     ]
   },
   {
@@ -135,9 +143,9 @@ const stylesArr = [
 const MyMapComponent = compose(
   withProps({
     googleMapURL: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAkLcK1SfE1LKnS4Q3SvASYhtV67Avlp7M&callback=initMap',
-    loadingElement: <div style={{ height: '100%' }} />,
-    containerElement: <div style={{ height: '100%' }} />,
-    mapElement: <div style={{ height: '608px', width: '100%' }} />,
+    loadingElement: <div className="mapDem" />,
+    containerElement: <div className="mapDem" />,
+    mapElement: <div className="mapDem" />,
   }),
   withScriptjs,
   withGoogleMap

@@ -107,17 +107,22 @@
   .smallMargin {
     margin-top: 25px;
   }
+  .TimeOffIcon {
+    display:none;
+  }
+  .nav-bar-button {
+    margin-top:25px;
+    margin-bottom: 19px;
+    box-shadow: none;
+    outline: none;
+  }
+  .smallHeightDem {
+    height: 200px;
+  }
  }
 @media (max-width: 576px) {
-.TimeOffIcon {
-  display:none;
-}
-.nav-bar-button {
-  margin-top:25px;
-  margin-bottom: 19px;
-  box-shadow: none;
-  outline: none;
-}
+
+
 }
 @media (min-width: 576px) {
   :root {
@@ -126,6 +131,9 @@
     --mediumPixelSize: 20px;
     --largePixelSize: 36px;
     --giantPixelSize: 56px;
+  }
+  .mapDem {
+    height: 400px;
   }
   .TimeOffIcon {
     display:initial;
@@ -139,10 +147,21 @@
   .smallMargin {
     margin-top: 25px;
   }
+  .Benefit-Dimensions {
+    height: 350px;
+    /* display:inline-flex; */
+  }
+  .smallHeightDem {
+    height: 200px;
+  }
  }
  @media (max-width: 768px) { 
   .TimeOffIcon {
     display:none;
+  }
+  .Benefit-Dimensions {
+    height: 350px;
+    /* display:inline-flex; */
   }
  }
 @media (min-width: 768px) { 
@@ -156,7 +175,10 @@
   /* .TimeOffIcon {
     display:none;
   } */
-  
+  .Benefit-Dimensions {
+    height: 350px;
+    /* display:inline-flex; */
+  }
  }
 
 @media (min-width: 992px) { 
@@ -169,6 +191,14 @@
   }
   .row {
     max-width: 81.875rem;
+  }
+  .Benefit-Dimensions {
+    height: 400px;
+    /* display:inline-flex; */
+  }
+  .mapDem {
+    height: 608px;
+    width: 100%;
   }
  }
 
@@ -185,10 +215,7 @@
     /* max-width: 81.875rem; */
   }
  }
-.mapDem {
-  height: 608px;
-  width: 100%;
-}
+
 .logo {
   width: 91px;
   height: 39px;
@@ -612,9 +639,7 @@
   .Small-Screen-Title {
     display: inline;
   }
-  .Benefit-Dimensions {
-    height: 400px;
-  }
+  
   .Margin-Auto {
     margin: none;
     /* margin-left: 10%; */

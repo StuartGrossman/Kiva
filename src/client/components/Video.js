@@ -32,8 +32,7 @@ class Video extends Component {
                 </video> */}
                 <Plyr
                   type="vimeo"
-                  videoId="339484799"
-                  // src={KivaVideo}
+                  videoId="333230823"
                 />
                 {/* <iframe src="https://player.vimeo.com/video/339484799" width="100%" height="560" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe> */}
 
