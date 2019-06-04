@@ -1,3 +1,5 @@
+/* eslint-disable arrow-parens */
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable arrow-body-style */
 /* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable no-undef */
@@ -11,15 +13,12 @@ import React, { Component } from 'react';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // eslint-disable-next-line react/prefer-stateless-function
 class IndividualPosting extends Component {
-  renderIndividualJob = (data) => {
+  renderIndividualJob = data => {
     // console.log(data);
-    return (
-      data.map((item, index) => {
-        return (
-          <div
-            className=""
-            key={index}
-          >
+    return data.map((item, index) => {
+      return (
+        <div key={index}>
+          <div className="">
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 ">
                 <span>
@@ -34,23 +33,22 @@ class IndividualPosting extends Component {
                 </span>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 ">
-                <span>{item.location.name}</span>
+                <span className="JobLocationText">{item.location.name}</span>
               </div>
             </div>
-            <hr className="jobLine" />
-
           </div>
-        );
-      })
-    );
-  }
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+              <hr className="jobLine" />
+            </div>
+          </div>
+        </div>
+      );
+    });
+  };
 
   render() {
-    return (
-      <div>
-        {this.renderIndividualJob(this.props.data)}
-      </div>
-    );
+    return <div>{this.renderIndividualJob(this.props.data)}</div>;
   }
 }
 

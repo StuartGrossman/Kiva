@@ -51,7 +51,7 @@ class Footer extends Component {
             </div>
           </nav>
 
-          <nav className="siteFooter-nav large-footer show-for-large-up row">
+          <nav className="siteFooter-nav large-footer show-for-large-up rowFooter">
             <div className="small-3 column">
               <div className="siteFooter-borrow-group siteFooter-group">
                 <h1>Borrow</h1>
@@ -118,7 +118,7 @@ class Footer extends Component {
 
             <div className="small-3 column">
               <div className="-">
-                <h1>Get to know us</h1>
+                <h1 style={{ marginTop: '0px' }}>Get to know us</h1>
                 <ul className="siteFooter-links">
                   <li>
                     <a href="https://www.kiva.org/about" className="about_href">
@@ -179,7 +179,7 @@ class Footer extends Component {
               </div>
 
               <div className="siteFooter-community-group siteFooter-group">
-                <h1>Community</h1>
+                <h1 style={{ marginTop: '25px' }}>Community</h1>
                 <ul className="siteFooter-links">
                   <li>
                     <a href="https://www.kiva.org/teams" className="teams_href">

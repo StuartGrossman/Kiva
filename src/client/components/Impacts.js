@@ -9,12 +9,12 @@ class Impacts extends Component {
       <div className="grayBackground">
         <br />
         <br />
-        <div className="">
-          <div className="container-fluid">
+        <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h1 className="Big-ideas-big-impac">Big ideas, big impact.</h1>
-                <h4 className="We-make-a-difference">
+                <h4 className="We-make-a-difference ">
                   We make a difference in real people’s lives. And we do it
                   everyday. Here’s a snapshot of what we’re working on:
                 </h4>
@@ -33,7 +33,7 @@ class Impacts extends Component {
                 </div>
                 <div className="col-lg-2 col-md-2 Impacts-Middle-Col" />
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12 Margin-Auto">
-                  <h3 className="Big-Ideas-Small-Title-Text">
+                  <h3 className="Big-Ideas-Small-Title-Text  smallMargin">
                     Building Bright Futures
                   </h3>
 

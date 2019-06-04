@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
 /* eslint-disable lines-between-class-members */
 import React, { Component } from 'react';
 import IndividualBenefit from './IndividualBenefit';
@@ -37,7 +39,7 @@ class Benefits extends Component {
   render() {
     return (
       <div className="container-fluid">
-        {/* <div className="container"> */}
+        <div className="container">
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
               <h1 className="Benefits-Header">Let’s talk perks.</h1>
@@ -53,12 +55,14 @@ class Benefits extends Component {
                 benefit={this.benefitOne}
                 detail={this.detailOne}
                 icon={icon1}
+                
               />
               <IndividualBenefit
                 color="white"
                 benefit={this.benefitTwo}
                 detail={this.detailTwo}
                 icon={icon2}
+                customClass="TimeOffIcon"
               />
               <IndividualBenefit
                 color="#f6f6f6"
@@ -94,9 +98,9 @@ class Benefits extends Component {
                 className="row Benefit-Dimensions"
                 style={{ backgroundColor: this.props.color }}
               >
-                <div className="col-lg-2 col-md-2 col-sm-6 col-6 Margin-Auto" />
-                <div className="col-lg-2 col-md-2 col-sm-12 col-12 Margin-Auto" />
-                <div className="col-lg-8 col-md-8 col-sm-12 col-12 Margin-Auto">
+                <div className="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6 Margin-Auto" />
+                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 Margin-Auto" />
+                <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 Margin-Auto">
                   <p className="Benefit-Des">
                     *Benefits listed above may differ for roles based outside
                     the US.
@@ -105,7 +109,7 @@ class Benefits extends Component {
               </div>
             </div>
           </div>
-        {/* </div> */}
+        </div>
       </div>
     );
   }
