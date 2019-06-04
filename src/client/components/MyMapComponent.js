@@ -19,10 +19,10 @@ const stylesArr = [
     ]
   },
   {
-    "featureType": "administrative",
-    "elementType": "geometry",
-    "stylers": [
-      { "visibility": "off" }
+    featureType: 'administrative',
+    elementType: 'geometry',
+    stylers: [
+      { visibility: 'off' }
     ]
   },
   {
