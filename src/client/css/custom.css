@@ -454,6 +454,7 @@
 
 .jobLine {
   border: solid .5px var(--greyish-brown);
+  border-width: 0.5px;
 }
 
 .topLineJob {

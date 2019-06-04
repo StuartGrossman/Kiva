@@ -44,6 +44,7 @@
     "react-dom": "^16.5.2",
     "react-google-maps": "^9.4.5",
     "react-helmet": "^5.2.0",
+    "react-plyr": "^2.2.0",
     "recompose": "^0.30.0",
     "request": "^2.88.0",
     "style-loader": "^0.23.0",

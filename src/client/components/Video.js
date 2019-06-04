@@ -6,10 +6,11 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import { Player } from 'video-react';
-// import KivaVideo from '../videos/kiva.mp4';
+import KivaVideo from '../videos/kivaVideo.mp4';
 import VideoImage from '../videos/videoImage.png';
-import '../css/video.css';
-
+// import '../css/video.css';
+import '../css/plyr.css';
+import Plyr from 'react-plyr';
 
 class Video extends Component {
   render() {
@@ -22,13 +23,18 @@ class Video extends Component {
                 <h1 className="VideoTitle">
                   What’s life at Kiva like? This
                 </h1>
-                <video width="100%" height="100%" controls>
+                {/* <video width="100%" height="100%" controls id="player">
                   <source
-                    src="https://vimeo.com/339484799"
+                    src={KivaVideo}
                     type="video/mp4"
                   />
                   <source src="https://vimeo.com/339484799" type="video/ogg" />
-                </video>
+                </video> */}
+                <Plyr
+                  type="vimeo"
+                  videoId="339484799"
+                  // src={KivaVideo}
+                />
                 {/* <iframe src="https://player.vimeo.com/video/339484799" width="100%" height="560" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe> */}
 
                 {/* <Player
