@@ -174,5 +174,8 @@ h1{color:black!important;}
 .siteFooter{display:none!important;}
 }
 @media (min-width: 1200px) {
+    .rowFooter{margin:0 auto;max-width:68.875rem;width:100%;}
+}
+@media (min-width: 1500px) {
     .rowFooter{margin:0 auto;max-width:78.875rem;width:100%;}
 }

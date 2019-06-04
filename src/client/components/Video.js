@@ -22,19 +22,19 @@ class Video extends Component {
                 <h1 className="VideoTitle">
                   What’s life at Kiva like? This
                 </h1>
-                {/* <video width="100%" height="100%" controls>
+                <video width="100%" height="100%" controls>
                   <source
-                    src={KivaVideo}
+                    src="https://vimeo.com/339484799"
                     type="video/mp4"
                   />
-                  <source src="movie.ogg" type="video/ogg" />
-                </video> */}
+                  <source src="https://vimeo.com/339484799" type="video/ogg" />
+                </video>
                 {/* <iframe src="https://player.vimeo.com/video/339484799" width="100%" height="560" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe> */}
 
-                <Player
+                {/* <Player
                   poster={VideoImage}
                   src="https://vimeo.com/339484799"
-                />
+                /> */}
               </div>
             </div>
           </div>
