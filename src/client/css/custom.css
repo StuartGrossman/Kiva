@@ -104,9 +104,7 @@
   .mapDem {
     height: 400px;
   }
-  .smallMargin {
-    margin-top: 25px;
-  }
+  
   .TimeOffIcon {
     display:none;
   }
@@ -121,7 +119,7 @@
   }
  }
 @media (max-width: 576px) {
-
+  
 
 }
 @media (min-width: 576px) {
@@ -144,9 +142,7 @@
     box-shadow: none;
     outline: none;
   } */
-  .smallMargin {
-    margin-top: 25px;
-  }
+ 
   .Benefit-Dimensions {
     height: 350px;
     /* display:inline-flex; */
@@ -154,9 +150,10 @@
   .smallHeightDem {
     height: 200px;
   }
-  .MarginTopClass {
-    margin-top: 50px;
-  } 
+  .smallMargin {
+    margin-top: 25px;
+  }
+ 
  }
  @media (max-width: 768px) { 
   .TimeOffIcon {
@@ -190,7 +187,9 @@
     margin-bottom: 100px;
     margin-right: -10%;
   }
- 
+  .MarginTopClass {
+    margin-top: -8%;
+  } 
  }
 
 @media (min-width: 992px) { 
@@ -242,7 +241,10 @@
   .logo {
     width: 91px;
     height: 39px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
+  }
+  .FirstMarginTop {
+    margin-top: 30px;
   }
 }
 @media (max-width: 500.98px) {
@@ -270,7 +272,14 @@
     height: 100px;
     margin-left: 57px;
   }
- 
+  .logo {
+    width: 91px;
+    height: 39px;
+    margin-left: 78px;
+  }
+  .FirstMarginTop {
+    margin-top: 92px;
+  }
 } 
 @media (min-width: 768px) { 
   /* .navBarHeight{
@@ -321,11 +330,7 @@
   } */
  }
 
-.logo {
-  width: 91px;
-  height: 39px;
-  margin-left: 78px;
-}
+
 .nav-height {
   height: 109px;
 }

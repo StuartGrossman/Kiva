@@ -41,8 +41,6 @@ class Impacts extends Component {
                     $25 can go a long way. From farmers to students to
                     women-owned businesses, we crowdfund millions of dollars in
                     loans each week to help people change their lives.
-
-                
                   </p>
                 </div>
               </div>

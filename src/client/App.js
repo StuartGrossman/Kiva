@@ -25,8 +25,6 @@ class App extends Component {
       <React.Fragment>
         <NavBar changeToCareersPage={() => this.setState({ showCareersPage: false, showFellowshipPage: true })} changeToFellowshipPage={() => this.setState({ showCareersPage: true, showFellowshipPage: false })} />
         <Slider img1={Carousel1} img2={Carousel2} img3={Carousel3} />
-        <br />
-        <br />
         <FellowshipPage showPage={this.state.showFellowshipPage} />
         <CareersPage className="animated fadeIn" showPage={this.state.showCareersPage} />
         <Footer />

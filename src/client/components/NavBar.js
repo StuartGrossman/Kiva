@@ -37,7 +37,7 @@ class NavBar extends Component {
           <div>
             <ul className="nav navbar-nav navbar-right">
               <span className="nav-item">
-                <a className="nav-link aTagHighlight" style={{ fontSize: '20px', marginRight: '150px' }} onClick={this.props.changeToCareersPage}>Careers </a>
+                <a className="nav-link aTagHighlight" style={{ fontSize: '20px', marginRight: '100px' }} onClick={this.props.changeToCareersPage}>Careers </a>
 
               </span>
               <span className="nav-item">
