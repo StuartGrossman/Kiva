@@ -16,7 +16,7 @@ class Location extends Component {
             <div className="row">
               <div
                 className="col-lg-12 col-md-12 col-sm-12 col-12 "
-                style={{ marginTop: '121px', marginBottom: '132px' }}
+                style={{ marginTop: '100px', marginBottom: '132px' }}
               >
                 <h1 className="mapTitle">Global work. Global offices.</h1>
                 <div>
@@ -28,7 +28,7 @@ class Location extends Component {
                     Jose, Chicago, New York, Nairobi (Kenya), and Bangkok
                     (Thailand).
                   </p>
-                  <p className="We-hire">
+                  <p className="We-hire" style={{ marginBottom: '60px' }}>
                     We’re growing fast, so we’ll be opening new offices soon.
                     Hopefully near you!
                   </p>

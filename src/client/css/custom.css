@@ -119,7 +119,9 @@
   }
  }
 @media (max-width: 576px) {
-  
+  .smallMargin {
+    margin-top: 25px;
+  }
 
 }
 @media (min-width: 576px) {
@@ -150,9 +152,7 @@
   .smallHeightDem {
     height: 200px;
   }
-  .smallMargin {
-    margin-top: 25px;
-  }
+ 
  
  }
  @media (max-width: 768px) { 
@@ -188,10 +188,14 @@
     margin-right: -10%;
   }
   .MarginTopClass {
-    margin-top: -8%;
+    margin-top: -8.8%;
   } 
  }
-
+@media (max-width: 992px) { 
+  .FirstMarginTop {
+    margin-top: 50px;
+  }
+}
 @media (min-width: 992px) { 
   :root {
     --smallPixelSize: 16px;
@@ -215,6 +219,9 @@
     margin-left: 56px;
     margin-right: 33px;
 
+  }
+  .FirstMarginTop {
+    margin-top: 75px;
   }
  
  }
@@ -243,9 +250,7 @@
     height: 39px;
     /* margin-left: 60px; */
   }
-  .FirstMarginTop {
-    margin-top: 30px;
-  }
+ 
 }
 @media (max-width: 500.98px) {
   /* .nav-height {
@@ -277,9 +282,7 @@
     height: 39px;
     margin-left: 78px;
   }
-  .FirstMarginTop {
-    margin-top: 92px;
-  }
+  
 } 
 @media (min-width: 768px) { 
   /* .navBarHeight{

@@ -16,12 +16,7 @@ class CareersPage extends Component {
       <div className={this.props.showPage ? 'hidden' : ''}>
         <React.Fragment>
           <WhatIsKiva />
-          <br />
           <Video />
-          <br />
-          <br />
-          <br />
-          <br />
           <Impacts />
           <JobPostings />
           <OurMission />

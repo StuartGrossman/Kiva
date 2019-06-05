@@ -38,7 +38,7 @@ class Benefits extends Component {
   }
   render() {
     return (
-      <div className="container-fluid" style={{ marginTop: '117px' }}>
+      <div className="container-fluid" style={{ marginTop: '99px' }}>
         <div className="container">
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">

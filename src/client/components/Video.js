@@ -18,7 +18,7 @@ class Video extends Component {
       <div className="container-fluid">
         <div className="container">
           <div>
-            <div className="row">
+            <div className="row" style={{ marginBottom: '92px', marginTop: '60px' }}>
               <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h1 className="VideoTitle">
                   What’s life at Kiva like? This
