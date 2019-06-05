@@ -24,11 +24,8 @@ class CareersPage extends Component {
           <br />
           <Impacts />
           <JobPostings />
-          <br />
           <OurMission />
-          <br />
           <Benefits />
-          <br />
           <Location />
         </React.Fragment>
       </div>

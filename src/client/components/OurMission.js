@@ -13,7 +13,7 @@ class OurMission extends Component {
           <div className="container">
             <div className="row">
               <div className="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
-                <h1 style={{ marginTop: '60px' }} className="missionTitle">
+                <h1 style={{ marginTop: '81px' }} className="missionTitle">
                   See our mission in action.
                 </h1>
                 <p

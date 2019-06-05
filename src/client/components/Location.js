@@ -16,7 +16,7 @@ class Location extends Component {
             <div className="row">
               <div
                 className="col-lg-12 col-md-12 col-sm-12 col-12 "
-                style={{ marginTop: '60px', marginBottom: '60px' }}
+                style={{ marginTop: '121px', marginBottom: '132px' }}
               >
                 <h1 className="mapTitle">Global work. Global offices.</h1>
                 <div>
