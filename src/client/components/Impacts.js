@@ -34,13 +34,15 @@ class Impacts extends Component {
                 <div className="Impacts-Middle-Col" />
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12 Margin-Auto">
                   <h3 className="Big-Ideas-Small-Title-Text  smallMargin">
-                    Building Bright Futures
+                    Building Financial Infrastructure 
                   </h3>
 
                   <p className="Impact-Small-Text Impacts-Right-Text-Col">
                     $25 can go a long way. From farmers to students to
                     women-owned businesses, we crowdfund millions of dollars in
                     loans each week to help people change their lives.
+
+                
                   </p>
                 </div>
               </div>
@@ -48,14 +50,13 @@ class Impacts extends Component {
               <div className="row" style={{ marginBottom: '100px', marginLeft: '-10%' }}>
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12 Margin-Auto">
                   <h3 className="Big-Ideas-Small-Title-Text">
-                    Building Financial Infrastructure
+                    Building Bright Futures
                   </h3>
 
                   <p className="Impact-Small-Text">
-                    Blockchain isn’t just for cryptocurrency. We’re using it in
-                    Sierra Leone to help unbanked people get access to financial
-                    services. Our work is already serving as a model for other
-                    countries.
+                    $25 can go a long way. From farmers to students to
+                    women-owned businesses, we crowdfund millions of dollars in
+                    loans each week to help people change their lives.
                   </p>
                 </div>
                 <div className="" />
