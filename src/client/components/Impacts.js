@@ -23,7 +23,7 @@ class Impacts extends Component {
             </div>
 
             <div margin-top="15px;">
-              <div className="row" style={{ marginBottom: '100px' }}>
+              <div className="row" style={{ marginBottom: '100px',  marginRight: '-10%' }}>
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12">
                   <img
                     alt="placeHolderImage"
@@ -31,7 +31,7 @@ class Impacts extends Component {
                     src={image1}
                   />
                 </div>
-                <div className="col-lg-2 col-md-2 Impacts-Middle-Col" />
+                <div className="Impacts-Middle-Col" />
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12 Margin-Auto">
                   <h3 className="Big-Ideas-Small-Title-Text  smallMargin">
                     Building Bright Futures
@@ -45,7 +45,7 @@ class Impacts extends Component {
                 </div>
               </div>
 
-              <div className="row" style={{ marginBottom: "100px" }}>
+              <div className="row" style={{ marginBottom: '100px', marginLeft: '-10%' }}>
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12 Margin-Auto">
                   <h3 className="Big-Ideas-Small-Title-Text">
                     Building Financial Infrastructure
@@ -58,7 +58,7 @@ class Impacts extends Component {
                     countries.
                   </p>
                 </div>
-                <div className="col-lg-2 col-md-2" />
+                <div className="" />
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12">
                   <img
                     alt="placeHolderImage"

@@ -46,7 +46,7 @@ class JobPostings extends react.Component {
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
               <h2 className="Open-Positions" style={{ marginTop: '90px' }}>
-                OPEN POSITIONS
+                Open Positions
               </h2>
             </div>
           </div>

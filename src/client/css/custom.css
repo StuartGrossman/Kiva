@@ -200,6 +200,11 @@
     height: 608px;
     width: 100%;
   }
+  .Large-Screen-Icon{
+    margin-left: 56px;
+    margin-right: 33px;
+
+  }
  }
 
 
@@ -213,6 +218,92 @@
   }
   .row {
     /* max-width: 81.875rem; */
+  }
+ }
+
+ @media (min-width: 500.98px) {
+  .nav-height {
+    height: 100px;
+    margin-left: 40px;
+  }
+  .logo {
+    width: 91px;
+    height: 39px;
+    margin-left: 60px;
+  }
+}
+@media (max-width: 500.98px) {
+  .nav-height {
+    height: 100px;
+  }
+  .logo {
+    width: 91px;
+    height: 39px;
+    margin-left: 60px;
+  }
+
+}
+@media (min-width: 767.98px) {
+  .Benefit-Dimensions {
+    height: 168px;
+  }
+  .Hide-Icon {
+    display: none;
+  }
+  .Large-Screen-Icon{
+    
+  }
+  .nav-height {
+    height: 100px;
+    margin-left: 57px;
+  }
+} 
+@media (min-width: 768px) { 
+  .navBarHeight{
+    height: 109px;
+  }
+  .Large-Screen-Icon{
+    margin-left: 33%;
+    /* margin-right: 33px; */
+
+  }
+  .Large-Screen-Impact-Images {
+    /* height:  */
+  }
+}
+/* @media (min-width: 576px) {
+  .Benefit-Dimensions {
+    height: 400px;
+  }
+ 
+}  */
+@media (max-width: 768px) { 
+  .Benefit-Icons {
+    transform: scale(1, 1);
+    display: initial;
+  }
+  .Small-Screen-Title {
+    display: inline;
+  }
+  .TimeOffIcon {
+    height: 70px;
+    margin-left: 28%;
+    /* margin-right: 33px; */
+
+  }
+  .Margin-Auto {
+    margin: none;
+    /* margin-left: 10%; */
+  }
+  .Large-Screen-Icon{
+    display: none;
+  }
+  .Small-Screen-Margin{
+    margin-left:10%;
+    margin-right:10%;
+  }
+  .nav-height {
+    height: 109px;
   }
  }
 
@@ -421,8 +512,8 @@
   }
   .TimeOffIcon {
     height: 70px;
-    margin-left: 28px;
-    margin-right: 33px;
+    margin-left: 31%;
+    /* margin-right: 33px; */
 
   }
   .Impact-Images {
@@ -522,19 +613,22 @@
   font-size: var(--smallPixelSize);
   font-weight: normal;
   color: var(--greyish-brown);
+  font-family: KivaPostGrotBook
 }
 
 .Footer-Text {
     margin-top: 100px;
     margin-bottom: 100px;
     font-family: KivaPostGrotBold;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.8;
     letter-spacing: normal;
     color: var(--primary-green);
+    padding-left: 10%;
+    padding-right: 10%;
 } 
 
 /* .image-size @400px {
@@ -575,86 +669,6 @@
 .Benefit-Icons {
   height: 60px;
 } 
-
-@media (min-width: 500.98px) {
-  .nav-height {
-    height: 100px;
-    margin-left: 40px;
-  }
-  .logo {
-    width: 91px;
-    height: 39px;
-    margin-left: 60px;
-  }
-}
-@media (max-width: 500.98px) {
-  .nav-height {
-    height: 100px;
-  }
-  .logo {
-    width: 91px;
-    height: 39px;
-    margin-left: 60px;
-  }
-}
-@media (min-width: 767.98px) {
-  .Benefit-Dimensions {
-    height: 168px;
-  }
-  .Hide-Icon {
-    display: none;
-  }
-  .Large-Screen-Icon{
-    
-  }
-  .nav-height {
-    height: 100px;
-    margin-left: 57px;
-  }
-} 
-@media (min-width: 768px) { 
-  .navBarHeight{
-    height: 109px;
-  }
-  .Large-Screen-Icon{
-    margin-left: 33px;
-    margin-right: 33px;
-
-  }
-  .Large-Screen-Impact-Images {
-    /* height:  */
-  }
-}
-/* @media (min-width: 576px) {
-  .Benefit-Dimensions {
-    height: 400px;
-  }
- 
-}  */
-@media (max-width: 768px) { 
-  .Benefit-Icons {
-    transform: scale(1, 1);
-    display: initial;
-  }
-  .Small-Screen-Title {
-    display: inline;
-  }
-  
-  .Margin-Auto {
-    margin: none;
-    /* margin-left: 10%; */
-  }
-  .Large-Screen-Icon{
-    display: none;
-  }
-  .Small-Screen-Margin{
-    margin-left:10%;
-    margin-right:10%;
-  }
-  .nav-height {
-    height: 109px;
-  }
- }
 
  /* @media (min-width: 576px) { 
   .Large-Screen-Icon {
