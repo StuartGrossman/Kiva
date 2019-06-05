@@ -23,7 +23,7 @@ class Impacts extends Component {
             </div>
 
             <div margin-top="15px;">
-              <div className="row" style={{ marginBottom: '100px',  marginRight: '-10%' }}>
+              <div className="row ImpactClassRight">
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12">
                   <img
                     alt="placeHolderImage"
@@ -34,7 +34,7 @@ class Impacts extends Component {
                 <div className="Impacts-Middle-Col" />
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12 Margin-Auto">
                   <h3 className="Big-Ideas-Small-Title-Text  smallMargin">
-                    Building Financial Infrastructure 
+                    Building Financial Infrastructure
                   </h3>
 
                   <p className="Impact-Small-Text Impacts-Right-Text-Col">
@@ -47,7 +47,7 @@ class Impacts extends Component {
                 </div>
               </div>
 
-              <div className="row" style={{ marginBottom: '100px', marginLeft: '-10%' }}>
+              <div className="row ImpactClassLeft MarginTopClass">
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12 Margin-Auto">
                   <h3 className="Big-Ideas-Small-Title-Text">
                     Building Bright Futures
