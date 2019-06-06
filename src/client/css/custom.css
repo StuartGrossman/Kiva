@@ -276,6 +276,7 @@
     height: '850px'
   }
 }
+
 @media (max-width: 500.98px) {
   /* .nav-height {
     height: 100px;
@@ -397,6 +398,17 @@
     font-stretch: normal;
     line-height: 1.78;
     letter-spacing: normal;
+}
+.Check-out-our-open-p {
+  font-family: KivaPostGrotMedium;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #008af4;
 }
 .JobLocationText {
     font-family: KivaPostGrotBook;
@@ -755,4 +767,20 @@
   line-height: normal;
   letter-spacing: normal;
   color: var(--primary-green);
+}
+.As-a-long-time-Kiva {
+  margin-top: 25px;
+  font-family: KivaPostGrotBook;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+.typePerson {
+  font-size: 16px;
+  color: var(--primary-green);
+  margin-top: -5%;
 }

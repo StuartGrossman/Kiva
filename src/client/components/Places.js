@@ -20,7 +20,7 @@ class Places extends Component {
                 might feel you’re a better fit elsewhere. We’ll talk through
                 everything in the interview process though, so don’t worry.
               </p>
-              <p className="Kiva-fellows-are-bas">
+              <p className="Kiva-fellows-are-bas" style={{ marginTop: '30px' }}>
                 Wherever you end up, you’ll get around quite a bit. You’ll have
                 a “home base,” but fellows typically work with several field
                 partners in multiple countries. It’s a chance to grow, and a
