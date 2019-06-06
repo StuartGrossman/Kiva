@@ -18,7 +18,7 @@ class NavBar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light navBarHeight">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light navBarHeight navPadding">
         <img src={logo} alt="logo" className="logo" />
         <button
           className="navbar-toggler nav-bar-button"
@@ -33,7 +33,7 @@ class NavBar extends Component {
 
         </button>
 
-        <div className="collapse navbar-collapse nav-height" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse nav-height navBarCustomMargin" id="navbarSupportedContent">
           <div>
             <ul className="nav navbar-nav navbar-right">
               <span className="nav-item">

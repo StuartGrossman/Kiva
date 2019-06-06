@@ -2,29 +2,19 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import FellowshipProgram from './FellowShipProgram';
-import DomesticInternational from './DomesticInternational';
-import WhatWillIDo from './WhatIWillDo';
-import Location from './Location';
-
+import FellowShipSlider from './FellowShipSlider';
+import MakeADiffernce from './MakeADiffernce';
+import Fellows from './Fellows';
+import Places from './Places';
 class FellowshipPage extends Component {
   render() {
     return (
       <div className={this.props.showPage ? 'hidden' : ''}>
         <React.Fragment>
-          <div className="container-fluid">
-            {/* <div className="container"> */}
-            <div className="row">
-              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <br />
-                <h2>Coming Soon!</h2>
-                <br />
-                <br />
-              </div>
-            </div>
-            {/* </div> */}
-          </div>
-
+          <FellowShipSlider />
+          <MakeADiffernce />
+          <Fellows />
+          <Places />
           {/* <br />
           <FellowshipProgram />
           <br />

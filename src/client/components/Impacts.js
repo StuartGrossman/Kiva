@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import image1 from "../images/big-ideas-1.jpeg";
-import image2 from "../images/big-ideas-2.jpeg";
+import React, { Component } from 'react';
+import image1 from '../images/big-ideas-1.jpeg';
+import image2 from '../images/big-ideas-2.jpeg';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Impacts extends Component {
@@ -13,7 +13,7 @@ class Impacts extends Component {
           <div className="container">
             <div className="row">
               <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                <h1 className="Big-ideas-big-impac">Big ideas, big impact.</h1>
+                <h1 className="Big-ideas-big-impac ">Big ideas, big impact.</h1>
                 <h4 className="We-make-a-difference ">
                   We make a difference in real people’s lives. And we do it
                   everyday. Here’s a snapshot of what we’re working on:
@@ -33,7 +33,7 @@ class Impacts extends Component {
                 </div>
                 <div className="Impacts-Middle-Col" />
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12 Margin-Auto">
-                  <h3 className="Big-Ideas-Small-Title-Text  smallMargin">
+                  <h3 className="Big-Ideas-Small-Title-Text smallMargin">
                     Building Financial Infrastructure
                   </h3>
 
@@ -47,7 +47,7 @@ class Impacts extends Component {
 
               <div className="row ImpactClassLeft MarginTopClass">
                 <div className="col-lg-5 col-md-5 col-sm-12 col-12 Margin-Auto">
-                  <h3 className="Big-Ideas-Small-Title-Text">
+                  <h3 className="Big-Ideas-Small-Title-Text smallMargin">
                     Building Bright Futures
                   </h3>
 

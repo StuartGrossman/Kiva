@@ -119,10 +119,14 @@
   }
  }
 @media (max-width: 576px) {
-  .smallMargin {
-    margin-top: 25px;
+ 
+  :root {
+    --smallPixelSize: 16px;
+    --smallMedPixelSize: 18px;
+    --mediumPixelSize: 20px;
+    --largePixelSize: 36px;
+    --giantPixelSize: 40px;
   }
-
 }
 @media (min-width: 576px) {
   :root {
@@ -130,7 +134,7 @@
     --smallMedPixelSize: 18px;
     --mediumPixelSize: 20px;
     --largePixelSize: 36px;
-    --giantPixelSize: 56px;
+    --giantPixelSize: 54px;
   }
   .mapDem {
     height: 400px;
@@ -163,6 +167,9 @@
     height: 350px;
     /* display:inline-flex; */
   }
+  .smallMargin {
+    margin-top: 25px;
+  }
  }
 @media (min-width: 768px) { 
   :root {
@@ -188,12 +195,16 @@
     margin-right: -10%;
   }
   .MarginTopClass {
-    margin-top: -8.8%;
+    margin-top: -8%;
   } 
  }
 @media (max-width: 992px) { 
   .FirstMarginTop {
     margin-top: 50px;
+  }
+  .navPadding {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 @media (min-width: 992px) { 
@@ -223,7 +234,14 @@
   .FirstMarginTop {
     margin-top: 75px;
   }
- 
+  .logo {
+    width: 91px;
+    height: 39px;
+    margin-left: 50px;
+  }
+  .fellowsImage {
+    height: '638px'
+  }
  }
 
 
@@ -238,6 +256,7 @@
   .row {
     /* max-width: 81.875rem; */
   }
+  
  }
 
  @media (min-width: 500.98px) {
@@ -252,6 +271,11 @@
   }
  
 }
+@media (min-width: 1250px) { 
+  .fellowsImage {
+    height: '850px'
+  }
+}
 @media (max-width: 500.98px) {
   /* .nav-height {
     height: 100px;
@@ -259,7 +283,7 @@
   .logo {
     width: 91px;
     height: 39px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
   }
 
 }
@@ -277,11 +301,7 @@
     height: 100px;
     margin-left: 57px;
   }
-  .logo {
-    width: 91px;
-    height: 39px;
-    margin-left: 78px;
-  }
+  
   
 } 
 @media (min-width: 768px) { 
@@ -315,7 +335,6 @@
     height: 70px;
     margin-left: 28%;
     /* margin-right: 33px; */
-
   }
   .Margin-Auto {
     margin: none;
@@ -716,4 +735,24 @@
     line-height: 2;
     letter-spacing: normal;
     color: var(--greyish-brown);
+}
+.Kiva-fellows-are-bas {
+  font-family: KivaPostGrotBook;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+.New-Section-FPO-Titl {
+  font-family: KivaPostGrotBold;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--primary-green);
 }

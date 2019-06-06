@@ -11,9 +11,7 @@ import CareersPage from './components/CareersPage';
 import Footer from './components/Footer';
 import FellowshipPage from './components/FellowshipPage';
 import SliderImage from './images/image1.svg';
-import Carousel1 from './images/Carousel1.jpg';
-import Carousel2 from './images/Carousel2.jpg';
-import Carousel3 from './images/Carousel3.jpg';
+
 
 // import sliderImage1 from './images/Carousel1.jpg';
 
@@ -24,7 +22,6 @@ class App extends Component {
     return (
       <React.Fragment>
         <NavBar changeToCareersPage={() => this.setState({ showCareersPage: false, showFellowshipPage: true })} changeToFellowshipPage={() => this.setState({ showCareersPage: true, showFellowshipPage: false })} />
-        <Slider img1={Carousel1} img2={Carousel2} img3={Carousel3} />
         <FellowshipPage showPage={this.state.showFellowshipPage} />
         <CareersPage className="animated fadeIn" showPage={this.state.showCareersPage} />
         <Footer />

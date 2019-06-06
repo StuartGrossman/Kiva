@@ -173,6 +173,9 @@ h1{color:black!important;}
 .rowFooter{max-width:none;}
 .siteFooter{display:none!important;}
 }
+/* @media (min-width: 992px) {
+    .rowFooter{margin:0 auto;max-width:65.875rem;width:100%;}
+} */
 @media (min-width: 1200px) {
     .rowFooter{margin:0 auto;max-width:68.875rem;width:100%;}
 }

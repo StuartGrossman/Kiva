@@ -35,21 +35,6 @@ class WhatIsKiva extends Component {
                 positions.
                 </a>
               </p>
-              {/* <React.Fragment>
-                <br />
-
-                <div className="row">
-                  <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                    <HeaderText title={this.titleThree} desc={this.descThree} />
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                    <HeaderText title={this.titleTwo} desc={this.descTwo} />
-                  </div>
-                </div>
-                <br />
-
-                <HeaderText title={this.titleOne} desc={this.descOne} />
-              </React.Fragment> */}
             </div>
           </div>
         </div>
