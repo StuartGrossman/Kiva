@@ -53,6 +53,8 @@ yarn start (or npm start)
 
 ### Heroku Deployment 
 
+```bash
+
 # install heroku package on your local machine 
 npm install heroku -g
 
@@ -61,7 +63,7 @@ heroku create
 
 #push it to the new instance 
 git push heroku master 
-
+```
 
 
 
