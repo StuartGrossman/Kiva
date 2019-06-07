@@ -14,19 +14,30 @@ import React, { Component } from 'react';
 import downArrow from '../images/down-arrow.svg';
 import upArrow from '../images/up-arrow.svg';
 
+// function rotateSvg(){
+//     document.getElementById('arrowSVG').addEventListener('click', function() {
+//         this.classList.toggle('rotated');
+//       });
+// }
+// rotateSvg();
+
 class IndividualQA extends Component {
+   
+   rotateSVG = arrow => {
+       console.log(arrow)
+   } 
   renderIndividualQA = data => {
     // console.log(data);
     return data.map((item, index) => {
       return (
         <div key={index}>
           <div className="row">
-            <div className="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11">
+            <div className="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
               {item.Q}
             </div>
-            <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1">
-              <a data-toggle="collapse" href={`#QA${index}`}>
-                <img style={{ height: '30px' }} src={downArrow} />
+            <div className="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2">
+              <a data-toggle="collapse" href={`#QA${index}`} onClick={this.rotateSVG(`#QA${index}`)} id="arrowSVG">
+                <img style={{ height: '30px' }} src={downArrow}  />
               </a>
             </div>
           </div>
@@ -34,11 +45,11 @@ class IndividualQA extends Component {
             <div className="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11">
               {item.A}
             </div>
-            <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1">
+            {/* <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1">
               <a data-toggle="collapse" href={`#QA${index}`}>
                 <img style={{ height: '30px' }} src={upArrow} />
               </a>
-            </div>
+            </div> */}
           </div>
           <hr />
         </div>

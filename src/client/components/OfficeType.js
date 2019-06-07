@@ -41,6 +41,13 @@ class OfficeType extends Component {
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" />
           </div>
           <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <h1 className="New-Section-FPO-Titl">
+                We don’t have a type.
+              </h1>
+            </div>
+          </div>
+          <div className="row">
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 smallMarginTop">
               <img
                 src={Type1}

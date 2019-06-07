@@ -784,3 +784,10 @@
   color: var(--primary-green);
   margin-top: -5%;
 }
+.rotated {
+  transform: rotate(-180deg);
+}
+#arrowSVG {
+  display: inline-block;
+  transition: all 1s;
+}
