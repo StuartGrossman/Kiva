@@ -8,13 +8,12 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import logo from '../images/kiva_logo_green.png';
 
+
 class NavBar extends Component {
-  // eslint-disable-next-line no-useless-constructor
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
@@ -30,21 +29,33 @@ class NavBar extends Component {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon" />
-
         </button>
-
-        <div className="collapse navbar-collapse nav-height navBarCustomMargin" id="navbarSupportedContent">
+        <div
+          className="collapse navbar-collapse nav-height navBarCustomMargin"
+          id="navbarSupportedContent"
+        >
           <div>
             <ul className="nav navbar-nav navbar-right">
               <span className="nav-item">
-                <a className="nav-link aTagHighlight" style={{ fontSize: '20px', marginRight: '100px' }} onClick={this.props.changeToCareersPage}>Careers </a>
-
+                <Link style={{ textDecoration: 'none' }} to="/">
+                  <li
+                    className="nav-link aTagHighlight"
+                    style={{ fontSize: '20px', marginRight: '100px' }}
+                  >
+                    Careers
+                  </li>
+                </Link>
               </span>
               <span className="nav-item">
-                <a className="nav-link aTagHighlight" style={{ fontSize: '20px' }} onClick={this.props.changeToFellowshipPage}>Fellowship</a>
-
+                <Link style={{ textDecoration: 'none' }} to="/fellowship">
+                  <li
+                    className="nav-link aTagHighlight"
+                    style={{ fontSize: '20px' }}
+                  >
+                    Fellowship
+                  </li>
+                </Link>
               </span>
-           
             </ul>
           </div>
         </div>

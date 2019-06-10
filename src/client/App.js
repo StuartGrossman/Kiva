@@ -1,3 +1,5 @@
+/* eslint-disable react/prefer-stateless-function */
+/* eslint-disable react/jsx-boolean-value */
 /* eslint-disable max-len */
 /* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
@@ -5,25 +7,21 @@ import './css/app.css';
 import './css/bootstrap.css';
 import './css/animated.css';
 import './css/custom.css';
-import Slider from './components/Slider';
+import { Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import CareersPage from './components/CareersPage';
-import Footer from './components/Footer';
-import FellowshipPage from './components/FellowshipPage';
-import SliderImage from './images/image1.svg';
-
-
-// import sliderImage1 from './images/Carousel1.jpg';
+import CareersPage from './components/CareersPage/CareersPage';
+import Footer from './components/CareersPage/Footer';
+import FellowshipPage from './components/FellowshipPage/FellowshipPage';
 
 class App extends Component {
-  state = { showCareersPage: false, showFellowshipPage: true };
-
   render() {
     return (
       <React.Fragment>
-        <NavBar changeToCareersPage={() => this.setState({ showCareersPage: false, showFellowshipPage: true })} changeToFellowshipPage={() => this.setState({ showCareersPage: true, showFellowshipPage: false })} />
-        <FellowshipPage showPage={this.state.showFellowshipPage} />
-        <CareersPage className="animated fadeIn" showPage={this.state.showCareersPage} />
+        <NavBar />
+        <Switch>
+          <Route exact={true} path="/" component={CareersPage} />
+          <Route exact={true} path="/fellowship" component={FellowshipPage} />
+        </Switch>
         <Footer />
       </React.Fragment>
     );

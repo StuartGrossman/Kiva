@@ -93,33 +93,65 @@
     --text-link: #118aec;
     --white: #f6f6f6;
 } 
-@media (max-width: 576px) {
-  :root {
-    --smallPixelSize: 16px;
-    --smallMedPixelSize: 18px;
-    --mediumPixelSize: 20px;
-    --largePixelSize: 36px;
-    --giantPixelSize: 48px;
-  }
-  .mapDem {
-    height: 400px;
-  }
+@media (max-width: 375px) {
   
+  .FirstMarginTop {
+    margin-top: 25px;
+  }
+  .Benefit-Icons {
+    height: 60px;
+  }
+}
+@media (min-width: 375px) {
+  .Icon-Margins {
+    margin-left: none;
+  }
+  .Grow-Your-Mind {
+    margin-top: 14%;
+  }
   .TimeOffIcon {
-    display:none;
+    height: 70px;
+    /* margin-left: 8%;
+    margin-top: 35%; */
   }
-  /* .nav-bar-button {
-    margin-top:25px;
-    margin-bottom: 19px;
-    box-shadow: none;
-    outline: none;
-  } */
-  .smallHeightDem {
-    height: 200px;
+  .Benefit-Dimensions {
+    /* height: 400px; */
   }
- }
+  .Small-Screen-Icon {
+    margin-left: 7%;
+  }
+  .Iphone-Margin-Top {
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+  }
+  .Iphone-Margin-Title-Top {
+    margin-top: 15%;
+    margin-bottom: 10%;
+
+  }
+  .Iphone-Margin-Bottom {
+    margin-bottom: 10%;
+  }
+  .Margin-Auto {
+    margin: none;
+  }
+}
+@media (max-width: 500.98px) {
+  .FirstMarginTop {
+    margin-top: 25px;
+  }
+}
+@media (min-width: 500.98px) {
+  .Icon-Margins {
+    margin-left: auto;
+  }
+  .TimeOffIcon {
+    height: 70px;
+    margin-left: 45%;
+  }
+}
 @media (max-width: 576px) {
- 
   :root {
     --smallPixelSize: 16px;
     --smallMedPixelSize: 18px;
@@ -127,6 +159,25 @@
     --largePixelSize: 36px;
     --giantPixelSize: 40px;
   }
+  .largeScreenImage {
+    display: none;
+  }
+  .nav-item {
+    margin-left: 70%;
+  }
+  .mapDem {
+    height: 400px;
+  }
+  /* .TimeOffIcon {
+    display:none;
+  } */
+  .smallHeightDem {
+    height: 100px;
+  }
+  .FirstMarginTop {
+    margin-top: 25px;
+  }
+  
 }
 @media (min-width: 576px) {
   :root {
@@ -136,40 +187,77 @@
     --largePixelSize: 36px;
     --giantPixelSize: 54px;
   }
+  .Benefit-Icons {
+    height: 60px;
+  }
+  .Margin-Auto {
+    margin: auto;
+  }
+  .Benefit-Dimensions {
+    height: 300px;
+  }
+  .TimeOffIcon {
+    height: 70px;
+    margin-left: 16.5%;
+  }
+  .FirstMarginTop {
+    margin-top: 50px;
+  }
+  .smallScreenImage {
+    display:none;
+  }
   .mapDem {
     height: 400px;
   }
-  .TimeOffIcon {
-    display:initial;
+  .Icon-Margins {
+    margin-left: 20%;
   }
+  /* .TimeOffIcon {
+    display:initial;
+  } */
   /* .nav-bar-button {
     margin-top:25px;
     margin-bottom: 19px;
     box-shadow: none;
     outline: none;
   } */
- 
-  .Benefit-Dimensions {
-    height: 350px;
-    /* display:inline-flex; */
-  }
+  
   .smallHeightDem {
     height: 200px;
   }
- 
- 
  }
  @media (max-width: 768px) { 
-  .TimeOffIcon {
+ 
+  .Benefit-Icons {
+    transform: scale(1, 1);
+    display: initial;
+  }
+  .Small-Screen-Title {
+    display: inline;
+  }
+  /* .TimeOffIcon {
+    height: 70px;
+    margin-left: 28%;
+  } */
+  .Margin-Auto {
+    margin: none;
+  }
+  .Small-Screen-Margin{
+    margin-left:10%;
+    margin-right:10%;
+  }
+  /* .TimeOffIcon {
     display:none;
   }
-  .Benefit-Dimensions {
-    height: 350px;
-    /* display:inline-flex; */
-  }
+   */
   .smallMargin {
     margin-top: 25px;
   }
+  /* .TimeOffIcon {
+    height: 70px;
+    margin-left: 35.5%;
+  
+  } */
  }
 @media (min-width: 768px) { 
   :root {
@@ -179,13 +267,31 @@
     --largePixelSize: 36px;
     --giantPixelSize: 56px;
   }
-  /* .TimeOffIcon {
-    display:none;
-  } */
-  .Benefit-Dimensions {
-    height: 350px;
-    /* display:inline-flex; */
+  .Benefit-Icons {
+    height: 50px;
   }
+  .TimeOffIcon {
+    height: 55px;
+    margin-left: 28.5%;
+  }
+  .Benefit-Dimensions {
+    height: 168px;
+  }
+  .Hide-Icon {
+    display: none;
+  }
+  .Large-Screen-Icon{
+  }
+  .nav-height {
+    height: 100px;
+    margin-left: 57px;
+  }
+  .Large-Screen-Icon{
+    margin-left: 33%;
+  }
+  /* .Benefit-Dimensions {
+    height: 350px;
+  } */
   .ImpactClassLeft {
     margin-bottom: 100px;
     margin-left: -10%;
@@ -199,15 +305,24 @@
   } 
  }
 @media (max-width: 992px) { 
-  .FirstMarginTop {
-    margin-top: 50px;
+  .logo {
+    width: 91px;
+    height: 39px;
   }
   .navPadding {
     padding-top: 25px;
     padding-bottom: 25px;
   }
+  .Large-Screen-Icon{
+    display: none;
+  }
+  .nav-item {
+    margin-left: 72%;
+  }
 }
 @media (min-width: 992px) { 
+  
+
   :root {
     --smallPixelSize: 16px;
     --smallMedPixelSize: 18px;
@@ -215,21 +330,27 @@
     --largePixelSize: 36px;
     --giantPixelSize: 56px;
   }
+  .Benefit-Icons {
+    height: 60px;
+  } 
+  .TimeOffIcon {
+    height: 70px;
+    margin-left: 30.5%;
+  
+  }
   .row {
     max-width: 81.875rem;
   }
   .Benefit-Dimensions {
-    height: 400px;
-    /* display:inline-flex; */
+    height: 250px;
   }
   .mapDem {
     height: 608px;
     width: 100%;
   }
   .Large-Screen-Icon{
-    margin-left: 56px;
-    margin-right: 33px;
-
+    margin-left: 33%;
+    /* margin-right: 33px; */
   }
   .FirstMarginTop {
     margin-top: 75px;
@@ -242,9 +363,7 @@
   .fellowsImage {
     height: '638px'
   }
- }
-
-
+}
 @media (min-width: 1200px) { 
   :root {
     --smallPixelSize: 18px;
@@ -253,130 +372,41 @@
     --largePixelSize: 36px;
     --giantPixelSize: 56px;
   }
-  .row {
-    /* max-width: 81.875rem; */
-  }
-  
  }
-
- @media (min-width: 500.98px) {
-  /* .nav-height {
-    height: 100px;
-    margin-left: 40px;
-  } */
-  .logo {
-    width: 91px;
-    height: 39px;
-    /* margin-left: 60px; */
-  }
- 
-}
 @media (min-width: 1250px) { 
   .fellowsImage {
     height: '850px'
   }
-}
-
-@media (max-width: 500.98px) {
-  /* .nav-height {
-    height: 100px;
-  } */
-  .logo {
-    width: 91px;
-    height: 39px;
-    /* margin-left: 60px; */
-  }
-
-}
-@media (min-width: 767.98px) {
-  .Benefit-Dimensions {
-    height: 168px;
-  }
-  .Hide-Icon {
-    display: none;
-  }
-  .Large-Screen-Icon{
-    
-  }
-  .nav-height {
-    height: 100px;
-    margin-left: 57px;
-  }
-  
-  
-} 
-@media (min-width: 768px) { 
-  /* .navBarHeight{
-    height: 109px;
-  } */
-  .Large-Screen-Icon{
-    margin-left: 33%;
-    /* margin-right: 33px; */
-
-  }
-  .Large-Screen-Impact-Images {
-    /* height:  */
-  }
-}
-/* @media (min-width: 576px) {
-  .Benefit-Dimensions {
-    height: 400px;
-  }
- 
-}  */
-@media (max-width: 768px) { 
-  .Benefit-Icons {
-    transform: scale(1, 1);
-    display: initial;
-  }
-  .Small-Screen-Title {
-    display: inline;
-  }
   .TimeOffIcon {
     height: 70px;
-    margin-left: 28%;
-    /* margin-right: 33px; */
+    margin-left: 30.19%;
+  
   }
-  .Margin-Auto {
-    margin: none;
-    /* margin-left: 10%; */
-  }
-  .Large-Screen-Icon{
-    display: none;
-  }
-  .Small-Screen-Margin{
-    margin-left:10%;
-    margin-right:10%;
-  }
-  /* .nav-height {
-    height: 109px;
-  } */
- }
+}
 
-
+.Large-Screen-Icon{
+  display: block !important;
+}
+.Footer-Text {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: KivaPostGrotBold;
+  font-size: var(--mediumPixelSize);
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  color: var(--primary-green);
+  padding-left: 10%;
+  padding-right: 10%;
+} 
 .nav-height {
   height: 109px;
 }
 .slider-image-height {
   height: 782px;
-  /* add media query  */
 }
-
-/* .nav-bar-button {
-  margin-top: 27px;
-  box-shadow: none;
-  outline: none;
-} */
-/* @media (max-width: 768px) { 
-  .Carousel-Hight{
-    height: 464px;
-  }
-}
-@media (max-width: 769px) { 
-  .Carousel-Hight{
-    height: 600px;
-  }
-} */
 .Change-the-world-Do {
   font-family: KivaPostGrotBold;
   font-size: var(--giantPixelSize);
@@ -387,17 +417,30 @@
   letter-spacing: normal;
   color: var(--primary-green);
 } 
-
+.Footer-Text {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: KivaPostGrotBold;
+  font-size: var(--smallMedPixelSize);
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  color: var(--primary-green);
+  padding-left: 10%;
+  padding-right: 10%;
+} 
 .JobLinkText {
-    font-weight: bold;
-    color: var(--text-link);
-    font-family: KivaPostGrotMedium;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.78;
-    letter-spacing: normal;
+  font-weight: bold;
+  color: var(--text-link);
+  font-family: KivaPostGrotMedium;
+  font-size: var(--smallPixelSizex);
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
 }
 .Check-out-our-open-p {
   font-family: KivaPostGrotMedium;
@@ -411,43 +454,100 @@
   color: #008af4;
 }
 .JobLocationText {
-    font-family: KivaPostGrotBook;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    color: var(--greyish-brown);
+  font-family: KivaPostGrotBook;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
 } 
-
 .VideoTitle {
-    font-family: KivaPostGrotBold;
-    font-size: var(--largePixelSize);
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: var(--primary-green);
+  font-family: KivaPostGrotBold;
+  font-size: var(--largePixelSize);
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--primary-green);
 }
 .Open-Positions {
-    /* width: 932px; */
-    /* height: 57px; */
-    font-family: KivaPostGrotBold;
-    font-size: var(--largePixelSize);
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color:var(--primary-green);
-  }
+  /* width: 932px; */
+  /* height: 57px; */
+  font-family: KivaPostGrotBold;
+  font-size: var(--largePixelSize);
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color:var(--primary-green);
+}
+.JobCatTitle {
+  /* width: 909px; */
+  /* height: 32px; */
+  font-family: KivaPostGrotBold;
+  font-size: var(--mediumPixelSize);
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: var(--primary-green);
+}
 
-  .JobCatTitle {
-    /* width: 909px; */
-    /* height: 32px; */
-    font-family: KivaPostGrotBold;
+.Role {
+  /* width: 31px; */
+  /* height: 32px; */
+  font-family: KivaPostGrotBook;
+  font-size: var(--smallPixelSize);
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+.Location {
+  width: 61px;
+  height: 32px;
+  font-family: KivaPostGrotBook;
+  font-size: var(--smallPixelSize);
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+.IndividualPostingTitle {
+  /* width: 338px;
+  height: 32px; */
+  font-family: KivaPostGrot;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: var(--text-link);
+}
+.JobCatDes {
+  /* width: 1037px; */
+  /* height: 64px; */
+  font-family: KivaPostGrotBook;
+  font-size: var(--smallPixelSize);
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+.Volunteer-Op {
+    font-family:  KivaPostGrotBold;
     font-size: var(--mediumPixelSize);
     font-weight: bold;
     font-style: normal;
@@ -455,133 +555,58 @@
     line-height: 1.9;
     letter-spacing: normal;
     color: var(--primary-green);
-  }
+}
+.Volunteer-Text {
+  font-family: KivaPostGrotBook;
+  font-size: var(--smallPixelSize);
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+.Big-ideas-big-impac {
+  /* width: 932px; */
+  /* height: var(--largePixelSize); */
+  font-family: KivaPostGrotBold;
+  font-size: var(--largePixelSize);
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--primary-green);
+}
+.Big-Ideas-Small-Title-Text {
+  font-family: KivaPostGrotBold;
+  font-size: var(--mediumPixelSize);
+  font-weight: bold;
+  color: var(--primary-green);
+}
+.Impact-Small-Text {
+  font-family: KivaPostGrotBook;
+  font-size: var(--smallPixelSize);
+  font-weight: bold;
+  color: var(--greyish-brown);
+}
+.We-make-a-difference {
+  /* width: 1091px; */
+  /* height: 35px; */
+  font-family: KivaPostGrotBook;
+  font-size: var(--smallPixelSize);
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5d5d5d;
+}
 
-  .Role {
-    /* width: 31px; */
-    /* height: 32px; */
-    font-family: KivaPostGrotBook;
-    font-size: var(--smallPixelSize);
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    color: var(--greyish-brown);
-  }
-  .Location {
-    width: 61px;
-    height: 32px;
-    font-family: KivaPostGrotBook;
-    font-size: var(--smallPixelSize);
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    color: var(--greyish-brown);
-  }
-
-  .IndividualPostingTitle {
-    /* width: 338px;
-    height: 32px; */
-    font-family: KivaPostGrot;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.78;
-    letter-spacing: normal;
-    color: var(--text-link);
-  }
-
-  .JobCatDes {
-    /* width: 1037px; */
-    /* height: 64px; */
-    font-family: KivaPostGrotBook;
-    font-size: var(--smallPixelSize);
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    color: var(--greyish-brown);
-  }
-  .Volunteer-Op {
-      font-family:  KivaPostGrotBold;
-      font-size: var(--mediumPixelSize);
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.9;
-      letter-spacing: normal;
-      color: var(--primary-green);
-  }
-  .Volunteer-Text {
-    font-family: KivaPostGrotBook;
-    font-size: var(--smallPixelSize);
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    color: var(--greyish-brown);
-  }
-  .Big-ideas-big-impac {
-    /* width: 932px; */
-    /* height: var(--largePixelSize); */
-    font-family: KivaPostGrotBold;
-    font-size: var(--largePixelSize);
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: var(--primary-green);
-  }
-  .Big-Ideas-Small-Title-Text {
-    font-family: KivaPostGrotBold;
-    font-size: var(--mediumPixelSize);
-    font-weight: bold;
-    color: var(--primary-green);
-  }
-  .Impact-Small-Text {
-    font-family: KivaPostGrotBook;
-    font-size: var(--smallPixelSize);
-    font-weight: bold;
-    color: var(--greyish-brown);
-  }
-  .We-make-a-difference {
-    /* width: 1091px; */
-    /* height: 35px; */
-    font-family: KivaPostGrotBook;
-    font-size: var(--smallPixelSize);
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #5d5d5d;
-  }
-  .TimeOffIcon {
-    height: 70px;
-    margin-left: 31%;
-    /* margin-right: 33px; */
-
-  }
-  .Impact-Images {
-    width: 100%;
-    /* height: 100%; */
-  }
-
-  /* .img {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   margin-top: -50%;
-   margin-left: -50%; 
-} */
-
+.Impact-Images {
+  width: 100%;
+  /* height: 100%; */
+}
 .icon-svgs {
   width: 63px;
   height: 42px;
@@ -598,7 +623,6 @@
 
  }
  .We-hire {
-
   font-family: KivaPostGrotBook;
   font-size: var(--smallPixelSize);
   font-weight: normal;
@@ -622,7 +646,6 @@
     letter-spacing: normal;
     color: #5d5d5d;
 }
-
 .jobLine {
   border: solid .5px var(--greyish-brown);
   border-width: 0.5px;
@@ -669,36 +692,6 @@
   font-family: KivaPostGrotBook
 }
 
-.Footer-Text {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    font-family: KivaPostGrotBold;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.8;
-    letter-spacing: normal;
-    color: var(--primary-green);
-    padding-left: 10%;
-    padding-right: 10%;
-} 
-
-/* .image-size @400px {
-
-} */
-.Impacts-Middle-Col {
-  /* flex :0 0 1.666667% */
-}
-.Impacts-Right-Text-Col {
-  /* flex :0 0 44.666667%;
-  max-width: 49.666667%; */
-}
-
-.Margin-Auto {
-  margin: auto;
-}
-
 .Benefit-Des {
     font-family: KivaPostGrotBook;
     font-size: var(--smallPixelSize);
@@ -719,15 +712,7 @@
     letter-spacing: normal;
     color: #696969;
 }
-.Benefit-Icons {
-  height: 60px;
-} 
 
- /* @media (min-width: 576px) { 
-  .Large-Screen-Icon {
-    display: none;
-  }
- } */
 .Benefits-Header {
     font-family: KivaPostGrotBold;
     font-size: var(--largePixelSize);
@@ -780,6 +765,7 @@
   color: var(--greyish-brown);
 }
 .typePerson {
+  font-family: KivaPostGrotMedium;
   font-size: 16px;
   color: var(--primary-green);
   margin-top: -5%;
@@ -790,4 +776,12 @@
 #arrowSVG {
   display: inline-block;
   transition: all 1s;
+}
+.Question {
+font-size: 16px;
+font-family: KivaPostGrotMedium;
+}
+.boxhead {
+  color: #FFFFFF;
+  text-decoration: none;
 }
