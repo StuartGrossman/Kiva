@@ -1,3 +1,4 @@
+/* eslint-disable no-shadow */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-plusplus */
 /* eslint-disable guard-for-in */
@@ -11,7 +12,8 @@ const request = require('request');
 const path = require('path');
 
 const app = express();
-// app.get('*', (req, res) => res.sendFile(path.resolve('dist', 'index.html')));
 app.use(express.static('dist'));
-
+app.get('*', (request, response) => {
+  response.sendFile(path.join(__dirname, 'dist', 'index.html'));
+});
 app.listen(process.env.PORT || 8080, () => console.log(`Listening on port ${process.env.PORT || 8080}!`));
