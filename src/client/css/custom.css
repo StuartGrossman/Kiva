@@ -111,13 +111,21 @@
     .Impacts-Large-Screen {
         display: none;
     }
+    .Benefit-Icons {
+        height: 80px;
+    }
 
     .Icon-Margins {
         margin-left: none;
     }
 
     .Grow-Your-Mind {
-        margin-top: 14%;
+        margin: auto;
+        padding-left: 51px;
+        /* margin-top: 19%; */
+        /* margin-bottom: 10%;
+        margin-left: 10%; */
+        /* margin-right: 1%; */
     }
 
     .TimeOffIcon {
@@ -134,8 +142,12 @@
     }
 
     .Iphone-Margin-Title-Top {
-        margin-top: 15%;
+        margin-top: 19%;
         margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 3%;
+
+
     }
 
     .Iphone-Margin-Bottom {
@@ -159,12 +171,12 @@
     }
 
     .Benefit-Icons {
-        height: 60px;
+        height: 80px;
     }
 
     .TimeOffIcon {
-        height: 70px;
-        margin-left: 45%;
+        height: 101px;
+        margin-left: -11%;
     }
 }
 
@@ -176,7 +188,26 @@
         --largePixelSize: 36px;
         --giantPixelSize: 40px;
     }
+    .Margin-Auto {
+        margin: none;
+    }
+    .Small-Screen-Icon {
+        margin-left: 7%;
+    }
 
+    .Iphone-Margin-Top {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .Iphone-Margin-Title-Top {
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+
+    .Iphone-Margin-Bottom {
+        margin-bottom: 10%;
+    }
     .largeScreenImage {
         display: none;
     }
@@ -212,7 +243,7 @@
     }
 
     .Benefit-Icons {
-        height: 60px;
+        height: 80px;
     }
 
     .Margin-Auto {
@@ -220,11 +251,11 @@
     }
 
     .Benefit-Dimensions {
-        height: 300px;
+        height: 315px;
     }
 
     .TimeOffIcon {
-        height: 70px;
+        height: 105px;
         margin-left: 16.5%;
     }
 
@@ -241,7 +272,7 @@
     }
 
     .Icon-Margins {
-        margin-left: 20%;
+        margin-left: 25%;
     }
 
     .smallHeightDem {
@@ -366,12 +397,12 @@
     }
 
     .Benefit-Icons {
-        height: 60px;
+        height: 90px;
     }
 
     .TimeOffIcon {
-        height: 70px;
-        margin-left: 30.5%;
+        height: 105px;
+        margin-left: 21%;
 
     }
 
@@ -389,7 +420,7 @@
     }
 
     .Large-Screen-Icon {
-        margin-left: 33%;
+        margin-left: 25%;
         /* margin-right: 33px; */
     }
 
@@ -424,8 +455,8 @@
     }
 
     .TimeOffIcon {
-        height: 70px;
-        margin-left: 30.19%;
+        height: 105px;
+        margin-left: 21%;
     }
 }
 

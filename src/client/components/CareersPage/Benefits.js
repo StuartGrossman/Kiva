@@ -81,7 +81,7 @@ class Benefits extends Component {
                 benefit={this.benefitFive}
                 detail={this.detailFive}
                 icon={icon5}
-                customClass="Grow-Your-Mind"
+                customClass2="Grow-Your-Mind"
               />
               <IndividualBenefit
                 color="#white"
