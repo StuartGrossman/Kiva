@@ -11,7 +11,7 @@ const request = require('request');
 const path = require('path');
 
 const app = express();
-app.get('*', (req, res) => res.sendFile(path.resolve('dist', 'index.html')));
+// app.get('*', (req, res) => res.sendFile(path.resolve('dist', 'index.html')));
 app.use(express.static('dist'));
 
 app.listen(process.env.PORT || 8080, () => console.log(`Listening on port ${process.env.PORT || 8080}!`));
