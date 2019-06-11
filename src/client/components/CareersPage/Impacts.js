@@ -7,6 +7,7 @@ class Impacts extends Component {
   render() {
     return (
       <div>
+        {/* LARGE SCREEN IMPACT HTML */}
         <div className="grayBackground Impacts-Large-Screen">
           <br />
           <br />
@@ -72,6 +73,7 @@ class Impacts extends Component {
             </div>
           </div>
         </div>
+        {/* SMALL SCREEN IMPACT HTML */}
         <div className="grayBackground Impacts-Small-Screen">
           <br />
           <br />
