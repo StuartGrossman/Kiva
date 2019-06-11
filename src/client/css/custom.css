@@ -464,7 +464,7 @@
     display: block !important;
 }
 
-.Footer-Text {
+/* .Footer-Text {
     margin-top: 100px;
     margin-bottom: 100px;
     font-family: KivaPostGrotBold;
@@ -477,7 +477,7 @@
     color: var(--primary-green);
     padding-left: 10%;
     padding-right: 10%;
-}
+} */
 
 .nav-height {
     height: 109px;
@@ -509,8 +509,8 @@
     line-height: 1.8;
     letter-spacing: normal;
     color: var(--primary-green);
-    padding-left: 10%;
-    padding-right: 10%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
 }
 
 .JobLinkText {
