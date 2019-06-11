@@ -8,7 +8,7 @@
 const express = require('express');
 const os = require('os');
 const request = require('request');
-
+const path = require('path'); 
 const app = express();
 app.get('*', (req, res) => res.sendFile(path.resolve('build', 'index.html')));
 app.use(express.static('dist'));
