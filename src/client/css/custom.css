@@ -103,6 +103,9 @@
   }
 }
 @media (min-width: 375px) {
+  .Impacts-Large-Screen {
+    display: none;
+  }
   .Icon-Margins {
     margin-left: none;
   }
@@ -142,9 +145,12 @@
     margin-top: 25px;
   }
 }
-@media (min-width: 500.98px) {
+@media (min-width: 500px) {
   .Icon-Margins {
     margin-left: auto;
+  }
+  .Benefit-Icons {
+    height: 60px;
   }
   .TimeOffIcon {
     height: 70px;
@@ -162,6 +168,9 @@
   .largeScreenImage {
     display: none;
   }
+  .Impacts-Small-Screen {
+    display: block;
+  }
   .nav-item {
     margin-left: 70%;
   }
@@ -177,7 +186,7 @@
   .FirstMarginTop {
     margin-top: 25px;
   }
-  
+ 
 }
 @media (min-width: 576px) {
   :root {
@@ -187,6 +196,7 @@
     --largePixelSize: 36px;
     --giantPixelSize: 54px;
   }
+ 
   .Benefit-Icons {
     height: 60px;
   }
@@ -206,6 +216,7 @@
   .smallScreenImage {
     display:none;
   }
+  
   .mapDem {
     height: 400px;
   }
@@ -302,7 +313,13 @@
   }
   .MarginTopClass {
     margin-top: -8%;
-  } 
+  }
+  .Impacts-Large-Screen {
+    display: block;
+  }
+  .Impacts-Small-Screen {
+    display: none;
+  }  
  }
 @media (max-width: 992px) { 
   .logo {

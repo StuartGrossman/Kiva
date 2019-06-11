@@ -1,9 +1,12 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-// import SliderImage from '../images/image1.svg';
-import Carousel1 from '../../images/Carousel2-1.jpeg';
-import Carousel2 from '../../images/Carousel2-2.jpeg';
-import Carousel3 from '../../images/Carousel2-3.jpeg';
+import Image from 'react-graceful-image';
+import Carousel1 from '../../images/Carousel2-1.jpg';
+import Carousel2 from '../../images/Carousel2-2.jpg';
+import Carousel3 from '../../images/Carousel2-3.jpg';
+import SmallCarousel1 from '../../images/SmallCarousel2-1.jpg';
+import SmallCarousel2 from '../../images/SmallCarousel2-2.jpg';
+import SmallCarousel3 from '../../images/SmallCarousel2-3.jpg';
 
 class OurMission extends Component {
   render() {
@@ -45,24 +48,39 @@ class OurMission extends Component {
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img
-                className="d-block w-100"
+              <Image
+                className="largeScreenImage w-100"
                 src={Carousel1}
+                alt="First slide"
+              />
+              <Image
+                className="smallScreenImage w-100"
+                src={SmallCarousel1}
                 alt="First slide"
               />
             </div>
             <div className="carousel-item">
-              <img
-                className="d-block w-100"
+              <Image
+                className="largeScreenImage w-100"
                 src={Carousel2}
                 alt="Second slide"
               />
+              <Image
+                className="smallScreenImage w-100"
+                src={SmallCarousel2}
+                alt="First slide"
+              />
             </div>
             <div className="carousel-item">
-              <img
-                className="d-block w-100"
+              <Image
+                className="largeScreenImage w-100"
                 src={Carousel3}
                 alt="Third slide"
+              />
+              <Image
+                className="smallScreenImage w-100"
+                src={SmallCarousel3}
+                alt="First slide"
               />
             </div>
           </div>

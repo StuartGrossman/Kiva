@@ -4,7 +4,9 @@ import Image from 'react-graceful-image';
 import Carousel1 from '../../images/Carousel3-1.jpg';
 import Carousel2 from '../../images/Carousel3-2.jpg';
 import Carousel3 from '../../images/Carousel3-3.jpg';
-
+import SmallCarousel1 from '../../images/SmallCarousel3-1.jpg';
+import SmallCarousel2 from '../../images/SmallCarousel3-2.jpg';
+import SmallCarousel3 from '../../images/SmallCarousel3-3.jpg';
 class FellowShipSlider extends Component {
   render() {
     return (
@@ -26,22 +28,37 @@ class FellowShipSlider extends Component {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <Image
-                className="d-block w-100"
+                className="largeScreenImage w-100"
                 src={Carousel1}
                 alt="My awesome image"
               />
-            </div>
-            <div className="carousel-item">
               <Image
-                className="d-block w-100"
-                src={Carousel2}
+                className="smallScreenImage w-100"
+                src={SmallCarousel1}
                 alt="My awesome image"
               />
             </div>
             <div className="carousel-item">
               <Image
-                className="d-block w-100"
+                className="largeScreenImage w-100"
+                src={Carousel2}
+                alt="My awesome image"
+              />
+              <Image
+                className="smallScreenImage w-100"
+                src={SmallCarousel2}
+                alt="My awesome image"
+              />
+            </div>
+            <div className="carousel-item">
+              <Image
+                className="largeScreenImage w-100"
                 src={Carousel3}
+                alt="My awesome image"
+              />
+              <Image
+                className="smallScreenImage w-100"
+                src={SmallCarousel3}
                 alt="My awesome image"
               />
             </div>
