@@ -41,10 +41,11 @@ class Impacts extends Component {
                       Building Financial Infrastructure
                     </h3>
                     <p className="Impact-Small-Text Impacts-Right-Text-Col">
-                      $25 can go a long way. From farmers to students to
-                      women-owned businesses, we crowdfund millions of
-                      dollars in loans each week to help people change their
-                      lives.
+                      Building Financial Infrastructure Blockchain isn’t
+                      just for cryptocurrency. We’re using it in Sierra
+                      Leone to help unbanked people get access to financial
+                      services. Our work is already serving as a model for
+                      other countries.
                     </p>
                   </div>
                 </div>
