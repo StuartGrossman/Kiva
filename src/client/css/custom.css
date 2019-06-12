@@ -125,7 +125,7 @@
     }
 
     .TimeOffIcon {
-        height: 95px;
+        height: 80px;
     }
 
     .Small-Screen-Icon {
@@ -142,8 +142,6 @@
         margin-bottom: 10%;
         margin-left: 10%;
         margin-right: 3%;
-
-
     }
 
     .Iphone-Margin-Bottom {
@@ -171,8 +169,8 @@
     }
 
     .TimeOffIcon {
-        height: 101px;
-        margin-left: -11%;
+        height: 80px;
+        /* margin-left: -11%; */
     }
 }
 
@@ -255,8 +253,8 @@
     }
 
     .TimeOffIcon {
-        height: 105px;
-        margin-left: 16.5%;
+        height: 80px;
+        margin-left: 7%;
     }
 
     .FirstMarginTop {
@@ -321,8 +319,8 @@
     }
 
     .TimeOffIcon {
-        height: 55px;
-        margin-left: 28.5%;
+        height: 50px;
+        margin-left: 33%;
     }
 
     .Benefit-Dimensions {
@@ -404,8 +402,8 @@
     }
 
     .TimeOffIcon {
-        height: 105px;
-        margin-left: 21%;
+        height: 90px;
+        margin-left: 25%;
 
     }
 
@@ -458,8 +456,9 @@
     }
 
     .TimeOffIcon {
-        height: 105px;
-        margin-left: 21%;
+        height: 90px;
+        margin-left: 25%;
+        /* margin:auto; */
     }
 }
 
