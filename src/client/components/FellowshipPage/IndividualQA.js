@@ -42,7 +42,6 @@ class IndividualQA extends Component {
   };
   arrowOrientation = (state) => {
     const prefix = 'rotated';
-    console.log(state)
     switch (state) {
       case null:
         return prefix;
