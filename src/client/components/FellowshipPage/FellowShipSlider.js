@@ -27,7 +27,7 @@ class FellowShipSlider extends Component {
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img
+              <Image
                 className="largeScreenImage w-100"
                 src={Carousel1}
                 alt="My awesome image"

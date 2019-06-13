@@ -31,10 +31,10 @@ class Places extends Component {
           </div>
           <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 smallMarginTop">
-              <Image src={Places1} className="img-fluid" style={{ height: '100%', width: '100%' }} />
+              <img src={Places1} className="img-fluid" style={{ height: '100%', width: '100%' }} />
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 smallMarginTop">
-              <Image src={Places2} className="img-fluid" style={{ height: '100%', width: '100%' }} />
+              <img src={Places2} className="img-fluid" style={{ height: '100%', width: '100%' }} />
             </div>
           </div>
         </div>

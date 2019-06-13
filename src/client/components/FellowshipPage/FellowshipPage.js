@@ -20,7 +20,7 @@ class FellowshipPage extends Component {
         <React.Fragment>
           <FellowShipSlider />
           <MakeADifference />
-          <Fellows />
+          {/* <Fellows /> */}
           <Places />
           <OfficeType />
           <FAQHolder />
