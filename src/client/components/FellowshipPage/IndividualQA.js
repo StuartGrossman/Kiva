@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-expressions */
+/* eslint-disable react/prefer-stateless-function */
+/* eslint-disable react/require-render-return */
 /* eslint-disable no-useless-constructor */
 /* eslint-disable lines-between-class-members */
 /* eslint-disable jsx-a11y/alt-text */
@@ -26,38 +29,45 @@ import downArrow from '../../images/down-arrow.svg';
 class IndividualQA extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      active: false
+    };
   }
-  renderIndividualQA = data => {
-    return data.map((item, index) => {
-      return (
-        <div key={index}>
-          <div className="row">
-            <div className="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
-              {item.Q}
-            </div>
-            <div className="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2 Question">
-              <a
-                data-toggle="collapse"
-                href={`#QA${index}`}
-                id="arrowSVG"
-              >
-                <img style={{ height: '30px' }} src={downArrow} />
-              </a>
-            </div>
-          </div>
-          <div className="row collapse" id={`QA${index}`}>
-            <div className="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11 As-a-long-time-Kiva">
-              {item.A}
-            </div>
-          </div>
-          <hr />
-        </div>
-      );
-    });
+  addActiveClass = () => {
+    const currentState = this.state.active;
+    this.setState({ active: !currentState });
   };
 
   render() {
-    return <div>{this.renderIndividualQA(this.props.data)}</div>;
+    return (
+      <div>
+        <div className="row">
+          <div className="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+            {this.props.data.Q}
+          </div>
+          <div className="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2 Question">
+            <a
+              data-toggle="collapse"
+              href={`#QA${this.props.id}`}
+              id="arrowSVG"
+              onClick={this.addActiveClass}
+            >
+              <img
+                style={{ height: '30px' }}
+                className={this.state.active ? 'rotated' : ''}
+                src={downArrow}
+              />
+            </a>
+          </div>
+        </div>
+        <div className="row collapse" id={`QA${this.props.id}`}>
+          <div className="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11 As-a-long-time-Kiva">
+            {this.props.data.A}
+          </div>
+        </div>
+        <hr />
+      </div>
+    );
   }
 }
 

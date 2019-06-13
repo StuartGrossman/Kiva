@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import Image from 'react-graceful-image';
+// import Image from 'react-graceful-image';
 import FellowJpg from '../../images/Fellow.jpg';
+
 class MakeADifference extends Component {
   render() {
     return (
@@ -26,7 +28,7 @@ class MakeADifference extends Component {
                 reading.
               </p>
               <div>
-                <Image src={FellowJpg} className="img-fluid fellowsImage" style={{ marginTop: '69px' }} />
+                <img src={FellowJpg} className="img-fluid fellowsImage" style={{ marginTop: '69px' }} />
               </div>
             </div>
           </div>

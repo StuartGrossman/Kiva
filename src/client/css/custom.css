@@ -877,6 +877,7 @@
 
 .rotated {
     transform: rotate(-180deg);
+    -webkit-transition: transform 0.5s ease-in-out;
 }
 
 #arrowSVG {

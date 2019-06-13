@@ -54,7 +54,7 @@ class OfficeType extends Component {
               <Image
                 src={Type1}
                 className="img-fluid"
-                style={{ height: '349px', width: '100%' }}
+                // style={{ height: '349px', width: '320px' }}
               />
               <p className="As-a-long-time-Kiva">
                 The Kiva fellowship gave me the critical field experience I
@@ -69,7 +69,7 @@ class OfficeType extends Component {
               <Image
                 src={Type2}
                 className="img-fluid"
-                style={{ height: '349px', width: '100%' }}
+                // style={{ height: '349px', width: '320px' }}
               />
               <p className="As-a-long-time-Kiva">
                 As a long-time Kiva lender, I wanted to experience the
@@ -84,7 +84,7 @@ class OfficeType extends Component {
               <Image
                 src={Type3}
                 className="img-fluid"
-                style={{ height: '349px', width: '100%' }}
+                // style={{ height: '349px', width: '320px' }}
               />
               <p className="As-a-long-time-Kiva">
                 After 10 years working in the audit/banking sector, the Kiva

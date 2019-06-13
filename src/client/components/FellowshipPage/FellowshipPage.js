@@ -8,7 +8,7 @@ import MakeADifference from './MakeADifference';
 import Fellows from './Fellows';
 import Places from './Places';
 import OfficeType from './OfficeType';
-import FAQ from './FAQ';
+import FAQHolder from './FAQHolder';
 
 class FellowshipPage extends Component {
   componentDidMount() {
@@ -23,7 +23,7 @@ class FellowshipPage extends Component {
           <Fellows />
           <Places />
           <OfficeType />
-          <FAQ />
+          <FAQHolder />
         </React.Fragment>
       </div>
     );

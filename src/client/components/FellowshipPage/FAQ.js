@@ -1,3 +1,6 @@
+/* eslint-disable react/no-array-index-key */
+/* eslint-disable arrow-parens */
+/* eslint-disable no-shadow */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import IndividualQA from './IndividualQA';
@@ -25,21 +28,14 @@ const data = [
     { Q: 'What opportunities are there for Kiva Fellow Alumni to stay involved with Kiva?', A: 'Kiva Fellow Alumni are highly valued members of the Kiva family and have many opportunities to stay involved with Kiva and the Fellows Program. Many alumni actively participate in the program by speaking with candidates and/or fellows accepted into the program. Alumni are also encouraged to share their experiences with their home communities and attend events or speak on behalf of Kiva. All alumni will also receive a quarterly newsletter and be invited to attend Kiva and Alumni Recognition events.'}
 ]
 class FAQ extends Component {
+  renderIndividualQA = data => {
+    return data.map((item, index) => {
+      return <IndividualQA data={item} id={index} key={index} arrowClass={false} />;
+    });
+  };
+
   render() {
-    return (
-      <div className="container-fluid" style={{ marginTop: '100px', 'marginBottom': '171px' }}>
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-              <h1 className="New-Section-FPO-Titl">FAQ</h1>
-              <hr />
-              
-              <IndividualQA data={data} classState={false} />
-            </div>
-          </div>
-        </div>
-      </div>
-    );
+    return <div>{this.renderIndividualQA(data)}</div>;
   }
 }
 
