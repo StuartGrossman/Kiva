@@ -875,11 +875,14 @@
     margin-top: -5%;
 }
 
-.rotated {
-    transform: rotate(-180deg);
+.rotated-up {
+    transform: rotate(180deg);
     -webkit-transition: transform 0.5s ease-in-out;
 }
-
+.rotated-down {
+    transform: initial;
+    -webkit-transition: transform 0.5s ease-in-out;
+}
 #arrowSVG {
     display: inline-block;
     transition: all 1s;

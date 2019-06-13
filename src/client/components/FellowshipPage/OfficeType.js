@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import Image from 'react-graceful-image';
+// import Image from 'react-graceful-image';
 import Type1 from '../../images/Type1.jpg';
 import Type2 from '../../images/Type2.jpg';
 import Type3 from '../../images/Type3.jpg';
@@ -31,15 +31,15 @@ class OfficeType extends Component {
             </div>
           </div>
           <div className="row" style={{ marginTop: '50px', marginBottom: '50px'}}>
-            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" />
+            <div className="col-xl-4 col-lg-4 col-md-3 col-sm-2" />
 
-            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12">
               <a href="/#JobSection" className="Check-out-our-open-p">
                 Check out our open positions
               </a>
             </div>
 
-            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12" />
+            <div className="col-xl-4 col-lg-4 col-md-3 col-sm-2" />
           </div>
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -51,7 +51,7 @@ class OfficeType extends Component {
           <div className="row">
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 smallMarginTop">
               
-              <Image
+              <img
                 src={Type1}
                 className="img-fluid"
                 // style={{ height: '349px', width: '320px' }}
@@ -66,7 +66,7 @@ class OfficeType extends Component {
               <p className="typePerson">Maryse Martin, CARE</p>
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 smallMarginTop">
-              <Image
+              <img
                 src={Type2}
                 className="img-fluid"
                 // style={{ height: '349px', width: '320px' }}
@@ -81,7 +81,7 @@ class OfficeType extends Component {
               <p className="typePerson">Oleg Izyumenko, AlphaCE</p>
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 smallMarginTop">
-              <Image
+              <img
                 src={Type3}
                 className="img-fluid"
                 // style={{ height: '349px', width: '320px' }}

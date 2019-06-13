@@ -1,3 +1,5 @@
+/* eslint-disable prefer-template */
+/* eslint-disable default-case */
 /* eslint-disable no-unused-expressions */
 /* eslint-disable react/prefer-stateless-function */
 /* eslint-disable react/require-render-return */
@@ -29,14 +31,27 @@ import downArrow from '../../images/down-arrow.svg';
 class IndividualQA extends Component {
   constructor(props) {
     super(props);
+    // this.addActiveClass = this.addActiveClass.bind(this);
     this.state = {
-      active: false
+      active: null
     };
   }
   addActiveClass = () => {
     const currentState = this.state.active;
     this.setState({ active: !currentState });
   };
+  arrowOrientation = (state) => {
+    const prefix = 'rotated';
+    console.log(state)
+    switch (state) {
+      case null:
+        return prefix;
+      case true:
+        return prefix + '-up';
+      case false:
+        return prefix + '-down';
+    }
+  }
 
   render() {
     return (
@@ -54,7 +69,7 @@ class IndividualQA extends Component {
             >
               <img
                 style={{ height: '30px' }}
-                className={this.state.active ? 'rotated' : ''}
+                className={this.arrowOrientation(this.state.active)}
                 src={downArrow}
               />
             </a>
