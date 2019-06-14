@@ -31,16 +31,20 @@ class OfficeType extends Component {
             </div>
           </div>
           <div className="row" style={{ marginTop: '50px', marginBottom: '50px'}}>
-            <div className="col-xl-4 col-lg-4 col-md-3 col-sm-2" />
+            <div className="col-xl-3 col-lg-3 col-md-2 col-sm-2" />
 
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12">
-              <a href="/#JobSection" className="Check-out-our-open-p">
-                Check out our open positions
-              </a>
+            <div className="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-12">
+              <h2 className="Kiva-Fellows-Applica">Kiva Fellows Application</h2>
+              <h4 className="Email-Header">
+                Our application is currently closed. Sign up to be notified once it re-opens.
+              </h4>
+              <input className="Rectangle Margin-Auto"></input>
+
             </div>
 
-            <div className="col-xl-4 col-lg-4 col-md-3 col-sm-2" />
+            <div className="col-xl-3 col-lg-3 col-md-2 col-sm-2" />
           </div>
+        
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
               <h1 className="New-Section-FPO-Titl">

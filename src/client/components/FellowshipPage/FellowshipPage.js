@@ -5,7 +5,6 @@
 import React, { Component } from 'react';
 import FellowShipSlider from './FellowShipSlider';
 import MakeADifference from './MakeADifference';
-import Fellows from './Fellows';
 import Places from './Places';
 import OfficeType from './OfficeType';
 import FAQHolder from './FAQHolder';
@@ -20,7 +19,6 @@ class FellowshipPage extends Component {
         <React.Fragment>
           <FellowShipSlider />
           <MakeADifference />
-          {/* <Fellows /> */}
           <Places />
           <OfficeType />
           <FAQHolder />
