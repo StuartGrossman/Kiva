@@ -16,4 +16,5 @@ app.use(express.static('dist'));
 app.get('*', (request, response) => {
   response.sendFile(path.join(__dirname, '../../dist', 'index.html'));
 });
+
 app.listen(process.env.PORT || 8080, () => console.log(`Listening on port ${process.env.PORT || 8080}!`));

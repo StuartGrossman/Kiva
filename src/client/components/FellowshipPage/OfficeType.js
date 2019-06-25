@@ -38,7 +38,10 @@ class OfficeType extends Component {
               <h4 className="Email-Header">
                 Our application is currently closed. Sign up to be notified once it re-opens.
               </h4>
-              <input className="Rectangle Margin-Auto"></input>
+              <a href="https://pages.kiva.org/fellows/application-notification" target="_blank">
+                <input disabled className="Rectangle Margin-Auto"></input>
+
+              </a>
 
             </div>
 
