@@ -106,10 +106,7 @@
         height: 60px;
     }
 
-    .Grow-Your-Mind {
-        margin: auto;
-        padding-left: 51px;
-    }
+  
 }
 
 @media (min-width: 375px) {
@@ -157,6 +154,10 @@
 @media (max-width: 500.98px) {
     .FirstMarginTop {
         margin-top: 25px;
+    }
+    .Grow-Your-Mind {
+        margin: auto;
+        padding-left: 53px;
     }
 }
 
