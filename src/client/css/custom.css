@@ -105,6 +105,11 @@
     .Benefit-Icons {
         height: 60px;
     }
+
+    .Grow-Your-Mind {
+        margin: auto;
+        padding-left: 51px;
+    }
 }
 
 @media (min-width: 375px) {
@@ -119,10 +124,6 @@
         margin-left: none;
     }
 
-    .Grow-Your-Mind {
-        margin: auto;
-        padding-left: 51px;
-    }
 
     .TimeOffIcon {
         height: 80px;
@@ -235,10 +236,10 @@
         --largePixelSize: 36px;
         --giantPixelSize: 54px;
     }
-   .Grow-Your-Mind {
+   /* .Grow-Your-Mind {
         margin: auto;
         padding-left: 2%;
-    }
+    } */
 
     .Benefit-Icons {
         height: 80px;
@@ -310,9 +311,9 @@
         --largePixelSize: 36px;
         --giantPixelSize: 56px;
     }
-    .Grow-Your-Mind {
+    /* .Grow-Your-Mind {
         padding-left: 1%;
-    }
+    } */
 
     .Benefit-Icons {
         height: 50px;
