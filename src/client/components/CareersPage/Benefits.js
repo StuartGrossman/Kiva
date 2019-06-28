@@ -102,7 +102,7 @@ class Benefits extends Component {
                 <div className="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6 Margin-Auto" />
                 <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 Margin-Auto" />
                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 Margin-Auto">
-                  <p className="Benefit-Des">
+                  <p className="Benefit-Des" style={{paddingBottom: '145px'}}>
                     *Benefits listed above may differ for roles based outside
                     the US.
                   </p>

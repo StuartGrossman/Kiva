@@ -41,7 +41,7 @@ class Impacts extends Component {
                       Building Financial Infrastructure
                     </h3>
                     <p className="Impact-Small-Text Impacts-Right-Text-Col">
-                      Blockchain isn’t
+                      Building blockchain isn’t
                       just for cryptocurrency. We’re using it in Sierra
                       Leone to help unbanked people get access to financial
                       services. Our work is already serving as a model for
@@ -108,7 +108,7 @@ class Impacts extends Component {
                       Building Financial Infrastructure
                     </h3>
                     <p className="Impact-Small-Text Impacts-Right-Text-Col">
-                      Blockchain isn’t
+                      Building blockchain isn’t
                       just for cryptocurrency. We’re using it in Sierra
                       Leone to help unbanked people get access to financial
                       services. Our work is already serving as a model for
