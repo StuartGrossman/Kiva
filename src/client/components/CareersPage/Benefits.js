@@ -17,28 +17,28 @@ class Benefits extends Component {
     super();
     this.benefitOne = 'Stay Healthy';
     this.detailOne =
-      'We offer Medical, dental, and vision insurance. Several offerings provide 100% coverage of premiums for you, plus 80-90% coverage of premiums for your dependents. ';
+      'We offer medical, dental, and vision insurance. Several offerings provide 100% coverage of premiums for you, plus 80-90% coverage of premiums for your dependents. ';
     this.benefitTwo = 'Take Time Off';
     this.detailTwo =
-      'Life happens. So do vacations. Take time off for both. All salaried employees get unlimited PTO. Full-time, hourly employees also enjoy generous time off';
+      'Life happens. So do vacations. Take time off for both. All salaried employees get unlimited PTO.';
     this.benefitThree = 'Commute & Save';
     this.detailThree =
-      'We love working together so much, we’re listing it as a benefit. Because it is. There’s always time to connect with coworkers. Whether it’s an All Hands meetings, a Brown Bag session, or our Lunch Club, we’re always building a more diverse and inclusive community';
+      'We love working together so much, we’re listing it as a benefit. Because it is. There’s always time to connect with coworkers. Whether it’s an All Hands meetings, a Brown Bag session, or our Lunch Club, we’re always building a more diverse and inclusive community.';
     this.benefitFour = 'Build Community';
     this.detailFour =
-      'We love working together so much, we’re listing it as a benefit. Because it is. There’s always time to connect with coworkers. Whether it’s an All Hands meetings, a Brown Bag session, or our Lunch Club, we’re always building a more diverse and inclusive community.';
+      'We love working together so much, we’re listing it as a benefit. Because it is. There’s always time to connect with coworkers. Whether it’s an All Hands meeting, a Brown Bag session, or our Lunch Club, we’re always building a more diverse and inclusive community.';
     this.benefitFive = 'Grow Your Career, Grow Your Mind';
     this.detailFive =
       'Boredom isn’t an option. All full-time employees get a $750 stipend for continuing education, conferences, and classes.';
     this.benefitSix = 'Take Parental Leave';
     this.detailSix =
-      'Kids are a lot of work. We give all new parents (biological, adoptive, and foster) 16 weeks of paid time away. Take it all at once. Take it one week at a time. Your call.';
+      'Kids are a lot of work. We give all new parents (biological, adoptive, and foster) 10 weeks of paid time away, plus fully paid pregnancy disability leave for birth moms.';
     this.benefitSeven = 'Retire (eventually)';
     this.detailSeven = 'Every year, we’ll give you $2,500 toward your 401(k).';
   }
   render() {
     return (
-      <div className="container-fluid" style={{ marginTop: '99px' }}>
+      <div className="container-fluid" style={{ marginTop: '55px' }}>
         <div className="container">
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -64,33 +64,33 @@ class Benefits extends Component {
                 icon={icon2}
                 customClass="TimeOffIcon"
               />
-              <IndividualBenefit
+              {/* <IndividualBenefit
                 color="#f6f6f6"
                 benefit={this.benefitThree}
                 detail={this.detailThree}
                 icon={icon3}
-              />
+              /> */}
               <IndividualBenefit
-                color="white"
+                color="#f6f6f6"
                 benefit={this.benefitFour}
                 detail={this.detailFour}
                 icon={icon4}
               />
               <IndividualBenefit
-                color="#f6f6f6"
+                color="white"
                 benefit={this.benefitFive}
                 detail={this.detailFive}
                 icon={icon5}
                 customClass2="Grow-Your-Mind"
               />
               <IndividualBenefit
-                color="#white"
+                color="#f6f6f6"
                 benefit={this.benefitSix}
                 detail={this.detailSix}
                 icon={icon6}
               />
               <IndividualBenefit
-                color="#f6f6f6"
+                color="white"
                 benefit={this.benefitSeven}
                 detail={this.detailSeven}
                 icon={icon7}

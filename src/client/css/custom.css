@@ -110,11 +110,23 @@
 }
 
 @media (min-width: 375px) {
+    .logo {
+        width: 26%;
+        /* height: 10%; */
+        margin-left: 25px;
+    }
+    :root {
+        --smallPixelSize: 16px;
+        --smallMedPixelSize: 18px;
+        --mediumPixelSize: 20px;
+        --largePixelSize: 30px;
+        --giantPixelSize: 38px;
+    }
     .Impacts-Large-Screen {
         display: none;
     }
     .Benefit-Icons {
-        height: 80px;
+        height: 70px;
     }
 
     .Icon-Margins {
@@ -123,7 +135,7 @@
 
 
     .TimeOffIcon {
-        height: 80px;
+        height: 70px;
     }
 
     .Small-Screen-Icon {
@@ -151,7 +163,7 @@
     }
 }
 
-@media (max-width: 500.98px) {
+@media (max-width: 576.98px) {
     .FirstMarginTop {
         margin-top: 25px;
     }
@@ -165,25 +177,29 @@
     .Icon-Margins {
         margin-left: auto;
     }
- 
+    .logo {
+        width: 19%;
+        /* height: 10%; */
+        margin-left: 25px;
+    }
     .Benefit-Icons {
-        height: 80px;
+        height: 70px;
     }
 
     .TimeOffIcon {
-        height: 80px;
+        height: 70px;
         /* margin-left: -11%; */
     }
 }
 
 @media (max-width: 576px) {
-    :root {
+    /* :root {
         --smallPixelSize: 16px;
         --smallMedPixelSize: 18px;
         --mediumPixelSize: 20px;
         --largePixelSize: 36px;
         --giantPixelSize: 40px;
-    }
+    } */
     .Margin-Auto {
         margin: none;
     }
@@ -241,7 +257,11 @@
         margin: auto;
         padding-left: 2%;
     } */
-
+    .logo {
+        width: 15%;
+        /* height: 10%; */
+        margin-left: 35px;
+    }
     .Benefit-Icons {
         height: 80px;
     }
@@ -315,7 +335,11 @@
     /* .Grow-Your-Mind {
         padding-left: 1%;
     } */
-
+    .logo {
+        width: 12%;
+        /* height: 10%; */
+        margin-left: 35px;
+    }
     .Benefit-Icons {
         height: 50px;
     }
@@ -358,7 +382,7 @@
     }
 
     .MarginTopClass {
-        margin-top: -8.89%;
+        margin-top: -10.8%;
     }
 
     .Impacts-Large-Screen {
@@ -372,8 +396,8 @@
 
 @media (max-width: 992px) {
     .logo {
-        width: 91px;
-        height: 39px;
+        /* width: 10%; */
+        /* height: 39px; */
     }
 
     .navPadding {
@@ -398,7 +422,14 @@
         --largePixelSize: 36px;
         --giantPixelSize: 56px;
     }
-
+    .MarginTopClass {
+        margin-top: -9%;
+    }
+    .logo {
+        width: 12%;
+        /* height: 10%; */
+        margin-left: 50px;
+    }
     .Benefit-Icons {
         height: 90px;
     }
@@ -431,12 +462,7 @@
         margin-top: 75px;
     }
 
-    .logo {
-        width: 91px;
-        height: 39px;
-        margin-left: 50px;
-    }
-
+  
     .fellowsImage {
         height: '638px'
     }
@@ -453,8 +479,16 @@
 }
 
 @media (min-width: 1250px) {
+    .logo {
+        width: 9%;
+        /* height: 10%; */
+        margin-left: 50px;
+    }
     .fellowsImage {
         height: '850px'
+    }
+    .MarginTopClass {
+        margin-top: -8.15%;
     }
 
     .TimeOffIcon {
@@ -543,7 +577,7 @@
 
 .JobLocationText {
     font-family: KivaPostGrotBook;
-    font-size: 16px;
+    font-size: var(--smallPixelSize);
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -838,7 +872,7 @@
 
 .Kiva-fellows-are-bas {
     font-family: KivaPostGrotBook;
-    font-size: 16px;
+    font-size: var(--smallPixelSize);
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -861,7 +895,7 @@
 .As-a-long-time-Kiva {
     margin-top: 25px;
     font-family: KivaPostGrotBook;
-    font-size: 16px;
+    font-size: var(--smallPixelSize);
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -872,7 +906,7 @@
 
 .typePerson {
     font-family: KivaPostGrotMedium;
-    font-size: 16px;
+    font-size: var(--smallPixelSize);
     color: var(--primary-green);
     margin-top: -5%;
 }
@@ -891,7 +925,7 @@
 }
 
 .Question {
-    font-size: 16px;
+    font-size: var(--smallPixelSize);
     font-family: KivaPostGrotMedium;
 }
 

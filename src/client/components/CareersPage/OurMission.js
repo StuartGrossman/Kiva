@@ -16,7 +16,7 @@ class OurMission extends Component {
           <div className="container">
             <div className="row">
               <div className="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
-                <h1 style={{ marginTop: '81px' }} className="missionTitle">
+                <h1 style={{ marginTop: '55px' }} className="missionTitle">
                   See our mission in action.
                 </h1>
                 <p
@@ -24,7 +24,7 @@ class OurMission extends Component {
                   style={{ marginBottom: '60px' }}
                 >
                   Everyone at Kiva gets to travel to one of the countries we
-                  work in. There, you’ll meet borrow-ers, tour our finance
+                  work in. There, you’ll meet borrowers, tour our finance
                   partner operations, and explore the city like a local. Think
                   of it as a jumpstart to your inspiration.
                 </p>
@@ -117,7 +117,7 @@ class OurMission extends Component {
                 style={{ marginTop: '60px', marginBottom: '60px' }}
               >
                 <p className="kivaImpacts" style={{ marginBottom: '10px' }}>
-                  “Kiva’s impact and meeting the people who make it happen
+                  “Seeing Kiva’s impact and meeting the people who make it happen
                   helped me connect my own contributions at Kiva to the
                   opportunity we create in the world.”
                 </p>

@@ -47,12 +47,12 @@ class NavBar extends Component {
                 </Link>
               </span>
               <span className="nav-item">
-                <Link style={{ textDecoration: 'none' }} to="/fellowship">
+                <Link style={{ textDecoration: 'none' }} to="/fellowships">
                   <li
                     className="nav-link aTagHighlight"
                     style={{ fontSize: '20px' }}
                   >
-                    Fellowship
+                    Fellowships
                   </li>
                 </Link>
               </span>

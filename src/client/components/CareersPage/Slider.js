@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable no-useless-constructor */
@@ -6,9 +7,14 @@ import Image from 'react-graceful-image';
 import Carousel1 from '../../images/Carousel1.jpg';
 import Carousel2 from '../../images/Carousel2.jpg';
 import Carousel3 from '../../images/Carousel3.jpg';
+import Carousel4 from '../../images/Carousel4.jpg';
+import Carousel5 from '../../images/Carousel5.jpg';
 import SmallCarousel1 from '../../images/SmallCarousel1.jpg';
 import SmallCarousel2 from '../../images/SmallCarousel2.jpg';
 import SmallCarousel3 from '../../images/SmallCarousel3.jpg';
+import SmallCarousel4 from '../../images/SmallCarousel4.jpg';
+import SmallCarousel5 from '../../images/SmallCarousel5.jpg';
+
 
 
 class Slider extends Component {
@@ -49,26 +55,50 @@ class Slider extends Component {
             {/* <img className="d-block w-100" src={this.props.img1} alt="First slide" /> */}
           </div>
           <div className="carousel-item">
-            <Image
+            <img
               className="largeScreenImage w-100"
               src={Carousel2}
               alt="Second slide"
             />
-            <Image
+            <img
               className="smallScreenImage w-100"
               src={SmallCarousel2}
               alt="Second slide"
             />
           </div>
           <div className="carousel-item">
-            <Image
+            <img
               className="largeScreenImage w-100"
               src={Carousel3}
               alt="Third slide"
             />
-            <Image
+            <img
               className="smallScreenImage w-100"
               src={SmallCarousel3}
+              alt="Second slide"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="largeScreenImage w-100"
+              src={Carousel4}
+              alt="Third slide"
+            />
+            <img
+              className="smallScreenImage w-100"
+              src={SmallCarousel4}
+              alt="Second slide"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="largeScreenImage w-100"
+              src={Carousel5}
+              alt="Third slide"
+            />
+            <img
+              className="smallScreenImage w-100"
+              src={SmallCarousel5}
               alt="Second slide"
             />
           </div>

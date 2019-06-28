@@ -20,7 +20,7 @@ class App extends Component {
         <NavBar />
         <Switch>
           <Route exact={true} path="/" component={CareersPage} />
-          <Route exact={true} path="/fellowship" component={FellowshipPage} />
+          <Route exact={true} path="/fellowships" component={FellowshipPage} />
         </Switch>
         <Footer />
       </React.Fragment>

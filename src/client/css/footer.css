@@ -103,7 +103,7 @@ h1{font-size:2.75rem;line-height:3.125rem;}
 @media only screen and (min-width: 761px){
 .siteFooter{height:26.5rem;}
 }
-.siteFooter a{color:#247037;font-size:.875rem;line-height:1.357rem; font-weight: 800px}
+.siteFooter a{color:#247037;font-size:.875rem;line-height:1.357rem; font-weight: 450}
 .siteFooter a:visited,.siteFooter a:active{color:#247037;}
 .siteFooter h1{color:#fff;font-size:.875rem;font-weight:bold;line-height:1.357rem;margin-bottom:0;}
 .siteFooter-group{margin-bottom:2.1875rem;}

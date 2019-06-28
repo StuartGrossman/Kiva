@@ -29,7 +29,10 @@ class WhatIsKiva extends Component {
               <p className="We-make-a-difference">
                 Good news: You don’t have to choose between brilliant
                 co-workers and ones you actually like. Better news: Our team
-                is growing.&nbsp;
+                is growing.
+                {/* &nbsp; */}
+                <br />
+                <br />
                 <a href="#JobSection" className="JobLinkText">
                 Ready to grow with us? Check out our open
                 positions.
