@@ -7,7 +7,7 @@ class FAQHolder extends Component {
     return (
       <div
         className="container-fluid"
-        style={{ marginTop: '100px', marginBottom: '171px' }}
+        style={{ marginTop: '100px', marginBottom: '100px' }}
       >
         <div className="container">
           <div className="row">
