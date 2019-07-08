@@ -15,8 +15,6 @@ import SmallCarousel3 from '../../images/SmallCarousel3.jpg';
 import SmallCarousel4 from '../../images/SmallCarousel4.jpg';
 import SmallCarousel5 from '../../images/SmallCarousel5.jpg';
 
-
-
 class Slider extends Component {
   constructor() {
     super();

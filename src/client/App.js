@@ -9,9 +9,9 @@ import './css/animated.css';
 import './css/custom.css';
 import { Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import CareersPage from './components/CareersPage/CareersPage';
-import Footer from './components/CareersPage/Footer';
-import FellowshipPage from './components/FellowshipPage/FellowshipPage';
+import CareersPage from './components/Careers/CareersPage';
+import Footer from './components/Footer';
+import FellowshipPage from './components/Fellowships/FellowshipPage';
 
 class App extends Component {
   render() {

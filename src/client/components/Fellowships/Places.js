@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-import Image from 'react-graceful-image';
 import Places1 from '../../images/Places1.jpg';
 import Places2 from '../../images/Places2.jpg';
 

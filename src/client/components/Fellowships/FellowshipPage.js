@@ -11,7 +11,7 @@ import FAQHolder from './FAQHolder';
 
 class FellowshipPage extends Component {
   componentDidMount() {
-    document.title = 'Kiva | Fellowship';
+    document.title = 'Kiva | Fellowships';
   }
   render() {
     return (

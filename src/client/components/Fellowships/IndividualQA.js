@@ -7,7 +7,6 @@
 /* eslint-disable lines-between-class-members */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable react/self-closing-comp */
-import React, { Component } from 'react';
 /* eslint-disable arrow-parens */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable arrow-body-style */
@@ -18,20 +17,13 @@ import React, { Component } from 'react';
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unused-state */
-import downArrow from '../../images/down-arrow.svg';
-// import upArrow from '../images/up-arrow.svg';
+import React, { Component } from 'react';
 
-// function rotateSvg(){
-//     document.getElementById('arrowSVG').addEventListener('click', function() {
-//         this.classList.toggle('rotated');
-//       });
-// }
-// rotateSvg();
+import downArrow from '../../images/down-arrow.svg';
 
 class IndividualQA extends Component {
   constructor(props) {
     super(props);
-    // this.addActiveClass = this.addActiveClass.bind(this);
     this.state = {
       active: null
     };

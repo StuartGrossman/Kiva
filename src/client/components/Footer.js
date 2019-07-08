@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/prefer-stateless-function */
-import React, { Component } from 'react';
-import '../../css/footer.css';
+import React, { Component } from "react";
+import "../css/footer.css";
 
 class Footer extends Component {
   render() {
@@ -34,7 +34,10 @@ class Footer extends Component {
               >
                 Privacy policy
               </a>
-              <a href="https://www.kiva.org/legal/terms" className="siteFooter-tos">
+              <a
+                href="https://www.kiva.org/legal/terms"
+                className="siteFooter-tos"
+              >
                 Terms of use
               </a>
             </div>
@@ -58,7 +61,10 @@ class Footer extends Component {
                 <div>Loans for entrepreneurs doing amazing things.</div>
                 <ul className="siteFooter-links">
                   <li>
-                    <a href="https://www.kiva.org/borrow" className="borrow_href">
+                    <a
+                      href="https://www.kiva.org/borrow"
+                      className="borrow_href"
+                    >
                       Apply now
                     </a>
                   </li>
@@ -82,7 +88,10 @@ class Footer extends Component {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.kiva.org/live" className="happening_href">
+                    <a
+                      href="https://www.kiva.org/live"
+                      className="happening_href"
+                    >
                       Happening now
                     </a>
                   </li>
@@ -108,7 +117,10 @@ class Footer extends Component {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.kiva.org/legal/terms" className="tou_href">
+                    <a
+                      href="https://www.kiva.org/legal/terms"
+                      className="tou_href"
+                    >
                       Terms of use
                     </a>
                   </li>
@@ -118,7 +130,7 @@ class Footer extends Component {
 
             <div className="small-3 column">
               <div className="-">
-                <h1 style={{ marginTop: '0px' }}>Get to know us</h1>
+                <h1 style={{ marginTop: "0px" }}>Get to know us</h1>
                 <ul className="siteFooter-links">
                   <li>
                     <a href="https://www.kiva.org/about" className="about_href">
@@ -179,7 +191,7 @@ class Footer extends Component {
               </div>
 
               <div className="siteFooter-community-group siteFooter-group">
-                <h1 style={{ marginTop: '25px' }}>Community</h1>
+                <h1 style={{ marginTop: "25px" }}>Community</h1>
                 <ul className="siteFooter-links">
                   <li>
                     <a href="https://www.kiva.org/teams" className="teams_href">
@@ -255,7 +267,7 @@ class Footer extends Component {
                   <li>
                     <a
                       href="https://www.kiva.org/trustees"
-                      className="trustees_href"
+                      className="rtp_href"
                     >
                       Trustees
                     </a>

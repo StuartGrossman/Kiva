@@ -1,10 +1,9 @@
 /* eslint-disable react/jsx-boolean-value */
 /* eslint-disable max-len */
 /* eslint-disable react/prefer-stateless-function */
-import React, { Component } from 'react';
-// import GoogleMaps from './GoogleMaps';
-import MyMapComponent from './MyMapComponent';
 // eslint-disable-next-line no-unused-vars
+import React, { Component } from 'react';
+import MyMapComponent from './MyMapComponent';
 
 class Location extends Component {
   render() {
@@ -12,7 +11,6 @@ class Location extends Component {
       <div>
         <div className="container-fluid grayBackground">
           <div className="container ">
-            {/* <div className="container"> */}
             <div className="row">
               <div
                 className="col-lg-12 col-md-12 col-sm-12 col-12 "

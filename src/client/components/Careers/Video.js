@@ -6,11 +6,9 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import { Player } from 'video-react';
-// import KivaVideo from '../videos/kivaVideo.mp4';
-// import VideoImage from '../videos/videoImage.png';
-// import '../css/video.css';
 import '../../css/plyr.css';
 import Plyr from 'react-plyr';
+
 class Video extends Component {
   render() {
     return (
@@ -21,7 +19,6 @@ class Video extends Component {
               <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h1 className="VideoTitle">
                   What’s life at Kiva like? This: 
-                  {/* This : */}
                 </h1>
                 <Plyr
                   type="vimeo"

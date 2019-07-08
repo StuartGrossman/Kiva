@@ -7,6 +7,7 @@ import Carousel3 from '../../images/Carousel3-3.jpg';
 import SmallCarousel1 from '../../images/SmallCarousel3-1.jpg';
 import SmallCarousel2 from '../../images/SmallCarousel3-2.jpg';
 import SmallCarousel3 from '../../images/SmallCarousel3-3.jpg';
+
 class FellowShipSlider extends Component {
   render() {
     return (

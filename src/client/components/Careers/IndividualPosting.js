@@ -8,10 +8,9 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unused-state */
-import React, { Component } from 'react';
-// import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // eslint-disable-next-line react/prefer-stateless-function
+import React, { Component } from 'react';
+
 class IndividualPosting extends Component {
   renderIndividualJob = data => {
     // console.log(data);

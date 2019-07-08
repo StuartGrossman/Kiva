@@ -1,8 +1,9 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable react/self-closing-comp */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
-// import Image from 'react-graceful-image';
 import Type1 from '../../images/Type1.jpg';
 import Type2 from '../../images/Type2.jpg';
 import Type3 from '../../images/Type3.jpg';
@@ -30,7 +31,7 @@ class OfficeType extends Component {
               </p>
             </div>
           </div>
-          <div className="row" style={{ marginTop: '50px', marginBottom: '50px'}}>
+          <div className="row" style={{ marginTop: '50px', marginBottom: '50px' }}>
             <div className="col-xl-3 col-lg-3 col-md-2 col-sm-2" />
 
             <div className="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-12">
@@ -40,14 +41,10 @@ class OfficeType extends Component {
               </h4>
               <a href="https://pages.kiva.org/fellows/application-notification" target="_blank">
                 <input disabled className="Rectangle Margin-Auto"></input>
-
               </a>
-
             </div>
-
             <div className="col-xl-3 col-lg-3 col-md-2 col-sm-2" />
           </div>
-        
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
               <h1 className="New-Section-FPO-Titl">
@@ -57,11 +54,9 @@ class OfficeType extends Component {
           </div>
           <div className="row">
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 smallMarginTop">
-              
               <img
                 src={Type1}
                 className="img-fluid"
-                // style={{ height: '349px', width: '320px' }}
               />
               <p className="As-a-long-time-Kiva">
                 The Kiva fellowship gave me the critical field experience I
@@ -76,7 +71,6 @@ class OfficeType extends Component {
               <img
                 src={Type2}
                 className="img-fluid"
-                // style={{ height: '349px', width: '320px' }}
               />
               <p className="As-a-long-time-Kiva">
                 As a long-time Kiva lender, I wanted to experience the
@@ -91,7 +85,6 @@ class OfficeType extends Component {
               <img
                 src={Type3}
                 className="img-fluid"
-                // style={{ height: '349px', width: '320px' }}
               />
               <p className="As-a-long-time-Kiva">
                 After 10 years working in the audit/banking sector, the Kiva

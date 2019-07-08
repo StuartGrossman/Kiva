@@ -11,7 +11,6 @@ class JobList extends Component {
   constructor(props) {
     super(props);
     this.state = { jobData: null, loading: true, id: this.props.communityId };
-    // const id = this.props.communityId;
   }
 
   componentDidMount() {

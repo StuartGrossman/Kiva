@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable lines-between-class-members */
+// eslint-disable-next-line react/prefer-stateless-function
 import React, { Component } from 'react';
 import IndividualBenefit from './IndividualBenefit';
 import icon1 from '../../images/icon1.svg';
@@ -11,28 +12,21 @@ import icon5 from '../../images/icon5.svg';
 import icon6 from '../../images/icon6.svg';
 import icon7 from '../../images/icon7.svg';
 
-// eslint-disable-next-line react/prefer-stateless-function
 class Benefits extends Component {
   constructor() {
     super();
     this.benefitOne = 'Stay Healthy';
-    this.detailOne =
-      'We offer medical, dental, and vision insurance. Several offerings provide 100% coverage of premiums for you, plus 80-90% coverage of premiums for your dependents. ';
+    this.detailOne = 'We offer medical, dental, and vision insurance. Several offerings provide 100% coverage of premiums for you, plus 80-90% coverage of premiums for your dependents. ';
     this.benefitTwo = 'Take Time Off';
-    this.detailTwo =
-      'Life happens. So do vacations. Take time off for both. All salaried employees get unlimited PTO.';
+    this.detailTwo = 'Life happens. So do vacations. Take time off for both. All salaried employees get unlimited PTO.';
     this.benefitThree = 'Commute & Save';
-    this.detailThree =
-      'We love working together so much, we’re listing it as a benefit. Because it is. There’s always time to connect with coworkers. Whether it’s an All Hands meetings, a Brown Bag session, or our Lunch Club, we’re always building a more diverse and inclusive community.';
+    this.detailThree = 'We love working together so much, we’re listing it as a benefit. Because it is. There’s always time to connect with coworkers. Whether it’s an All Hands meetings, a Brown Bag session, or our Lunch Club, we’re always building a more diverse and inclusive community.';
     this.benefitFour = 'Build Community';
-    this.detailFour =
-      'We love working together so much, we’re listing it as a benefit. Because it is. There’s always time to connect with coworkers. Whether it’s an All Hands meeting, a Brown Bag session, or our Lunch Club, we’re always building a more diverse and inclusive community.';
+    this.detailFour = 'We love working together so much, we’re listing it as a benefit. Because it is. There’s always time to connect with coworkers. Whether it’s an All Hands meeting, a Brown Bag session, or our Lunch Club, we’re always building a more diverse and inclusive community.';
     this.benefitFive = 'Grow Your Career, Grow Your Mind';
-    this.detailFive =
-      'Boredom isn’t an option. All full-time employees get a $750 stipend for continuing education, conferences, and classes.';
+    this.detailFive = 'Boredom isn’t an option. All full-time employees get a $750 stipend for continuing education, conferences, and classes.';
     this.benefitSix = 'Take Parental Leave';
-    this.detailSix =
-      'Kids are a lot of work. We give all new parents (biological, adoptive, and foster) 10 weeks of paid time away, plus fully paid pregnancy disability leave for birth moms.';
+    this.detailSix = 'Kids are a lot of work. We give all new parents (biological, adoptive, and foster) 10 weeks of paid time away, plus fully paid pregnancy disability leave for birth moms.';
     this.benefitSeven = 'Retire (eventually)';
     this.detailSeven = 'Every year, we’ll give you $2,500 toward your 401(k).';
   }
@@ -48,14 +42,12 @@ class Benefits extends Component {
                 want them to feel good in general. To help out, we offer great
                 health benefits and tons of perks.
               </p>
-
               <br />
               <IndividualBenefit
                 color="#f6f6f6"
                 benefit={this.benefitOne}
                 detail={this.detailOne}
                 icon={icon1}
-                
               />
               <IndividualBenefit
                 color="white"
@@ -64,12 +56,6 @@ class Benefits extends Component {
                 icon={icon2}
                 customClass="TimeOffIcon"
               />
-              {/* <IndividualBenefit
-                color="#f6f6f6"
-                benefit={this.benefitThree}
-                detail={this.detailThree}
-                icon={icon3}
-              /> */}
               <IndividualBenefit
                 color="#f6f6f6"
                 benefit={this.benefitFour}
