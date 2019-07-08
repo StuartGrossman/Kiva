@@ -20,7 +20,7 @@ class Footer extends Component {
                 <a href="https://www.kiva.org/help">Help</a>
               </li>
               <li className="footer-link-careers">
-                <a href="https://www.kiva.org/work-with-us/careers">Careers</a>
+                <a href="https://www.careers.kiva.org">Careers</a>
               </li>
               <li className="footer-link-map">
                 <a href="https://www.kiva.org/sitemap">Site map</a>
@@ -234,7 +234,7 @@ class Footer extends Component {
                 <ul className="siteFooter-links links-list">
                   <li>
                     <a
-                      href="https://www.kiva.org/work-with-us/careers"
+                      href="https://www.careers.kiva.org"
                       className="careers_href"
                     >
                       Careers
@@ -250,7 +250,7 @@ class Footer extends Component {
                   </li>
                   <li>
                     <a
-                      href="https://www.kiva.org/work-with-us/fellows"
+                      href="https://www.careers.kiva.org/fellowships"
                       className="fellows_href"
                     >
                       Kiva fellows
