@@ -17,31 +17,31 @@ class OfficeType extends Component {
     };
   }
 
-  sendEmail = () => {
-    fetch('https://pages.kiva.org/fellows/application-notification', {
-      method: 'POST',
-      headers: new Headers({
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': 'https://pages.kiva.org'
-      }),
-      body: JSON.stringify({
-        email: this.state.email,
-      })
-    })
-      .then((responseText) => {
-        console.log(responseText);
-        this.setState({ emailSent: true });
-      })
-      .catch((error) => {
-        this.setState({ emailSent: false });
-        // console.error(error);
-      });
-  }
+  // sendEmail = () => {
+  //   fetch('https://pages.kiva.org/fellows/application-notification', {
+  //     method: 'POST',
+  //     headers: new Headers({
+  //       Accept: 'application/json',
+  //       'Content-Type': 'application/json',
+  //       'Access-Control-Allow-Origin': 'https://pages.kiva.org'
+  //     }),
+  //     body: JSON.stringify({
+  //       email: this.state.email,
+  //     })
+  //   })
+  //     .then((responseText) => {
+  //       console.log(responseText);
+  //       this.setState({ emailSent: true });
+  //     })
+  //     .catch((error) => {
+  //       this.setState({ emailSent: false });
+  //       // console.error(error);
+  //     });
+  // }
 
   render() {
     return (
-      <div className="container-fluid" style={{ marginTop: '50px' }}>
+      <div className="container-fluid" style={{ marginTop: "50px" }}>
         <div className="container">
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -63,7 +63,7 @@ class OfficeType extends Component {
           </div>
           <div
             className="row"
-            style={{ marginTop: '50px', marginBottom: '50px' }}
+            style={{ marginTop: "50px", marginBottom: "50px" }}
           >
             <div className="col-xl-3 col-lg-3 col-md-2 col-sm-2" />
 
@@ -73,7 +73,8 @@ class OfficeType extends Component {
               </h2>
               {this.state.emailSent ? (
                 <h4 className="Email-Header">
-                  Your email has been successfully sent thankyou for your interest
+                  Your email has been successfully sent thankyou for your
+                  interest
                 </h4>
               ) : (
                 <div>
@@ -81,19 +82,26 @@ class OfficeType extends Component {
                     Our application is currently closed. Sign up to be
                     notified once it re-opens.
                   </h4>
-                  <input
-                    type="text"
-                    onChange={(event) => {
-                      this.setState({ email: event.target.value });
-                    }}
-                    onKeyPress={(event) => {
-                      if (event.key === 'Enter') {
-                        this.sendEmail();
-                      }
-                    }}
-                    placeholder="Your email..."
-                    className="Rectangle Margin-Auto form-control"
-                  />
+                  <a
+                    href="https://forms.gle/n1guoPMVmuuZT5ZSA"
+                    target="_blank"
+                  >
+                    <input
+                      style={{ backgroundColor: 'white'}}
+                      type="text"
+                      disabled
+                      // onChange={(event) => {
+                      //   this.setState({ email: event.target.value });
+                      // }}
+                      // onKeyPress={(event) => {
+                      //   if (event.key === 'Enter') {
+                      //     this.sendEmail();
+                      //   }
+                      // }}
+                      // placeholder="Google form"
+                      className="Rectangle Margin-Auto form-control"
+                    />
+                  </a>
                 </div>
               )}
             </div>
