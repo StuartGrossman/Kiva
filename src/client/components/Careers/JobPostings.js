@@ -26,7 +26,7 @@ class JobPostings extends react.Component {
     this.StrategicDevPartnershipsId = '9673';
     this.StrategicDevPartnershipsDesc = "Is networking kinda your thing? Want to work with corporate partners to develop Kiva's newest programs? Great! Our Strategic Development & Partnerships team would love to meet you.";
     this.ImpactInvestmentsId = '9281';
-    this.ImpactInvestmentsDesc = 'Are you fond of impact and risk assessment? Great, because your team is responsible for every loan funded through Kiva. Even better if you aren’t afraid to seek out new opportunities to help us keeping building a more financially inclusive world.';
+    this.ImpactInvestmentsDesc = 'Would you like to work at the front-line of financial inclusion?  The Impact Investments team identifies and scales our local lending partnerships across the world.';
     this.FellowshipsId = '24218';
     this.FellowshipsDesc = 'We’re the team focused on building and engaging a global ecosystem of smart, motivated, inspiring interns, fellows and volunteers to help Kiva change the world.';
   }
@@ -82,7 +82,7 @@ class JobPostings extends react.Component {
             <br />
             <JobList
               id={this.StrategicDevPartnershipsId}
-              title="Strategic Development & Partnerships"
+              title="Strategic Partnerships"
               desc={this.StrategicDevPartnershipsDesc}
             />
             <br />

@@ -11,8 +11,8 @@ class VolenteerOp extends Component {
           <span className="Volunteer-Text">
             We’re also currently looking for people to help remotely on our
             editing and translation teams. Or if leadership is more your
-            style, lead a group of online volunteers! &nbsp;You can find
-            more information at
+            style, lead a group of online volunteers! &nbsp; You can find
+            more information at &nbsp;
             <a
               href="https://www.kiva.org/work-with-us/reviewers"
               target="_blank"
