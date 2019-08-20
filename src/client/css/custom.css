@@ -105,7 +105,11 @@
     .Benefit-Icons {
         height: 60px;
     }
-
+    .logo {
+        width: 26%;
+        /* height: 10%; */
+        margin-left: 25px;
+    }
   
 }
 
