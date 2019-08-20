@@ -27,6 +27,7 @@ class NavBar extends Component {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          id="nav-button"
         >
           <span className="navbar-toggler-icon" />
         </button>
@@ -36,7 +37,7 @@ class NavBar extends Component {
         >
           <div>
             <ul className="nav navbar-nav navbar-right">
-              <span className="nav-item">
+              <span className="nav-item" onClick={() => {document.getElementById('nav-button').click()}}>
                 <Link style={{ textDecoration: 'none' }} to="/">
                   <li
                     className="nav-link aTagHighlight"
@@ -46,7 +47,7 @@ class NavBar extends Component {
                   </li>
                 </Link>
               </span>
-              <span className="nav-item">
+              <span className="nav-item" onClick={() => {document.getElementById('nav-button').click()}}>
                 <Link style={{ textDecoration: 'none' }} to="/fellowships">
                   <li
                     className="nav-link aTagHighlight"
