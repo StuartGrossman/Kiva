@@ -1,6 +1,9 @@
 {
   "name": "Kiva",
   "version": "1.0.0",
+  "engines": {
+    "node": "11.7.0"
+  },
   "description": "Page for Kiva's job postings and fellowship program",
   "main": "src/server/index.js",
   "scripts": {
