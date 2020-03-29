@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Page for Kiva's job postings and fellowship program",
   "main": "src/server/index.js",
+  "engines": {
+    "node": "11.7.0"
+  },
   "scripts": {
     "heroku-prebuild": "npm install --dev",
     "build": "webpack --mode production",
