@@ -49,15 +49,7 @@ class OfficeType extends Component {
                 The world is your office.
               </h1>
               <p className="Kiva-fellows-are-bas">
-                A Kiva fellowship isn’t your typical 9 to 5 job. It’s much
-                more of a everyday-is-new, in-the-field kind of thing. As
-                in, sometimes you’ll quite literally be in a field. In the
-                course of your fellowship, you’ll meet with borrowers,
-                conduct trainings, and figure out ways to make our
-                partnerships better. No two fellowships are the same though.
-                Your work will also depend on your skills, aspirations, and
-                our partner needs. There’s always a lot to do, and no day is
-                average.
+                A Kiva fellowship isn’t your typical 9 to 5 job. It’s much more of a everyday-is-new in-the-field kind of thing. As in, sometimes you’ll quite literally be in a field. In the course of your fellowship, you may meet with borrowers, conduct training, or figure out ways to make our partnerships better. No two fellowships are the same though. Your work will also depend on your skills, aspirations, and our partner needs. There’s always a lot to do, and no day is average.
               </p>
             </div>
           </div>
@@ -68,9 +60,11 @@ class OfficeType extends Component {
             <div className="col-xl-3 col-lg-3 col-md-2 col-sm-2" />
 
             <div className="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-12">
-              <h2 className="Kiva-Fellows-Applica">
-                Kiva Fellows Application
-              </h2>
+              <center>
+                <h1 className="New-Section-FPO-Titl">
+                  Kiva Fellows Application
+                </h1>
+              </center>
               {this.state.emailSent ? (
                 <h4 className="Email-Header">
                   Your email has been successfully sent thankyou for your
@@ -78,11 +72,12 @@ class OfficeType extends Component {
                 </h4>
               ) : (
                 <div>
-                  <h4 className="Email-Header">
-                    Our application is currently closed. Sign up to be
-                    notified once it re-opens.
-                  </h4>
-                  <a
+                  <h1 className="Email-Header" style={{ fontSize: '1.1em' }}>
+                    No current applications open at this time? Sign up 
+                    <a href="https://forms.gle/n1guoPMVmuuZT5ZSA" target="_blank"> here </a> 
+                    to be notified via email when recruiting for our fellowship positions begins.
+                  </h1>
+                  {/* <a
                     href="https://forms.gle/n1guoPMVmuuZT5ZSA"
                     target="_blank"
                   >
@@ -90,18 +85,10 @@ class OfficeType extends Component {
                       style={{ backgroundColor: 'white'}}
                       type="text"
                       disabled
-                      // onChange={(event) => {
-                      //   this.setState({ email: event.target.value });
-                      // }}
-                      // onKeyPress={(event) => {
-                      //   if (event.key === 'Enter') {
-                      //     this.sendEmail();
-                      //   }
-                      // }}
-                      // placeholder="Google form"
+
                       className="Rectangle Margin-Auto form-control"
                     />
-                  </a>
+                  </a> */}
                 </div>
               )}
             </div>

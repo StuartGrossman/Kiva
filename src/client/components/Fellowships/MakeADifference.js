@@ -14,11 +14,7 @@ class MakeADifference extends Component {
               <h1 className="Change-the-world-Do">Get out there.</h1>
               <h1 className="Change-the-world-Do">Make a difference.</h1>
               <p className="Kiva-fellows-are-bas">
-                Kiva fellows bring our mission to life by working in the
-                field with our international partners. For 6-12 months,
-                you'll build capacity, measure impact, and learn a ton about
-                microfinance and social enterprise. Interested? Keep
-                reading.
+                Kiva fellows bring our mission to life by working in the field with our international partners and in our regional offices. For 6-12 months, you'll build capacity, measure impact, and learn a ton about microfinance and social enterprise. Interested? Keep reading.
               </p>
               <div>
                 <img src={FellowJpg} className="img-fluid fellowsImage" style={{ marginTop: '69px' }} />

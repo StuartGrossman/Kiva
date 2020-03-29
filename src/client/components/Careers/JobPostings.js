@@ -29,6 +29,8 @@ class JobPostings extends react.Component {
     this.ImpactInvestmentsDesc = 'Would you like to work at the front-line of financial inclusion?  The Impact Investments team identifies and scales our local lending partnerships across the world.';
     this.FellowshipsId = '24218';
     this.FellowshipsDesc = 'We’re the team focused on building and engaging a global ecosystem of smart, motivated, inspiring interns, fellows and volunteers to help Kiva change the world.';
+    this.InternshipId = '67589';
+    this.InternshipDesc = '';
   }
 
   render() {
@@ -94,8 +96,14 @@ class JobPostings extends react.Component {
             <br />
             <JobList
               id={this.FellowshipsId}
-              title="Fellowships & Volunteer Opportunities"
+              title="Fellowships Opportunities"
               desc={this.FellowshipsDesc}
+            />
+            <br />
+            <JobList
+              id={this.InternshipId}
+              title="Internships Opportunities"
+              desc={this.InternshipDesc}
             />
             <br />
             <VolenteerOp />

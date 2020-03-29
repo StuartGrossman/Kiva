@@ -26,6 +26,9 @@ class Places extends Component {
                 partners in multiple countries. It’s a chance to grow, and a
                 chance to explore.
               </p>
+              <p className="" style={{ marginTop: '30px', fontWeight: 'bold', fontSize: '1.15em'}}>
+                Due to the current spread of COVID-19, we’re being thoughtful about our fellows’ international placements. We appreciate your flexibility and patience with us during the recruiting process as we await developing news regarding COVID-19. 
+              </p>
             </div>
           </div>
           <div className="row">
