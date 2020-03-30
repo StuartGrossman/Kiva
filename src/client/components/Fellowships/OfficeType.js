@@ -53,18 +53,26 @@ class OfficeType extends Component {
               </p>
             </div>
           </div>
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <h1 className="New-Section-FPO-Titl">
+                The world is your office.
+              </h1>
+              <p className="Kiva-fellows-are-bas">
+                A Kiva fellowship isn’t your typical 9 to 5 job. It’s much more of a everyday-is-new in-the-field kind of thing. As in, sometimes you’ll quite literally be in a field. In the course of your fellowship, you may meet with borrowers, conduct training, or figure out ways to make our partnerships better. No two fellowships are the same though. Your work will also depend on your skills, aspirations, and our partner needs. There’s always a lot to do, and no day is average.
+              </p>
+            </div>
+          </div>
           <div
             className="row"
-            style={{ marginTop: "50px", marginBottom: "50px" }}
+            style={{ marginBottom: "50px" }}
           >
-            <div className="col-xl-3 col-lg-3 col-md-2 col-sm-2" />
+            {/* <div className="col-xl-3 col-lg-3 col-md-2 col-sm-2" /> */}
 
-            <div className="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-12">
-              <center>
+            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h1 className="New-Section-FPO-Titl">
                   Kiva Fellows Application
                 </h1>
-              </center>
               {this.state.emailSent ? (
                 <h4 className="Email-Header">
                   Your email has been successfully sent thankyou for your
@@ -72,8 +80,12 @@ class OfficeType extends Component {
                 </h4>
               ) : (
                 <div>
-                  <h1 className="Email-Header" style={{ fontSize: '1.1em' }}>
-                    No current applications open at this time? Sign up 
+                  <h1 className="Kiva-fellows-are-bas">
+                    Our Kiva Fellows Program has two cohorts a year.
+                    One fellow cohort starts in early February and ends in late July of that same year. The second fellow cohort starts in late July and ends in late January the following year.  
+                  </h1>
+                  <h1 className="Kiva-fellows-are-bas">
+                    No current applications open at this time? Sign up
                     <a href="https://forms.gle/n1guoPMVmuuZT5ZSA" target="_blank"> here </a> 
                     to be notified via email when recruiting for our fellowship positions begins.
                   </h1>
@@ -92,7 +104,7 @@ class OfficeType extends Component {
                 </div>
               )}
             </div>
-            <div className="col-xl-3 col-lg-3 col-md-2 col-sm-2" />
+            {/* <div className="col-xl-3 col-lg-3 col-md-2 col-sm-2" /> */}
           </div>
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
