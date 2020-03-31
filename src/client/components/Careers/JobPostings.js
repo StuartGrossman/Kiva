@@ -6,6 +6,7 @@
 import React, * as react from 'react';
 import JobList from './JobList';
 import VolenteerOp from './VolenteerOp';
+import VolenteerTitle from './VolenteerTitle';
 
 class JobPostings extends react.Component {
   constructor(props) {
@@ -28,7 +29,7 @@ class JobPostings extends react.Component {
     this.ImpactInvestmentsId = '9281';
     this.ImpactInvestmentsDesc = 'Would you like to work at the front-line of financial inclusion?  The Impact Investments team identifies and scales our local lending partnerships across the world.';
     this.FellowshipsId = '24218';
-    this.FellowshipsDesc = 'We’re the team focused on building and engaging a global ecosystem of smart, motivated, inspiring interns, fellows and volunteers to help Kiva change the world.';
+    this.FellowshipsDesc = '';
     this.InternshipId = '67589';
     this.InternshipDesc = '';
   }
@@ -94,15 +95,16 @@ class JobPostings extends react.Component {
               desc={this.ImpactInvestmentsDesc}
             />
             <br />
+            <VolenteerTitle />
             <JobList
               id={this.FellowshipsId}
-              title="Fellowships Opportunities"
+              title="Fellowships"
               desc={this.FellowshipsDesc}
             />
             <br />
             <JobList
               id={this.InternshipId}
-              title="Internships Opportunities"
+              title="Internships"
               desc={this.InternshipDesc}
             />
             <br />

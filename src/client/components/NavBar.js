@@ -7,14 +7,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-import logo from '../images/kiva_logo_green.png';
-
+import logo from "../images/kiva_logo_green.png";
 
 class NavBar extends Component {
-
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light navBarHeight navPadding">
@@ -37,25 +35,52 @@ class NavBar extends Component {
         >
           <div>
             <ul className="nav navbar-nav navbar-right">
-              <span className="nav-item" onClick={() => {document.getElementById('nav-button').click()}}>
-                <Link style={{ textDecoration: 'none' }} to="/">
+              <span
+                className="nav-item"
+                onClick={() => {
+                  document.getElementById("nav-button").click();
+                }}
+              >
+                <Link style={{ textDecoration: "none" }} to="/">
                   <li
-                    className="nav-link aTagHighlight"
-                    style={{ fontSize: '20px', marginRight: '100px' }}
+                    className="nav-link aTagHighlight "
+                    style={{ fontSize: "20px", marginRight: "50px" }}
                   >
                     Careers
                   </li>
                 </Link>
               </span>
-              <span className="nav-item" onClick={() => {document.getElementById('nav-button').click()}}>
-                <Link style={{ textDecoration: 'none' }} to="/fellowships">
+              <span
+                className="nav-item"
+                onClick={() => {
+                  document.getElementById("nav-button").click();
+                }}
+              >
+                <Link style={{ textDecoration: "none" }} to="/fellowships">
                   <li
                     className="nav-link aTagHighlight"
-                    style={{ fontSize: '20px' }}
+                    style={{ fontSize: "20px" }}
                   >
                     Fellowships
                   </li>
                 </Link>
+              </span>
+              <span
+                className="nav-item"
+              >
+                <li
+                  className="nav-link aTagHighlight"
+                  style={{ fontSize: "20px" }}
+                >
+                  <a
+                    href="https://www.kiva.org/work-with-us/internvolunteers"
+                    target="_blank"
+                    className="navbar-light navbar-nav nav-link nav-item-last"
+                    style={{ display: 'inline'}}
+                  >
+                    Internships
+                  </a>
+                </li>
               </span>
             </ul>
           </div>

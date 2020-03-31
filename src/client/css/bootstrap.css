@@ -4367,7 +4367,7 @@
       flex-wrap: nowrap;
     }
     .navbar-expand-lg .navbar-collapse {
-      margin-left: 45%;
+      margin-left: 35%;
       display: -ms-flexbox !important;
       display: flex !important;
       -ms-flex-preferred-size: auto;
@@ -4381,7 +4381,7 @@
   }
   @media (min-width: 1066px) {
     .navbar-expand-lg .navbar-collapse {
-      margin-left: 64%;
+      margin-left: 54%;
       display: -ms-flexbox !important;
       display: flex !important;
       -ms-flex-preferred-size: auto;
@@ -4392,7 +4392,7 @@
   }
   @media (min-width: 1066px) {
     .navbar-expand-lg .navbar-collapse {
-      margin-left: 50%;
+      margin-left: 40%;
       display: -ms-flexbox !important;
       display: flex !important;
       -ms-flex-preferred-size: auto;
@@ -4404,7 +4404,7 @@
  
   @media (min-width: 1200px) {
     .navbar-expand-lg .navbar-collapse {
-      margin-left: 55%;
+      margin-left: 45%;
       display: -ms-flexbox !important;
       display: flex !important;
       -ms-flex-preferred-size: auto;
@@ -4415,7 +4415,7 @@
   }
   @media (min-width: 1350px) {
     .navbar-expand-lg .navbar-collapse {
-      margin-left: 60%;
+      margin-left: 50%;
       display: -ms-flexbox !important;
       display: flex !important;
       -ms-flex-preferred-size: auto;
@@ -4426,7 +4426,7 @@
   }
   @media (min-width: 1500px) {
     .navbar-expand-lg .navbar-collapse {
-      margin-left: 65%;
+      margin-left: 55%;
       display: -ms-flexbox !important;
       display: flex !important;
       -ms-flex-preferred-size: auto;
@@ -4437,7 +4437,7 @@
   }
   @media (min-width: 1650px) {
     .navbar-expand-lg .navbar-collapse {
-      margin-left: 70%;
+      margin-left: 60%;
       display: -ms-flexbox !important;
       display: flex !important;
       -ms-flex-preferred-size: auto;
