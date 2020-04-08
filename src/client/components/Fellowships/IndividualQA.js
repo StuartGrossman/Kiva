@@ -48,7 +48,7 @@ class IndividualQA extends Component {
     return (
       <div>
         <div className="row">
-          <div className="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10">
+          <div className="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10 ">
             {this.props.data.Q}
           </div>
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2 Question">

@@ -52,6 +52,7 @@
     "react-graceful-image": "^1.2.9",
     "react-helmet": "^5.2.0",
     "react-plyr": "^2.2.0",
+    "react-render-html": "^0.6.0",
     "react-router-dom": "^5.0.1",
     "recompose": "^0.30.0",
     "request": "^2.88.0",
