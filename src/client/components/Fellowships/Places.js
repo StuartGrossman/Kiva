@@ -27,8 +27,7 @@ class Places extends Component {
                 chance to explore.
               </p>
               <p className="" style={{ marginTop: '30px', fontWeight: 'bold', fontSize: '1.15em'}}>
-                Due to the current spread of COVID-19, we’re being thoughtful about our fellows’ international placements. We appreciate your flexibility and patience with us during the recruiting process as we await developing news regarding COVID-19. 
-              </p>
+              Due to the current spread of COVID-19 our fellows program is on a temporary pause. If you want to stay in touch about furure fellowship opportunities please sign up through the form below.              </p>
             </div>
           </div>
           <div className="row">
