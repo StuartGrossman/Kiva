@@ -60,23 +60,7 @@ class OfficeType extends Component {
               </p>
             </div>
           </div>
-          <div className="row">
-            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-              <h1 className="New-Section-FPO-Titl">
-                The world is your office.
-              </h1>
-              <p className="Kiva-fellows-are-bas">
-                A Kiva fellowship isn’t your typical 9 to 5 job. It’s much more
-                of a everyday-is-new in-the-field kind of thing. As in,
-                sometimes you’ll quite literally be in a field. In the course of
-                your fellowship, you may meet with borrowers, conduct training,
-                or figure out ways to make our partnerships better. No two
-                fellowships are the same though. Your work will also depend on
-                your skills, aspirations, and our partner needs. There’s always
-                a lot to do, and no day is average.
-              </p>
-            </div>
-          </div>
+         
           <div className="row" style={{ marginBottom: "50px" }}>
             {/* <div className="col-xl-3 col-lg-3 col-md-2 col-sm-2" /> */}
 
